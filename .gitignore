@@ -3,3 +3,4 @@ _site/
 .DS_Store
 *.swp
 cloudfiles_jeckyll_upload.py
+upload.py
