@@ -5,9 +5,7 @@ title: Philip I. Thomas
 
 <div id="home">
   <h1>Posts</h1>
-  <ul class="posts">
     {% for post in site.posts %}
-      <li><span>{{ post.date | date: "%e %B %Y" }}</span>: <a href="{{ post.url }}">{{ post.title }}</a></li>
+      <p><span>{{ post.date | date: "%e %B %Y" }}</span>: <a href="{{ post.url }}">{{ post.title }}</a></p>
     {% endfor %}
-  </ul>
 </div>
