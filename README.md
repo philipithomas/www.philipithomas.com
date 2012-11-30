@@ -14,4 +14,5 @@ I am experimenting with hosting on the Rackspace/Akamai CDN, so hypothetically t
 * Explore [additional plugins](https://github.com/mojombo/jekyll/wiki/Plugins)
 * Switch font from @import (as suggested by Google)
 * Inline javascript? (per Google)
-* [Cache font locally?](http://tensquirrel.blogspot.com/2010/10/locally-caching-google-web-fonts.html) 
+* [Cache font locally?](http://tensquirrel.blogspot.com/2010/10/locally-caching-google-web-fonts.html)
+* Increase cache time on Rackspace by a day (as prompted by Google) 
