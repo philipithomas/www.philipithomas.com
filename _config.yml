@@ -1,4 +1,4 @@
 markdown: rdiscount
-pygments: true
+pygments: false
 permalink: /:title
 exclude: upload.py, README.md
