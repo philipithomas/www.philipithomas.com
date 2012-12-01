@@ -1,0 +1,46 @@
+---
+layout: post
+title: Effortless 2 Second Wordpress Page Load Times While Atop Hacker News
+---
+<p><em>This post details my experience testing <a href="http://cloudflare.com">Cloudflare</a> and <a href="http://wpengine.com">WPEngine</a> while experiencing a rush of blog traffic.</em></p>
+
+<img title="2012-08-18 23.44.14" src="/images/AnalyticsHN.png" alt="" width="300" height="200" /></a>
+<h2>Intro</h2>
+<p>Seeing the above number of concurrent visitors on my blog normally would have had me scrambling to make sure my server was still ticking. While my post <a href="/stl-hackathon-canceled-after-social-media-backlash/">STL Hackathon Canceled After Social Backlash</a> held the top position on both <a href="http://news.ycombinator.com">Hacker News</a> and on <a href="http://reddit.com/r/programming">/r/Programming</a>, I fielded <strong>30,000 pageviews in a 24 hour period</strong>, which was completely out of pattern for my tiny blog.</p>
+
+<p>The average pageload time during that period: <strong>2.01 seconds</strong>.</p>
+
+<p>When the onslaught of traffic began, I didn't rush to check uptime and caching. I closed my laptop and took a break.</p>
+<h2>Prior</h2>
+<p>As a geek at heart, fiddling with servers to optimize speed is something I enjoy. Whether it be geeking out on NGinx, tweaking Varnish, or making Wordpress take advantage of Memcache, I could keep my site fairly quick. I used to host <a href="http://philipithomas.com">philipithomas.com</a> on Rackspace. However, any time the site experienced significant load, I would have to increase the server size temporarily to cope with the number of hits. Failure to do so resulted in slow page load times or even crashes. Building an agile server is one challenge; making that speed stable under load is an added difficulty that was beyond my capabilities.</p>
+<h2>Enter Cloudflare</h2>
+<p?The marketing message of <a href="http://cloudflare">Cloudflare</a> seems hyperbolic:</p>
+<blockquote><p>CloudFlare protects and accelerates any website online</p></blockquote>
+<p>However, the product lives up to the claim. Their service takes over the <a href="http://en.wikipedia.org/wiki/Domain_Name_System">DNS</a> of a website, and provides low-level optimizations and security. With free features like a <a href="http://en.wikipedia.org/wiki/Content_delivery_network">CDN</a> and a security system so powerful that the <a href="http://www.forbes.com/sites/eliseackerman/2012/02/29/how-cloudflares-free-ddos-protection-service-is-disrupting-the-multibillion-dollar-computer-security-and-content-delivery-markets/">White House has used it</a>, they are one of the companies that nobody has heard of, but almost everybody has indirectly encountered.</p>
+
+<p>Fortunately, they provide a free tier of access that still utilizes the full speed and security networks of the system. After switching my first domain to Cloudflare, I slowly began adding more and more - to the point where I now host all of my domains on the service across three companies.</p>
+
+<p>If the speed and security benefits are not reason enough to switch, their user interface is one of the best in the business. Little push-button features like CSS minification or Google Analytics integration also make common tasks more straightforward to complete.</p>
+<h2>Super Server</h2>
+<p>On a whim, I decided to test <a href="http://wpengine.com">WPEngine</a> (<a href="http://www.shareasale.com/r.cfm?b=394686&amp;u=680358&amp;m=41388&amp;urllink=&amp;afftrack=">Affiliate Link</a>), and I moved the full philipithomas.com Wordpress installation over. Managing many Wordpress installations can prove a full-time job, and the idea of outsourcing server maintenance and optimizations to a dedicated team piqued my interest. The geek in me sought more direct MySQL access and information about their caching techniques, but I was able to admit to myself that every minute not spent wrangling Wordpress was added productivity on projects that were far more interesting.</p>
+
+<p>Getting the website online with WPEngine was fairly painless, and my page load times immediately decreased.</p>
+<h2>Trial Under Fire</h2>
+<p>Not long after switching to WPEngine, it was drawn to my attention that the STL Hackathon was canceled. I had previously written an <a href="/exploitation-by-stl-hackathon/">article</a> detailing what I perceived to be unethical exploitation of participants. I immediately published a follow-up piece entitled <a href="/stl-hackathon-canceled-after-social-media-backlash/">STL Hackathon Canceled after Social Backlash</a>, and I submitted the post to Reddit and Hacker News.</p>
+
+&nbsp;
+
+<img class="" title="2012-08-18 23.52.02" src="/images/hnTop.png" alt="" width="200" height="300" />
+
+<p>I watched Google Analytics Real Time to see how many people were reading the article, and the number kept growing. 20 active readers. 30. 80. 100. 200. 300. <strong>350</strong>.</p>
+
+<p>I checked back on Hacker News and Reddit /r/Programming and the article had reached the number one spot on both pages.</p>
+
+<p>Knowing that the site was about to experience a major traffic hit, I decided to test the full capabilities of Cloudflare and WPEngine:</p>
+
+<p><strong>I closed my laptop lid, left the computer at my apartment, and left to play frisbee. </strong></p>
+
+<h2>Post-mortem</h2>
+<p>Cloudflare and WPEngine proved to be a potent combination. Cloudflare registered <strong>30,000 page views</strong> with roughly <strong>450,000 server hits</strong> (<a href="http://en.wikipedia.org/wiki/Page_view">here's the difference</a>) in the 24 hours after the launch of the article. Under that load, my page load time nearly did not change: <strong>2.01 seconds</strong> average according to Google Analytics. This number becomes more respectable when accounting for the fact that roughly <strong>one third of the traffic was on mobile devices</strong>, which typically are slower.</p>
+
+<p>Overall, Cloudflare and WPEngine have won a happy long-term customer. In typical 4 Hour Workweek style, I realized that outsourcing the maintenance of a high-traffic blog justified the minor increase in cost while regaining hours of productivity per month and getting better performance than I would have normally received.</p>

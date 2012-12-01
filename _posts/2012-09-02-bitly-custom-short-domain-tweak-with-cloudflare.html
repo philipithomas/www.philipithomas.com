@@ -1,0 +1,32 @@
+---
+layout: post
+title: Bitly Custom Short Domain Tweak with Cloudflare
+---
+<h2>Background</h2>
+<p>Bitly recently made their <a href="http://bitly.com/pro/help#shortdomain">custom short domain</a> a free feature - so you can set up any domain less than 14 characters in length as a shortening domain. This elevates professionalism on Twitter and other digital platforms because links can now be branded.</p>
+
+<p>I bought <a href="http://pithomas.com">pithomas.com</a> for use as a short domain, and have been using it for months. However, based on the DNS-level changes needed to use a custom Bitly domain, I cannot control where the base domain goes - navigating directly pithomas.com would redirect to bitly.com, not philipithomas.com. This made it difficult to associate the branded short domain with the main website.</p>
+
+<p>I found a free solution to this problem using <a href="http://blog.cloudflare.com/introducing-pagerules-fine-grained-feature-co">Cloudflare Page Rules</a>. Because the page rules run at the DNS level, they can override bitly forwarding patterns.</p>
+<h2>Tweak</h2>
+<p><strong>For:</strong> Redirect the base domain of a Bitly short domain to a different website than bitly.com</p>
+
+<p><strong>Prerequisite</strong> The domain's DNS must be on <a href="http://cloudflare.com">Cloudflare</a> (Note: their free tier suffices for this tweak)</p>
+
+<p><strong>Setup</strong></p>
+<p><em>Example shown: redirecting the short domain pithomas.com to philipithomas.com</em></p>
+
+<ol>
+<li>On the DNS page, make sure that Cloudflare services are active on the domain</li>
+<em>Example: On the <a href="http://en.wikipedia.org/wiki/List_of_DNS_record_types">A record</a> of pithomas.com, the orange Cloudflare Services toggle is "on"</em>
+
+<li>Create a new page rule on the domain
+</li>
+<li>In the URL Pattern field, input the root domain</li> <em>Example: pithomas.com <br /><br />Note: "http://" is optional - without it, the page rule technically matches https too</em>
+
+<li>Turn on the "Forwarding" button
+</li>
+<li>In the destination url, enter the website you want as the landing site instead of bitly.com.</li> <em>Example: http://philipithomas.com. <br /><br />Note: The protocol (e.g. "http://") must be included</em>
+
+<li>Optional: Purge the Cloudflare page cache under "Cloudflare Settings" for the domain.</li>
+</ol> 

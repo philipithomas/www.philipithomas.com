@@ -1,0 +1,40 @@
+---
+layout: post
+title: Personal Website Tweaks - Schedule with Google Calendar and Streamline Public Dropbox 
+---
+<p>Owning "YourName.com" has become important for those looking to establish a digital identity. While sufficient resources already exist for  <a href="http://www.likoma.com/using-google-apps-and-gmail-for-youyourdomaincom/">configuring email at your personal domain</a> and <a href="https://www.google.com/search?q=personal+website">setting up a personal website</a>, I wanted to share two small tweaks I use that are specific to a personal website, and that have significantly improved my workflow. </p>
+
+<p>Implementing these tweaks should be straightforward, as they just forward links on your website to other existing resources (See <i>How To Forward</i> below for info). However, these existing resources are normally buried behind jumbled, immemorable links, so this technique creates a degree of professionalism and it make memorization easy. That being said, the resources can also be implemented using a custom bit.ly short link. </p>
+
+<h2>Schedule with Google Calendar</h2>
+<p><b>Basic:</b> Forward "YourName.com"/calendar to the Google Calendar appointment page</p>
+
+<p>This tweak answers the question "When are you free?" with effiency. If you use Google Calendar, you can forward "YourName.com"/Calendar to your <a href="http://support.google.com/calendar/bin/answer.py?hl=en&answer=190998">private appointment</a> page, allowing people to schedule you. </p>
+
+<p>I was introduced to this tweak last year by <a href="http://rosenthal.co/">Stan Rosenthal</a>, and it has proven to be an incredibliy powerful tool for scheduling meeting and phone calls. Every week I set my free time to "available" in my calendar. Whenever I need to schedule a meeting or a phone call, I send people the link to my calendar. They then see my availability overlayed on their Google calendar, and they can book me for specific times. The event is entered into both calendars. This is incredibly useful for people in different timezones because your calendar is displayed in the local timezone of the Google calendar. All appointments are entered into both of your calendars, and the time slot is removed from your public calendar!</p>
+
+<p>Note that, for somebody to view your availability, they must have a Google account. I have never had this be a problem for me personally, but note that it is a limitation. </p>
+
+<h2>Streamline Public Dropbox Access</h2>
+<p><b>Basic:</b> Forward "YourName.com"/dropbox to your public Dropbox folder
+</p><p>
+I use this tweak nearly every day as I print things on public computers or share files while working with somebody. Uploading a file is simple - just drag it to the "public" folder locally on Dropbox. Then, when going to print something or share a file, can access it at "YourName.com"/dropbox without logging in.
+</p><p>
+The beauty of this is mainly in the time it saves you - you may now share files quickly and access them on other computers without logging in. It also brings some security by avoiding the need to log in to Dropbox on another computer.
+</p>
+
+
+<h2> How to Forward</h2>
+
+<h3>Wordpress</h3>
+<p>If your website is built on Wordpress, the plugin <a href="http://urbangiraffe.com/plugins/redirection/">Redirection</a> makes forwarding easy. </p>
+
+<h3> Cloudflare</h3>
+<p>This fix works for all websites, but takes mild technical knowledge and a DNS change. I am a major proponent of <a href="http://cloudflare.com">Cloudflare</a> DNS for speed and security. However, they also have a nested feature called <a href="http://blog.cloudflare.com/introducing-pagerules-fine-grained-feature-co">Page Rules</a>. Using these rules, it is easy to set up a URL to forward to a new page. </p>
+
+<h3>.htaccess</h3>
+<p>This is a highly technical way of forwarding, but it will work with most existing self-hosted websites. You can modify .htaccess to redirect using a pattern like this:</p>
+
+<blockquote><p>
+Redirect /dropbox http://dropbox.com/etc/etc</p>
+</blockquote>
