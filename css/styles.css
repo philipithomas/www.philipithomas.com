@@ -1,27 +1,14 @@
-
-@font-face {
-  font-family: 'Ubuntu';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Ubuntu'), url(/fonts/vRvZYZlUaogOuHbBTT1SNevvDin1pK8aKteLpeZ5c0A.woff) format('woff');
-}
-@font-face {
-  font-family: 'Ubuntu';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url(/fonts/0ihfXUL2emPh0ROJezvraLO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
-}
 body {
   padding:50px;
   font:14px/1.5 "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#000000;
-  font-weight:300;
+  font-weight:400;
 }
 
 h1, h2, h3, h4, h5, h6 {
   color:#222;
   margin:0 0 20px;
-	font-weight:300;
+	font-weight:400;
 
 }
 header h1 {
@@ -38,7 +25,7 @@ h1 a, h2 a, h3 a {
 
 header p a{
 	color: #545454;
-	  font-weight:300;
+	  font-weight:400;
 }
 
 p, ul, ol, table, pre, dl {
@@ -243,7 +230,7 @@ footer {
   position:fixed;
   bottom:50px;
 
-  font-weight:300;
+  font-weight:400;
 }
 
 @media print, screen and (max-width: 960px) {
