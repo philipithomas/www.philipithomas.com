@@ -4,19 +4,34 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>{{ page.title }}</title>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
     <meta name="author" content="Philip I. Thomas" />
-	<meta name="description" content="Personal website of Philip I. Thomas, Student and Entrepreneur in St. Louis" />
-    <link rel="stylesheet" href="/stylesheets/styles.css">
+	 <meta name="description" content="Personal website of Philip I. Thomas, Student and Entrepreneur in St. Louis" />
+    <link rel="stylesheet" href="{% minified_css_file %}">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-9939917-3']);
+      _gaq.push(['_setDomainName', 'philipithomas.com']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
   </head>
   <body>
     <div class="wrapper">
       <header>
         <h1><a href="/">Philip I. Thomas</a></h1>
-		<p><a href="/">posts</a></h3></p>
+		<p><a href="/posts">posts</a></h3></p>
 		<p><a href="/about">about</a></p>
 		<p><a href="/connect">connect</a></p>
         <!--
@@ -33,10 +48,28 @@
       	  {{ content }}
       </section>
       <footer>
-        <p></p>
-        <p><small>Copyright 2012 <a href="http://www.philipithomas.com">Philip I. Thomas</a></small></p>
+            <script type="text/javascript">
+               var metas = document.getElementsByTagName('meta');
+                var i;
+                if (navigator.userAgent.match(/iPhone/i)) {
+                  for (i=0; i<metas.length; i++) {
+                    if (metas[i].name == "viewport") {
+                      metas[i].content = "width=device-width, minimum-scale=1.0, maximum-scale=1.0";
+                    }
+                  }
+                  document.addEventListener("gesturestart", gestureStart, false);
+                }
+                function gestureStart() {
+                  for (i=0; i<metas.length; i++) {
+                    if (metas[i].name == "viewport") {
+                      metas[i].content = "width=device-width, minimum-scale=0.25, maximum-scale=1.6";
+                    }
+                  }
+                }
+            </script>
+        <small>Copyright 2012 <a href="http://www.philipithomas.com">Philip I. Thomas</a></small>
+        <small>Project on <a href="http://github.com/philipthomas/www.philipthomas.com">Github</a>.</small>
       </footer>
     </div>
-    <script src="javascripts/scale.fix.js"></script>
   </body>
 </html>

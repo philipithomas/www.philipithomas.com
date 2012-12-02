@@ -5,14 +5,12 @@ I am experimenting with hosting on the Rackspace/Akamai CDN, so hypothetically t
 
 
 ## To Do
-* Configure [Rackspace 404](http://docs.rackspace.com/files/api/v1/cf-devguide/content/Set_Error_Pages_for_Static_Website-dle4005.html) and make 404 page
-* Favicon.ico
-* Google analytics
-* [Minification](http://pyjamacoder.com/2011/11/29/minify-css-with-jekyll/)
+* Configure [Rackspace 404](http://docs.rackspace.com/files/api/v1/cf-devguide/content/Set_Error_Pages_for_Static_Website-dle4005.html) 
 * [GZip](http://cliffle.com/software/jekyll-gzip/)?
-* [Sitemap](https://github.com/recurser/jekyll-plugins/blob/master/generate_sitemap.rb)
 * Explore [additional plugins](https://github.com/mojombo/jekyll/wiki/Plugins)
-* Switch font from @import (as suggested by Google)
-* Inline javascript? (per Google)
-* [Cache font locally?](http://tensquirrel.blogspot.com/2010/10/locally-caching-google-web-fonts.html)
-* Increase cache time on Rackspace by a day (as prompted by Google) 
+* Change post lists to a table
+* Add charset to homepage
+* Add github links to footer
+* Add cv as a page
+* Create [redirect links](http://ntt.cc/2008/01/21/5-ways-to-redirect-url-with-javascript.html)
+* Paginate homepage
