@@ -12,5 +12,9 @@ I am experimenting with hosting on the Rackspace/Akamai CDN, so hypothetically t
 * Add charset to homepage
 * Add github links to footer
 * Add cv as a page
-* Create [redirect links](http://ntt.cc/2008/01/21/5-ways-to-redirect-url-with-javascript.html)
 * Paginate homepage
+
+# Acknowledgements
+This project relies heavily on the following open-source files:
+* [Jekyll](http://jekyllrb.com)
+* [Minimal](https://github.com/orderedlist/minimal)
