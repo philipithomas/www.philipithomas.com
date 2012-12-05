@@ -18,3 +18,4 @@ I am experimenting with hosting on the Rackspace/Akamai CDN, so hypothetically t
 This project relies heavily on the following open-source files:
 * [Jekyll](http://jekyllrb.com)
 * [Minimal](https://github.com/orderedlist/minimal)
+* [Cloud Files Uploading Script](https://github.com/nicholaskuechler/jekyll-rackspace-cloudfiles-clean-urls/blob/master/cloudfiles_jekyll_upload.py)
