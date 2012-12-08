@@ -1,0 +1,5 @@
+DirectoryIndex index.html
+ErrorDocument 404 /404error.html
+ErrorDocument 401 /401error.html
+
+
