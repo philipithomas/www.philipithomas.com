@@ -5,7 +5,11 @@ permalink: /posts/
 ---
 <div id="home">
   <h1>Posts</h1>
+  <table id="posts">
+  	  <col style="width:30%">
+      <col style="width:70%">
     {% for post in site.posts %}
-      <p><span>{{ post.date | date: "%e %B %Y" }}</span>: <a href="{{ post.url }}">{{ post.title }}</a></p>
+      <tr><td>{{ post.date | date: "%e %B %Y" }}</td><td><a href="{{ post.url }}">{{ post.title }}</td></tr>
     {% endfor %}
+</table>
 </div>

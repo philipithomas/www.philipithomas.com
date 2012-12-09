@@ -100,11 +100,17 @@ table {
   border-collapse:collapse;
 }
 
+
+
 th, td {
   text-align:left;
-  padding:5px 10px;
-  border-bottom:1px solid #e5e5e5;
+  padding:10px 10px;
+  border: none;
+  vertical-align:text-top;
+
 }
+
+
 
 dt {
   color:#444;
