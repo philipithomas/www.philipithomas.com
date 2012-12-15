@@ -8,7 +8,7 @@ title: Philip I. Thomas
   	  <col style="width:30%">
       <col style="width:70%">
     {% for post in site.posts %}
-      <tr><td>{{ post.date | date: "%e %B %Y" }}</td><td><a href="{{ post.url }}">{{ post.title }}</td></tr>
+      <tr><td>{{ post.date | date: "%e %B %Y" }}</td><td><a href="{{ post.url }}">{{ post.title }}</a></td></tr>
     {% endfor %}
 </table>
 </div>
