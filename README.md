@@ -5,13 +5,9 @@ I am experimenting with hosting on the Rackspace/Akamai CDN, so hypothetically t
 
 
 ## To Do
-* Configure [Rackspace 404](http://docs.rackspace.com/files/api/v1/cf-devguide/content/Set_Error_Pages_for_Static_Website-dle4005.html) 
 * [GZip](http://cliffle.com/software/jekyll-gzip/)?
 * Explore [additional plugins](https://github.com/mojombo/jekyll/wiki/Plugins)
-* Change post lists to a table
-* Add charset to homepage
 * Add github links to footer
-* Add cv as a page
 * Paginate homepage
 
 # Acknowledgements

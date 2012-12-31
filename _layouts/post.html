@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+<article>
 <div id="post">
 <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
 <p id="date"><small>{{ page.date | date: "%e %B %Y" }}</small></p>	
@@ -8,3 +9,18 @@ layout: default
     
 {{ content }}
 </div>
+</article>
+<hr />
+<aside>
+<div id="related">
+ <div style="float: right !important">(<a href="/" style="color: #777">See All Posts</a>)</div> <h2>Related Posts </h2>
+
+   <table id="posts">
+  	  <col style="width:30%">
+      <col style="width:70%">
+    {% for post in site.related_posts limit:3 %}
+      <tr><td>{{ post.date | date: "%e %B %Y" }}</td><td><a href="{{ post.url }}">{{ post.title }}</a></td></tr>
+    {% endfor %}
+</table>
+
+</aside>
