@@ -2,7 +2,9 @@
 layout: default
 ---
 <script type="text/javascript">
-window.location = "{{ content }}/";
+<!--
+window.location = {{ content }}
+//-->
 </script>
 
-<a href="{{ content }}">Loading . . . (Or click here)<br /><img src="/images/loading.gif"></a>
+<a href={{ content }}>Loading . . . (Or click here)<br /><img src="/images/loading.gif"></a>
