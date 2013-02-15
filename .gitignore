@@ -2,5 +2,5 @@ _drafts/
 _site/
 .DS_Store
 *.swp
-
+_jekyll_s3.yml
 upload.py
