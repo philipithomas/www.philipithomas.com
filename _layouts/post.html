@@ -1,13 +1,14 @@
 ---
 layout: default
 ---
-<article id="post">
-	<header>
+<article>
+<div id="post">
 <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
 <p id="date"><small>{{ page.date | date: "%e %B %Y" }}</small></p>	
-</header>
+
     
 {{ content }}
+</div>
 </article>
 <aside id="outbrain" style="padding-top: 50px">
 <div data-src="http://philipithomas.com{{ page.url }}" class="OUTBRAIN" ></div>
@@ -15,3 +16,16 @@ layout: default
 
 
 </aside>
+<!--
+<aside id="related">
+
+<div id="related" style="padding-top: 50px">
+ <h3>Related Posts </h3>
+
+   <table id="posts">
+  	  <col style="width:30%">
+      <col style="width:70%">
+    
+</table>
+</aside>
+-->
