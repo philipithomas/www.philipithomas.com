@@ -2,14 +2,8 @@ markdown: rdiscount
 pygments: false
 permalink: /:title
 exclude: upload.py, README.md  Gemfile, Gemfile.lock, Procfile, vendor
-asset_bundler:
-  compress:
-    js: false
-    css: yui
-  base_path: /bundles/
-  server_url: 
-  remove_bundled: false
-  dev: false
-  markup_templates:
-    js: "<script type='text/javascript' src='{{url}}'></script>\n"
-    css: "<link rel='stylesheet' type='text/css' href='{{url}}' />\n"
+jekyll-press:
+  exclude: ['atom.xml', 'styles.css', 'css/styles.css'] # Exclude files from processing - file name, glob pattern or array of file names and glob patterns
+  js_options: {}      # js minifier options
+  css_options: {}     # css minifier options
+  html_options: {}    # html minifier options
