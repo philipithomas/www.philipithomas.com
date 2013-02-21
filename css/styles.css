@@ -9,6 +9,7 @@ h1, h2, h3, h4, h5, h6 {
   color:#222;
   margin:0 0 20px;
 	font-weight:400;
+  text-align: left;
 
 }
 header h1 {
@@ -274,6 +275,10 @@ footer {
   }
 }
 
+
+#content { 
+  text-align: justify;
+}
 
 
 
