@@ -43,6 +43,7 @@ h1 {
 
 h2 {
   color:#393939;
+  padding-top: 5px;
 }
 
 h3, h4, h5, h6 {
@@ -238,6 +239,16 @@ footer {
   bottom:50px;
 
   font-weight:400;
+}
+
+figure { 
+  display: block;
+  margin: 0;
+  padding: 25px 0 25px 0;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
 }
 
 @media print, screen and (max-width: 960px) {
