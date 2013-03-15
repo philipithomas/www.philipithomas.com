@@ -2,6 +2,8 @@
 layout: post
 title: Transcript of San Francisco Speech to WUSTL Alumni
 ---
+<a href="/images/sf_speech.jpg"><img src="/images/sf_speech_small.jpg" alt="San Francisco Speech"></a>
+
 *Tonight I had the privilege of addressing 500 alumni of Washington University in St. Louis at San Francisco City Hall. I was the featured student speaker at a dinner for Bay-area alumni. Below is the transcript of my speech about innovation and entrepreneurship at the university. A video is forthcoming.*
 
 When I was in preschool, the teacher told my parents that I asked the question “why?” too much. “Why can’t I do this?” “Why does this exist?” As I’ve grown older, I never really stopped asking why. 
@@ -12,7 +14,7 @@ Current sophomore Blake Marggraff asked, “Why can’t I poll a group of people
 
 In an Engineers Without Borders meeting, six undergraduate engineers asked, “Why is a spirometer so expensive?” They went on to invent a device that cost one one-hundredth that of current spirometers, and started a medical device business - [Sparo Labs](http://sparolabs.com) - that just took second place in the Olin Cup, awarded by the [Skandalaris Center for Entrepreneurial Studies](http://sc.wustl.edu). 
 
-Computer science student Spencer Hewett asked, “Why is the checkout line so slow?” so he devised [NoQ](http://noq.io), was awarded a [Peter Thiel Fellowship](www.thielfellowship.org), and just graduated from the Winter class of [YCombinator](http://ycombinator.com). Thank you for joining us tonight, Spencer.
+Computer science student Spencer Hewett asked, “Why is the checkout line so slow?” so he devised [NoQ](http://noq.io), was awarded a [Peter Thiel Fellowship](www.thielfellowship.org), and graduates from the Winter class of [YCombinator](http://ycombinator.com). Thank you for joining us tonight, Spencer.
 
 
 And today, the question I hear more and more on campus is, “Why don’t we build a solution?” And, more often, the answer has become “Let’s do it” from their friends, and “Let us help” from the university. Today I want to share two short stories that define my experience at Washington University - starting wute.vc, and launching Text Reject. 
