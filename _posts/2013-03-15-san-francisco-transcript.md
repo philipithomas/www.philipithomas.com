@@ -53,3 +53,5 @@ Students are leading the growth of a startup community at Washington University 
 So, when students are able to answer that persistent question of “Why?”, we see that the common piece to all the answers has been the community and support of Washington University in St. Louis. 
 
 Thank you, everybody, for coming tonight, and thank you for extending the spirit of Washington University to the Bay area.
+
+<a href="/images/sf_city_hall.jpg"><img src="/images/sf_city_hall_small.jpg" alt="San Francisco City Hall" /></a>
