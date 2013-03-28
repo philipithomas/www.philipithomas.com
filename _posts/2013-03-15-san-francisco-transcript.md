@@ -5,6 +5,8 @@ title: Transcript of San Francisco Speech to WUSTL Alumni
 
 *Last night I had the privilege of addressing 500 alumni of Washington University in St. Louis at San Francisco City Hall. I was the featured student speaker at a dinner for Bay-area alumni. Below is the transcript of my speech about innovation and entrepreneurship at the university. A video is forthcoming.*
 
+***Update:** See photos from the event [here](/san-francisco-speech-photos/).*
+
 
 <a href="/images/sf_speech.jpg"><img src="/images/sf_speech_small.jpg" alt="San Francisco Speech"></a>
 
