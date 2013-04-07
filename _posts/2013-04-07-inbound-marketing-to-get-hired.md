@@ -3,17 +3,15 @@ layout: post
 title: Using Inbound Marketing to Get A Job
 ---
 
-Two weeks ago, I decided that it was time for me to get a job. I graduate next month from engineering school, and I sought a software position at a startup.
+Next month I graduate from engineering school, so two weeks ago I started actively pursuing a software job for after graduation. This wasn't my first time looking for a post-graduation job: I started looking back in November, and I had many problems - the main one being that the startups where I wanted to work lacked the runway to make hiring committments so far in advance. The second difficulty I found with pursuing jobs at startups in November was that they were nowhere as good at the hiring process as large companies. 
 
-This wasn't my first time looking for a post-graduation job: I started looking back in November, and I had many problems - the main one being that the companies where I wanted to work lacked the runway to make hiring committments so far in advance. 
+So, I postponed my job search. I imposed a new start date of spring break with the hope that making a hiring committment a month out, rather than six, would be more realistic for startups. Realizing that I could use some cleverness to make the hiring process smoother, I implemented a variety of techniques inspired by inbound marketing to gain a foot in the door at my desired comapnies. I set up a landing page here on my personal website, multivariate tested a call to action with Optimizely, and tracked visitor engagement with Mixpanel. 
 
-The second difficulty I found with pursuing jobs at startups in November was that they were nowhere as good at the hiring process as large companies. So, I postponed my job search. I imposed a new start date of spring break with the hope that making a hiring committment a month out, rather than six, would be more realistic for startups. 
-
-Realizing that I could use some cleverness to make the hiring process smoother, I implemented a variety of techniques inspired by inbound marketing to gain a foot in the door at my desired comapnies. I set up a landing page here on my personal website, multivariate tested a call to action with Optimizely, and tracked visitor engagement with Mixpanel. Overall, the experiment worked.
+It worked.
 
 ## Landing Page
 
-First, I built a landing page. The goal was to engage visitors with content about my abilities and projects, then  drive them to contact me about an interview.
+First, I built a landing page here on my personal website. The goal was to engage visitors with content about my abilities and projects, then  drive them to contact me about an interview.
 
 <a href="/images/hire_me.jpg"><img src="/images/hire_me_small.jpg" alt="Hire Me Page" /></a>
 
@@ -70,9 +68,7 @@ I was fortunate enough to be giving a [speech in San Francisco](/san-francisco-t
 Due to a mix of networking, blog traffic, and outreach to companies, starting about a week into the campaign until it concluded 10 days later, I averaged 3 interviews per business days between nine total companies, all of which I was strongly interested in joining. Of note, I can attribute being ocntacted by at least 3 of those companies directly to the digital campaign. In fact, I received an email from one company stating that they enjoyed one of my articles, then they followed up 5 minutes later with another email saying, "We see that you are looking for a job - CC'd is our hiring manager!"
 
 
-I was fortunate to be offered a job at my #1 choice in company - [OpenDNS](http;//opendns.com) - and I [accepted the offer](/joining-open-dns/), canceled many outstanding applications, and ended the campaign. 
-
-My introduction to OpenDNS long predated this digital campaign, so I cannot say that this experiment directly got me a job, but I am sure that many of my interviewers visited the website and the landing page before talking with me. 
+I was offered a job at my #1 choice in company - [OpenDNS](http;//opendns.com) - and I [accepted the offer](/joining-open-dns/), canceled many outstanding applications, and ended the campaign. My introduction to OpenDNS long predated this digital campaign, so I cannot say that this experiment directly got me a job, but I am sure that many of my interviewers visited the website and the landing page before talking with me. 
 
 Overall, this experiment was successful, and the data from the analytics software shows that even hiring can be optimized. If you are seeking a job or freelance clients, I suggest setting up a personal website and trying out these techniques. 
 
