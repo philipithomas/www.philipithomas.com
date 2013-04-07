@@ -3,9 +3,10 @@ layout: post
 title: Using Inbound Marketing to Get A Job
 ---
 
-A couple weeks ago, I decided that it was time for me to get a job. The difficulty with pursuing jobs at startups is that they are nowhere as good at the hiring process as large companies. So, I decided to put some brains into helping them find me. I used some inbound marketing tactics to  
+A couple weeks ago, I decided that it was time for me to get a job. I wanted to work in software engineering at a startup. The difficulty with pursuing jobs at startups is that they are nowhere as good at the hiring process as large companies. So, I decided to put some brains into helping them find me. I used some inbound marketing tactics to capture 
 
 ## Landing Page
+
 First, I built the equivalent of a landing page. The goal was to engage visitors with content about my abilities, then ultimately drive them to contact me. 
 
 <a href="/images/hire_me.jpg"><img src="/images/hire_me_small.jpg" alt="Hire Me Page" /></a>
@@ -37,3 +38,9 @@ I multi-variate tested the button leading to the job page using Optimizely. It i
 		<td><strong>8.2%</strong></td>
 	</tr>
 </table>
+
+## Results
+
+I signed with [OpenDNS](http://opendns.com) earlier this week, and that relationship predated my job marketing campaign. 
+
+However, after implementing the campaign, I averaged 3 interviews per weekday for about a week and a half. 
