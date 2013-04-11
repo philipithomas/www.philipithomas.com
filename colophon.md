@@ -13,9 +13,7 @@ This website is build in Jekyll and hosted on Amazon S3 with Cloudflare CDN. [Vi
 It uses the following open-source projects:
 
 * [Minimal theme](https://github.com/orderedlist/minimal)
-
 * [Jekyll](https://github.com/mojombo/jekyll)
-
 * [Jekyll-S3](https://github.com/ebello/Jekyll-S3)
 
 ## Pages
