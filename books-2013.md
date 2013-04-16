@@ -14,6 +14,7 @@ permalink: /books-2013/
 * [Introducing Regular Expressions](http://www.amazon.com/gp/product/1449392687/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1449392687&linkCode=as2&tag=sagacionlook-20) by Michael Fitzgerald
 * [MongoDB: The Definitive Guide](http://www.amazon.com/gp/product/1449381561/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1449381561&linkCode=as2&tag=sagacionlook-20) by Michael Dirolf
 * [MongoDB & Python](http://www.amazon.com/gp/product/1449310370/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1449310370&linkCode=as2&tag=sagacionlook-20) by Niall O'Higgins
+
 ## February 
 * [The Ruby Programming Language](http://www.amazon.com/gp/product/0596516177/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0596516177&linkCode=as2&tag=sagacionlook-20) by David Flanagan and Yikihiro Matsumoto
 * [Ruby on Rails Tutorial](http://www.amazon.com/gp/product/0321832051/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0321832051&linkCode=as2&tag=sagacionlook-20) by Michael Hartyl
