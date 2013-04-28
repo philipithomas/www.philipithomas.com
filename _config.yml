@@ -2,8 +2,3 @@ markdown: rdiscount
 pygments: false
 permalink: /:title
 exclude: upload.py, README.md  Gemfile, Gemfile.lock, Procfile, vendor
-jekyll-press:
-  exclude: ['atom.xml', 'styles.css', 'css/styles.css'] # Exclude files from processing - file name, glob pattern or array of file names and glob patterns
-  js_options: {}      # js minifier options
-  css_options: {}     # css minifier options
-  html_options: {}    # html minifier options
