@@ -3,7 +3,7 @@ layout: post
 title: Salsa Videos
 ---
 
-With myy last performances on the [WUSauce](http://wusauce.wustl.edu) salsa team now over, I thought it would be fun to compile videos of my salsa dancing over the years onto one page (from oldest to newest):
+With my last performance on the [WUSauce](http://wusauce.wustl.edu) salsa team now over, I have compiled videos of my dancing on the team from the last three years *(from oldest to newest)*.
 
 ## Sophomore Year
 My first performance; note somebody falling off the back of the stage at 1:36 in the video!
