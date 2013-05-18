@@ -8,7 +8,7 @@ permalink: /about/
 
 <p><img src="/images/eng_mug_200.jpg" width="200" height="200" align="right" style="padding: 0 0 20px 20px;" alt="Philip I Thomas" /></p>
 
-<p>I study at <a href="http://wustl.edu">Washington University in St. Louis</a>, and this month I graduate with majors in Systems Engineering and Physics, and with a minor in Electrical Engineering. After graduation, I am moving to San Francisco to join <a href="http://opendns.com">OpenDNS</a> as a Software Engineer.</p>
+<p>I graduated in May 2013 from <a href="http://wustl.edu">Washington University in St. Louis</a> with a Bachelor of Science degree in Systems Engineering, a second major in Physics, and a minor in Electrical Engineering. After graduation, I am moving to San Francisco to join <a href="http://opendns.com">OpenDNS</a> as a Software Engineer.</p>
 
 
 <p>Email me at <a href="mailto:mail@philipithomas.com">mail@philipithomas.com</a>. Learn more about me by visiting my <a href="http://cv.philipithomas.com">resume</a>, <a href="/writing">technical writing</a>, <a href="/press">press</a>, and <a href="http://beer.philipithomas.com">beer database</a>.</p>
