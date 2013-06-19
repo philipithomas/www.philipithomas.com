@@ -1,4 +1,4 @@
 markdown: rdiscount
 pygments: false
 permalink: /:title
-exclude: ['upload.py','README.md','Gemfile','Gemfile.lock','Procfile', 'vendor','_jekyll_s3.yml']
+exclude: _jekyll_s3.yml

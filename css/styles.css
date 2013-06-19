@@ -251,6 +251,11 @@ figure {
   -webkit-margin-end: 0;
 }
 
+#home {
+  font-size: 120%;
+  padding-top: 40px;
+}
+
 @media print, screen and (max-width: 960px) {
   
   div.wrapper {

@@ -5,13 +5,12 @@ permalink: /about/
 ---
 
 # About 
+<img src="/images/eng_mug_200.jpg" width="200" height="200" align="right" style="padding: 0 0 20px 20px;" alt="Philip I Thomas" />
 
-<p><img src="/images/eng_mug_200.jpg" width="200" height="200" align="right" style="padding: 0 0 20px 20px;" alt="Philip I Thomas" /></p>
-
-<p>I graduated in May 2013 from <a href="http://wustl.edu">Washington University in St. Louis</a> with a Bachelor of Science degree in Systems Engineering, a second major in Physics, and a minor in Electrical Engineering. After graduation, I am moving to San Francisco to join <a href="http://opendns.com">OpenDNS</a> as a Software Engineer.</p>
+I work at [OpenDNS](http://Opendns.com) as a Software Engineer on the rapid code revision team. I graduated in May 2013 from [Washington University in St. Louis](http://wustl.edu) with a Bachelor of Science degree in Systems Engineering, a second major in Physics, and a minor in Electrical Engineering.
 
 
-<p>Email me at <a href="mailto:mail@philipithomas.com">mail@philipithomas.com</a>. Learn more about me by visiting my <a href="http://cv.philipithomas.com">resume</a>, <a href="/writing">technical writing</a>, <a href="/press">press</a>, and <a href="http://beer.philipithomas.com">beer database</a>.</p>
+Email me at [mail@philipithomas.com](mailto:mail@philipithomas.com). Learn more about me by visiting my [resume](http://cv.philipithomas.com), [technical writing](/writing), [press](/press), and [beer database](http://beer.philipithomas.com).
 
 ## Fun Facts
 
