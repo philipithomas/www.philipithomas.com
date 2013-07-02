@@ -11,4 +11,4 @@ The site, at its core, relied on the Twitter API to display updates from food tr
 
 Hence, effective immediately, the **Food Trucks Near Me project has ended**. 
 
-I have open-sourced the code and data, should anyone with to continue the tracker. v[Fork Food Trucks Near Me on Github](https://github.com/philipithomas/FoodTrucksNearMe).
+I have open-sourced the code and data, should anyone with to continue the tracker. [Fork Food Trucks Near Me on Github](https://github.com/philipithomas/FoodTrucksNearMe).
