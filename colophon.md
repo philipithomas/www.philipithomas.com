@@ -8,7 +8,7 @@ permalink: /colophon/
 
 # Colophon 
 
-This website is build in Jekyll and hosted on Amazon S3 with Cloudflare CDN. [View the source code on Github](http://github.com/philipithomas/www.philipithomas.com).
+This website is built in Jekyll and hosted on Amazon S3 with Cloudflare CDN. [View the source code on Github](http://github.com/philipithomas/www.philipithomas.com).
 
 It uses the following open-source projects:
 
