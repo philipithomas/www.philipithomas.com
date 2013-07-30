@@ -28,6 +28,14 @@ a:focus {
 }
 
 .home-nav {
-    font-family: 'museo-slab', serif;
-    line-height: 30px;
+    font-family: 'museo-sans', serif;
+    line-height: 38px;
+}
+
+.social img {
+    margin: 15px 5px 5px 5px;
+}
+
+.home-nav a:hover{
+    text-decoration: none;
 }

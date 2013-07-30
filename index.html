@@ -4,7 +4,7 @@ header_insert: <link rel="stylesheet" href="/css/home.css" />
 ---
 <div class="container text-center home">
     <div class="col col-lg-4 col-offset-4">
-<!--        <img class="center headshot" src="/images/layout/mug.jpg" alt="Philip I. Thomas headshot" /> -->
+<!--        <img onload="this.width/=2;this.onload=null;" class="center headshot" src="/images/layout/mug.jpg" alt="Philip I. Thomas headshot" /> -->
 
         {% include logo.html %}
 
@@ -12,6 +12,22 @@ header_insert: <link rel="stylesheet" href="/css/home.css" />
              <div><a href="/posts/">Posts</a></div>
             <div><a href="/about/">About</a></div>
             <div><a href="/connect/">Connect</a></div>
+            <div class="social">
+                <a href="http://facebook.com/philipithomas">
+                    <img onload="this.width/=2;this.onload=null;" src="/images/social/facebook.png" alt="Facebook" />
+                </a>
+             <a href="http://twitter.com/philipithomas">
+                    <img onload="this.width/=2;this.onload=null;" src="/images/social/twitter.png" alt="Twitter" />
+                </a>                <a href="http://github.com/philipithomas">
+                    <img onload="this.width/=2;this.onload=null;" src="/images/social/github.png" alt="Github" />
+                </a>
+                <a href="http://linkedin.com/in/philipithomas">
+                    <img onload="this.width/=2;this.onload=null;" src="/images/social/linkedin.png" alt="LinkedIn" />
+                </a>
+                <a href="/atom.xml">
+                    <img onload="this.width/=2;this.onload=null;" src="/images/social/rss.png" alt="RSS" />
+                </a>
+
         </div>
     </div>
 </div>
