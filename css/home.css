@@ -8,10 +8,6 @@ body {
     padding-bottom: 50px;
 }
 
-.sidebar {
-    margin-top: 30px;
-}
-
 .container {
     padding-top: 100px;
 }
@@ -28,8 +24,9 @@ a:focus {
 }
 
 .home-nav {
-    font-family: 'museo-sans', serif;
+    font-family: 'museo-sans', sans-serif;
     line-height: 38px;
+    padding-top: 20px;
 }
 
 .social img {
@@ -39,3 +36,4 @@ a:focus {
 .home-nav a:hover{
     text-decoration: none;
 }
+
