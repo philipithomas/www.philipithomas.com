@@ -1,0 +1,33 @@
+
+body {
+    background-color: #000000;
+}
+
+.headshot {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.sidebar {
+    margin-top: 30px;
+}
+
+.container {
+    padding-top: 100px;
+}
+
+a {
+  color: #b0b0b0;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: #e6e6e6;
+  text-decoration: bold;
+}
+
+.home-nav {
+    font-family: 'museo-slab', serif;
+    line-height: 30px;
+}

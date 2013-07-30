@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<div class="forehead">
+    <div class="container">
+        {% include logo.html %}
+    </div>
+</div>
+<div class="container content">
+
+    <div class="row">
+        <div class="col col-lg-2 col-offset-1 ">
+            {% if (page.sidebar != 'false') %}
+                {% include sidebar.html %}
+            {% endif %}
+        </div>
+        <div class="col col-lg-6">
+            {{ content }}
+
+            {% include footer.html %}
+        </div>
+    </div>
+</div>
