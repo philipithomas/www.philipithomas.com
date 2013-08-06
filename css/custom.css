@@ -9,7 +9,7 @@ body {
 
 a {
   color: #333333;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:hover,
@@ -27,6 +27,10 @@ a:focus {
 #body{ 
 }
 
+.sidebar {
+    font-family: "museo-slab", serif;
+    font-weight: 700;
+}
 .title {
     color: #ffffff;
     font-weight: 700;
@@ -92,4 +96,12 @@ img.center {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+footer {
+    background-color: #f5f5f5;
+    padding: 40px;
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
 }
