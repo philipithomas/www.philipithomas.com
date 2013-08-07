@@ -1,3 +1,8 @@
+/* Colors */
+$link       : #333333;
+$link_hover : #262626;
+
+/* Fonts */
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: "museo-slab", serif;
 }
@@ -6,10 +11,15 @@ body {
     font-family: "museo-sans", sans-serif;
 }
 
-
+/* Links */
 a {
-  color: #333333;
-  text-decoration: none;
+    color: $link;
+    text-decoration: none;
+
+    &:hover, &:focus {
+        color: $link_hover;
+        text-decoration: bold;
+    }
 }
 
 a:hover,
@@ -18,39 +28,36 @@ a:focus {
   text-decoration: bold;
 }
 
-a:focus {
-  outline: thin dotted #262626;
-  outline: 5px auto -webkit-focus-ring-color;
-  outline-offset: -2px;
-}
-
-#body{ 
-}
-
+/* Sidebar */
 .sidebar {
     font-family: "museo-slab", serif;
     font-weight: 700;
 }
+
+/* Main formatting */
 .title {
-    color: #ffffff;
+    color: white;
     font-weight: 700;
     font-size: 50px;
 }
 
+/* Page top */
+
+.forehead {
+    position: relative;
+    color: white;
+    text-align: center;
+    background-color: black;
+    padding: 15px;
+    opacity: 1;
+}
+
+/* Custom goodies */
 .highlight {
   background: #ffff00;
 }
 
 
-.forehead {
-    position: relative;
-    color: #ffffff;
-    text-align: center;
-    background-color: #000000;
-    padding: 15px;
-    margin-bottom: 30px;
-    opacity: 1;
-}
 
 .logo {
 }

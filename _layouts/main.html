@@ -11,10 +11,13 @@ layout: default
     <div class="row">
         <div class="col col-lg-2 col-offset-1 ">
             {% if (page.sidebar != 'false') %}
-                {% include sidebar.html %}
+                <ul class="nav nav-pills nav-stacked sidebar">
+                    {% include menu.html %}
+                </ul>
             {% endif %}
         </div>
         <div class="col col-lg-6 content">
+            
             {{ content }}
 
             {% include footer.html %}
