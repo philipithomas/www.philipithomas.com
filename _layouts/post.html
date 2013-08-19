@@ -3,9 +3,10 @@ layout: main
 ---
 <article>
 <div id="post">
+<header>
 <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
-<p id="date"><small>{{ page.date | date: "%e %B %Y" }}</small></p>	
-
+<span class="date">{{ page.date | date: "%e %B %Y" }}</span>	
+</header>
     
 {{ content }}
 </div>

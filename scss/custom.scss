@@ -5,10 +5,15 @@ $link_hover : #262626;
 /* Fonts */
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: "museo-slab", serif;
+    font-weight: 400;
 }
 
 body {
     font-family: "muso-sans", sans-serif;
+}
+
+.torso {
+    padding-top: 100px;
 }
 
 /* Links */
@@ -22,6 +27,17 @@ a {
     }
 }
 
+header {
+    margin-bottom: 20px;
+    h1 {
+        font-weight: 700;
+        margin: 0;
+    }
+    .date {
+        color: #e6e6e6;
+    }
+}
+
 a:hover,
 a:focus {
   color: #262626;
@@ -32,9 +48,12 @@ a:focus {
 .sidebar {
     font-family: "museo-slab", serif;
     font-weight: 500;
+    position: fixed;
+    margin-top: 100px;
     a {
         text-decoration: none;
     }
+
 }
 
 /* Main formatting */
@@ -47,13 +66,16 @@ a:focus {
 /* Page top */
 
 .forehead {
-    position: relative;
+    /*position: relative;*/
+    position: fixed;
+    width: 100%;
     color: white;
     text-align: center;
     background-color: black;
     padding: 17px 0 17px;
     margin-bottom: 30px;
     opacity: 1;
+    z-index: 99;
 }
 
 /* Custom goodies */
@@ -101,4 +123,8 @@ img.center {
 }
 pre {
     font-family: "source-code-pro",sans-serif;
+}
+
+blockquote p{
+    font-size: inherit;
 }
