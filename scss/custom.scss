@@ -8,7 +8,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 body {
-    font-family: "museo-sans", sans-serif;
+    font-family: "muso-sans", sans-serif;
 }
 
 /* Links */
@@ -31,7 +31,10 @@ a:focus {
 /* Sidebar */
 .sidebar {
     font-family: "museo-slab", serif;
-    font-weight: 700;
+    font-weight: 500;
+    a {
+        text-decoration: none;
+    }
 }
 
 /* Main formatting */
@@ -48,7 +51,8 @@ a:focus {
     color: white;
     text-align: center;
     background-color: black;
-    padding: 15px;
+    padding: 17px 0 17px;
+    margin-bottom: 30px;
     opacity: 1;
 }
 
@@ -60,25 +64,22 @@ a:focus {
 
 
 .logo {
-}
-
-.logo h1 {
-    margin: 0;
-    font-family: 'poiret one', 'museo-sans', sans-serif;
-    text-transform: uppercase;
-    font-size: 18px;
-    letter-spacing: 6px;
-    font-weight: 400;
-
-}
-.logo a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-.camel {
-    font-size: 141%; /* square root of 2 ratio, hah */
-    letter-spacing: 3px;
+    h1 {
+        margin: 0;
+        font-family: 'omnes-pro', 'museo-sans', sans-serif;
+        text-transform: uppercase;
+        font-size: 18px;
+        letter-spacing: 6px;
+        font-weight: 100;
+    }
+    a {
+        color: #ffffff;
+        text-decoration: none;
+    }
+    .camel {
+        font-size: 141%; /* square root of 2 ratio, hah */
+        letter-spacing: 6px;
+    }
 }
 
 footer {
@@ -93,22 +94,11 @@ footer {
    margin: 0; 
 }
 
-.sidebar {
-    font-family: 'museo-slab', serif;
-}
-a.sidebar {
-    text-decoration: none;
-}
 img.center {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-
-footer {
-    background-color: #f5f5f5;
-    padding: 40px;
-    position: relative;
-    text-align: center;
-    margin-top: 50px;
+pre {
+    font-family: "source-code-pro",sans-serif;
 }

@@ -1,11 +1,5 @@
-
 body {
     background-color: #000000;
-}
-
-.headshot {
-    padding-top: 100px;
-    padding-bottom: 50px;
 }
 
 .container {
@@ -13,7 +7,7 @@ body {
 }
 
 a {
-  color: #b0b0b0;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -24,16 +18,17 @@ a:focus {
 }
 
 .home-nav {
-    font-family: 'museo-sans', sans-serif;
+    font-family: 'omnes-pro', sans-serif;
+    font-size: 15px;
     line-height: 38px;
-    padding-top: 20px;
+    padding: 20px 0 20px 0;
+    font-weight: 300;
+
+    a:hover {
+        text-decoration: none;
+    }
 }
 
 .social img {
-    margin: 15px 5px 5px 5px;
+    margin: 20px 5px 5px 5px;
 }
-
-.home-nav a:hover{
-    text-decoration: none;
-}
-
