@@ -22,10 +22,16 @@ a:focus {
     font-size: 15px;
     line-height: 50px;
     padding: 20px 0 20px 0;
-    font-weight: 300;
+    font-weight: 100;
     a:hover {
         text-decoration: none;
     }
+}
+
+@media (max-width: 768px) {
+  .home-nav {
+    font-weight: 300;
+  }
 }
 
 .social img {

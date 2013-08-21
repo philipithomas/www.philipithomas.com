@@ -104,6 +104,12 @@ a:focus {
     }
 }
 
+@media (max-width: 768px) {
+  .logo h1 {
+    font-weight: 300;
+  }
+}
+
 footer {
     background-color: #f5f5f5;
     padding: 40px;
