@@ -9,9 +9,9 @@ header_insert: <link rel="stylesheet" href="/css/home.css" />
         {% include logo.html %}
 
         <div class="home-nav">
-             <div><a href="/posts/">Posts</a></div>
-            <div><a href="/about/">About</a></div>
-            <div><a href="/connect/">Connect</a></div>
+            <ul>
+                {% include menu.html %}
+            </ul>
             <div class="social">
                 <a href="http://facebook.com/philipithomas">
                     <img onload="this.width/=2;this.onload=null;" src="/images/social/facebook.png" alt="Facebook" />
