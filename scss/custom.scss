@@ -122,11 +122,13 @@ a:focus {
 }
 
 @media (max-width: 768px) {
-    .logo h1 {
+    .navbar .logo h1 {
         font-weight: 300;
+        text-align: left;
+        padding-left: 11px;
     }
-    
 }
+
 @media (min-width: 768px) {
     .navbar-nav {
         display: none !important;
