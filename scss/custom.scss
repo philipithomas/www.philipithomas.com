@@ -122,6 +122,9 @@ a:focus {
 }
 
 @media (max-width: 768px) {
+    .sidebar {
+        display: none !important;
+    }
     .logo h1 {
         font-weight: 300;
     }
@@ -163,4 +166,11 @@ pre {
 
 blockquote p{
     font-size: inherit;
+}
+
+.alert {
+    border: 0;
+    border-radius: 0;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
 }
