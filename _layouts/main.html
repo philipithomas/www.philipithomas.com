@@ -24,14 +24,14 @@ layout: default
 <div class="container torso">
 
     <div class="row">
-        <div class="col col-md-2 col-md-offset-1 ">
+        <div class="col col-md-2 col-md-offset-1 col-sm-3">
             {% if (page.sidebar != 'false') %}
-                <ul class="nav nav-pills nav-stacked sidebar hidden-sm">
+                <ul class="nav nav-pills nav-stacked sidebar hidden-xs">
                     {% include menu.html %}
                 </ul>
             {% endif %}
         </div>
-        <div class="col col-md-6 content">
+        <div class="col col-sm-9 col-md-6 content">
             
             {{ content }}
 

@@ -10,6 +10,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 body {
     font-family: "muso-sans", sans-serif;
+    line-height: 23px;
+}
+p {
+    margin-top: 15px;
 }
 
 .navbar {
@@ -121,21 +125,21 @@ a:focus {
     }
 }
 
-@media (max-width: 768px) {
-    .sidebar {
-        display: none !important;
-    }
-    .logo h1 {
-        font-weight: 300;
-    }
-}
-
 @media (max-width: 350px) {
     .navbar .logo h1 {
         text-align: left;
         padding-left: 11px;
     }
 
+}
+
+@media (max-width: 768px) {
+    .logo h1 {
+        font-weight: 300;
+    }
+    .sidebar {
+        display: none !important;
+    }
 }
 
 @media (min-width: 768px) {
@@ -173,4 +177,8 @@ blockquote p{
     border-radius: 0;
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
+}
+
+.hightlight {
+    background: #ffff00;
 }

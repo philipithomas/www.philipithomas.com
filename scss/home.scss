@@ -3,7 +3,11 @@ body {
 }
 
 .container {
-    padding-top: 100px;
+    padding-top: 50px;
+}
+
+.logo {
+  padding-top: 50px;
 }
 
 a {
@@ -28,6 +32,7 @@ a:focus {
       list-style-type: none;
       list-style: none;
       padding: 0;
+      margin: 0;
     }
     a:hover {
         text-decoration: none;
@@ -35,11 +40,17 @@ a:focus {
 }
 
 @media (max-width: 768px) {
-  .home-nav {
-    font-weight: 300;
-  }
+    .home-nav {
+         font-weight: 300;
+    }
+    .logo {
+        padding-top: 20px;
+    }
+    .container {
+        padding-top: 20px;
+    }
 }
 
 .social img {
-    margin: 5px 5px 5px 5px;
+    margin: 0px 5px 5px 5px;
 }
