@@ -1,7 +1,7 @@
 /* Colors */
 $link       : #333333;
 $link_hover : #262626;
-
+$navbar_bg  : #333333;
 /* Fonts */
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: "museo-slab", serif;
@@ -30,6 +30,18 @@ p {
         height: 100%;
         display: block;
         padding: 11px 0;
+    }
+    .navbar-toggle {
+        border: 0;
+        background-color: black;
+        border-radius: 0;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+    } 
+    .icon-bar {
+        border-radius: 0;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
     }
 }
 
