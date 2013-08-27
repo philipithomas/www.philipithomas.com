@@ -1,7 +1,7 @@
 /* Colors */
-$link       : #333333;
-$link_hover : #262626;
-$navbar_bg  : #333333;
+$link       : #999999;
+$link_hover : #333333;
+
 /* Fonts */
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: "museo-slab", serif;
@@ -46,7 +46,7 @@ p {
 }
 
 .torso {
-    padding-top: 70px;
+    padding-top: 100px;
 }
 
 /* Links */
@@ -63,11 +63,15 @@ a {
 header {
     margin-bottom: 20px;
     h1 {
-        font-weight: 700;
         margin: 0;
+        a {
+            color: black;
+        }
     }
-    .date {
-        color: #e6e6e6;
+    .subtitle {
+        color: $link;
+        font-size: 85%;
+        padding-top: 5px;
     }
 }
 
@@ -78,17 +82,18 @@ a:focus {
 }
 
 /* Sidebar */
-.sidebar {
+.navbar-nav, .sidebar {
     font-family: "museo-slab", serif;
     font-weight: 500;
-    position: fixed;
-    margin-top: 100px;
-    a {
-        text-decoration: none;
-    }
-
+}
+.sidebar > li > a {
+    color: black;
 }
 
+.sidebar {
+    position: fixed;
+    margin-top: 100px;
+}
 /* Main formatting */
 .title {
     color: white;
@@ -160,11 +165,12 @@ a:focus {
     }
 }
 footer {
-    background-color: #f5f5f5;
     padding: 40px;
     position: relative;
     text-align: center;
     margin-top: 50px;
+    font-size: 12px;
+    font-family: "museo-slab", serif;
 }
 
 .no-margin {
@@ -193,4 +199,77 @@ blockquote p{
 
 .hightlight {
     background: #ffff00;
+}
+
+/* Posts */
+
+$panel-inverse:  #000000;
+.panel, .panel-heading {
+     border-radius: 0;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-box-shadow: 0;
+    box-shadow: 0;
+}
+.panel-reverse {
+  border-color: $panel-inverse;
+}
+.panel-reverse > .panel-heading {
+  color: $panel-inverse; 
+  background-color: white;
+  border-color: $panel-inverse;
+}
+.panel-reverse > .panel-heading + .panel-collapse .panel-body {
+  border-top-color: $panel-inverse;
+}
+.panel-reverse > .panel-footer + .panel-collapse .panel-body {
+  border-bottom-color: $panel-inverse;;
+}
+
+.about-box {
+    margin-top: 60px;
+}
+
+/* Some outbrain tweaks */
+.ob_org_header {
+    font-family: "museo-slab", serif;
+}
+
+.outbrain {
+    padding-top: 30px;
+}
+
+/* Posts page */
+#posts {
+    .date {
+        width: 30%;
+    }
+    .title {
+        width: 70%;
+    }
+    td {
+        border: 0;
+    }
+}
+.business-card {
+    width: 350px;
+    height: 200px;
+    margin: 20px auto;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'omnes-pro', 'museo-sans', sans-serif; 
+    a {
+        color: #ffffff;
+    }
+    .panel-body {
+        display: inline;
+        vertical-align: middle;
+    }
+    .logo {
+        padding: 5px 0 10px;
+    }
+    .logo-body {
+        font-size: 80%;
+    }
 }

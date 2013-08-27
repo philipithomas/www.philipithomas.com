@@ -1,11 +1,13 @@
 ---
-layout: post 
+layout: page 
 title: Posts
 permalink: /posts/
 ---
-  <table id="posts">
-      <col style="width:30%">
-      <col style="width:70%">
+<table id="posts" class="table">
+    <colgroup>
+        <col class="date">
+        <col class="title">
+    </colgroup>
     {% for post in site.posts %}
       <tr><td>{{ post.date | date: "%e %B %Y" }}</td><td><a href="{{ post.url }}">{{ post.title }}</a></td></tr>
     {% endfor %}

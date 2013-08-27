@@ -1,16 +1,30 @@
 ---
-layout: main
+layout: page
 title: About
 permalink: /about/
 ---
 
-# About 
 <img src="/images/eng_mug_200.jpg" width="200" height="200" align="right" style="padding: 0 0 20px 20px;" alt="Philip I Thomas" />
 
 I work at [OpenDNS](http://Opendns.com) as a Software Engineer on the rapid code revision team. I graduated in May 2013 from [Washington University in St. Louis](http://wustl.edu) with a Bachelor of Science degree in Systems Engineering, a second major in Physics, and a minor in Electrical Engineering.
 
 
-Email me at [mail@philipithomas.com](mailto:mail@philipithomas.com). Learn more about me by visiting my [resume](http://cv.philipithomas.com), [technical writing](/writing), [press](/press), and [beer database](http://beer.philipithomas.com).
+Learn more about me by visiting my [resume](http://cv.philipithomas.com), [technical writing](/writing), [press](/press), and [beer database](http://beer.philipithomas.com).
+
+## Contact
+
+<div class="panel panel-reverse business-card">
+    <address class="panel-body">
+        {% include logo.html %}
+        <span class="logo-body"> 
+        660 4th Street Suite 138<br>
+        San Francisco, CA 94107<br>
+        +1 (209) 867-7445<br>
+        <a href="mailto:mail@philipithomas.com">mail@philipithomas.com</a> 
+        </span>
+    </address>
+</div>
+
 
 ## Fun Facts
 
