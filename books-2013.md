@@ -1,9 +1,8 @@
 ---
-layout: default
+layout: page 
 title: Books Read in 2013
 permalink: /books-2013/
 ---
-# Books Finished in 2013
 
 ## January
 * [The Visual Display of Quantitative Information](http://www.amazon.com/gp/product/0961392142/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0961392142&linkCode=as2&tag=sagacionlook-20) by Edward R. Tufte

@@ -22,6 +22,23 @@ Learn more about me by visiting my [resume](http://cv.philipithomas.com), [techn
         +1 (209) 867-7445<br>
         <a href="mailto:mail@philipithomas.com">mail@philipithomas.com</a> 
         </span>
+        
+            <div class="social">
+                <a href="http://facebook.com/philipithomas">
+                    <img onload="this.width/=2;this.onload=null;" src="/images/social/facebook.png" alt="Facebook" />
+                </a>
+             <a href="http://twitter.com/philipithomas">
+                    <img onload="this.width/=2;this.onload=null;" src="/images/social/twitter.png" alt="Twitter" />
+                </a>                <a href="http://github.com/philipithomas">
+                    <img onload="this.width/=2;this.onload=null;" src="/images/social/github.png" alt="Github" />
+                </a>
+                <a href="http://linkedin.com/in/philipithomas">
+                    <img onload="this.width/=2;this.onload=null;" src="/images/social/linkedin.png" alt="LinkedIn" />
+                </a>
+                <a href="/atom.xml">
+                    <img onload="this.width/=2;this.onload=null;" src="/images/social/rss.png" alt="RSS" />
+                </a>
+            </div>
     </address>
 </div>
 
