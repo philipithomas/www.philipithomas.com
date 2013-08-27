@@ -1,0 +1,46 @@
+---
+layout: default
+header_insert: <link rel="stylesheet" href="/css/resume.css" /><script src="/js/resume.js" type="text/javascript"></script>
+---
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    {% include logo.html %}
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav">
+            {% include menu.html %}
+        </ul>
+    </div><!-- /.navbar-collapse -->
+</nav>
+
+
+<div class="container torso">
+
+    <div class="row">
+        <div class="col col-lg-2 col-md-2 col-sm-2">
+            {% if (page.sidebar != 'false') %}
+                <ul class="nav nav-pills nav-stacked sidebar hidden-xs">
+                    {% include menu.html %}
+                </ul>
+            {% endif %}
+        </div>
+        <div class="col col-sm-10 col-md-10 col-lg-8 content">
+
+            {{ content }}
+
+        </div>
+    </div>
+</div>
+
+<footer class="container">
+    {% include footer.html %}
+</footer>
+
