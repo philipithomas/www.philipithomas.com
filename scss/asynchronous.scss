@@ -1,0 +1,16 @@
+/*
+ This css sheet is used with the asynchronous Typekit loading code to prevent
+the ugly switch between fonts when the correct ones load. Here, we basically 
+hide fonts until Typekit finishes running. The Typekit library is written such
+that this stylesheet only takes effect if Javascript is enabled, so we don't have
+to worry about noscript getting a blank page.
+*/
+
+i
+.wf-loading .home,
+.wf-loading .logo,
+.wf-loading .sidebar,
+.wf-loading .container {
+    visibility: hidden;
+}
+
