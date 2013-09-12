@@ -19,7 +19,6 @@ Learn more about me by visiting my [resume](http://cv.philipithomas.com), [techn
         <span class="logo-body"> 
         660 4th Street Suite 138<br>
         San Francisco, CA 94107<br>
-        +1 (209) 867-7445<br>
         <a href="mailto:mail@philipithomas.com">mail@philipithomas.com</a> 
         </span>
     
