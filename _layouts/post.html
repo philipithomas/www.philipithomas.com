@@ -6,11 +6,7 @@ layout: main
             <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
             <div class="subtitle">By <a href="/about/">Philip I. Thomas</a>. {{ page.date | date: "%e %B %Y" }}. {{ page.content | number_of_words }} words.</div>
     </header>
-    {% if page.description %}
-        <p class="lead">
-            {{ page.description }}
-        </p>
-    {% endif %}    
+
     {{ content }}
     <aside>
         {% include about_box.html %}
