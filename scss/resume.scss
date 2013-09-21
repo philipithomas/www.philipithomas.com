@@ -4,8 +4,17 @@
         text-align: center;
     }
     .resume-title {
+        font-family: museo-sans;
+
         .right {
             text-align: right;
+        }
+    }
+    .resume-subtitle {
+        font-family: museo-sans;
+        .right {
+                text-align: right;
+            }
         }
     }
 }
