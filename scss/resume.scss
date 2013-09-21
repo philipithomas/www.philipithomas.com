@@ -3,18 +3,29 @@
     header {
         text-align: center;
     }
-    .resume-title {
-        font-family: museo-sans;
-
+    .resume-title, .resume-subtitle {
+        h1, h2, h3, h4, h5, h6 {
+            font-family: "museo-sans", sans-serif;
+        }
         .right {
             text-align: right;
         }
     }
+    .resume-title {
+        h1, h2, h3, h4, h5, h6 {
+            font-weight: 500;
+        }
+    }
     .resume-subtitle {
-        font-family: museo-sans;
-        .right {
-                text-align: right;
-            }
+        h1, h2, h3, h4, h5, h6 {
+            margin-top: 0;
+            font-weight: 300;
+        }
+    }
+    li {
+        font-weight: 300;
+        strong {
+            font-weight: 500;
         }
     }
 }
