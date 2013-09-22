@@ -1,0 +1,54 @@
+.home {
+    .container {
+        padding-top: 50px;
+    }
+
+    .logo {
+      padding-top: 50px;
+    }
+
+    a {
+      color: #ffffff;
+      text-decoration: none;
+    }
+
+    a:hover,
+    a:focus {
+      color: #e6e6e6;
+      text-decoration: bold;
+    }
+
+    .home-nav {
+        font-family: 'omnes-pro', sans-serif;
+        font-size: 15px;
+        line-height: 50px;
+        padding: 20px 0 20px 0;
+        font-weight: 100;
+
+        ul {
+          list-style-type: none;
+          list-style: none;
+          padding: 0;
+          margin: 0;
+        }
+        a:hover {
+            text-decoration: none;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .home-nav {
+             font-weight: 300;
+        }
+        .logo {
+            padding-top: 20px;
+        }
+        .container {
+            padding-top: 20px;
+        }
+    }
+
+    .social img {
+        margin: 0px 5px 5px 5px;
+    }
+}

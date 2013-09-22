@@ -1,0 +1,13 @@
+/* This file compiles all the scss file into a single one to increase pageload speed */
+
+/* Twitter Bootstrap 3 */
+@import "bootstrap";
+
+/* Tweaks to basic Boostrap layout */
+@import "custom";
+
+/* Styling for homepage */
+@import "home";
+
+/* Custom styling for resume */
+@import "resume";
