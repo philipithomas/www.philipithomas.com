@@ -1,5 +1,8 @@
 /* Custom css for the resume page  */
 .resume {
+    .page-header {
+        margin-top: 0;
+    }
     header {
         text-align: center;
     }
@@ -29,6 +32,6 @@
         }
     }
     .module {
-        padding-bottom: 40px;
+        padding-bottom: 20px;
     }
 }
