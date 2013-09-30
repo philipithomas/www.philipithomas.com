@@ -279,3 +279,25 @@ $panel-inverse:  #000000;
         font-size: 80%;
     }
 }
+
+.full-width {
+    width: 100%;
+}
+
+.btn {
+     border-radius: 0;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-box-shadow: 0;
+    box-shadow: 0;
+}
+
+.btn-inverse {
+      color: #ffffff;
+      background-color: #000000;
+}
+
+.label-inverse {
+      color: #ffffff;
+      background-color: #000000;
+}
