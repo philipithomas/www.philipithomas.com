@@ -5,19 +5,15 @@ permalink: /resume/
 description: Resume for Philip I. Thomas, Software Engineer in San Francisco
 ---
 <article class="resume">
-    <header>
-        <h3>Resume For</h3>
-        <h1>Philip I. Thomas</h1>
-        <h4><a href="mailto:mail@philipithomas.com">mail@philipithomas.com</a></h4>
-    </header>
+    
+    <section id="about">
+        <div class="page-header"><h2>About</h2></div>
+        {% include resume/about.html %}
+    </section>
+
     <section id="education">
         <div class="page-header"><h2>Education</h2></div>
         {% include resume/education.html %}
-    </section>
-
-    <section id="experience">
-        <div class="page-header"><h2>Experience</h2></div>
-        {% include resume/experience.html %}
     </section>
 
     <section id="technical">
@@ -25,8 +21,19 @@ description: Resume for Philip I. Thomas, Software Engineer in San Francisco
         {% include resume/technical.html %}
     </section>
 
+    <section id="experience">
+        <div class="page-header"><h2>Experience</h2></div>
+        {% include resume/experience.html %}
+    </section>
+
     <section id="honors">
         <div class="page-header"><h2>Honors and Skills</h2></div>
         {% include resume/honors.html %}
     </section>
+
+    <section id="facts">
+        <div class="page-header"><h2>Fun Facts</h2></div>
+        {% include resume/fun.html %}
+    </section>
+
 </article>
