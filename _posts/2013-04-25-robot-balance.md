@@ -3,7 +3,7 @@ layout: post
 title: Robot Balance Project
 ---
 
-<p><iframe src="http://player.vimeo.com/video/64852854?badge=0" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> 
+<p><iframe src="//player.vimeo.com/video/64852854?badge=0" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> 
 
 My lab partners and I spent a  semester in the Robotics Laboratory class at Washington University in St. Louis coding the system for robot in the above video. What is amazing is there is only one motor, and it controls the arm that moves left and right. The blue baton swings freely. 
 
