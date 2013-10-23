@@ -306,4 +306,9 @@ $panel-inverse:  #000000;
     margin-top: 0;
 }
 
-
+pre {
+    border: 0;
+    border-radius: 0;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+}
