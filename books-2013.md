@@ -67,5 +67,6 @@ permalink: /books-2013/
 * [Experience Design: A Framework for Integrating Brand, Experience, and Value](http://www.amazon.com/gp/product/1118609638/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1118609638&linkCode=as2&tag=sagacionlook-20)
 * <a href="http://www.amazon.com/gp/product/0470521163/ref=as_li_qf_sp_asin_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0470521163&linkCode=as2&tag=sagacionlook-20">Behind the Cloud: The Untold Story of How Salesforce.com Went from Idea to Billion-Dollar Company-and Revolutionized an Industry</a>
 * <a href="http://www.amazon.com/gp/product/B00BPDR3JM/ref=as_li_qf_sp_asin_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00BPDR3JM&linkCode=as2&tag=sagacionlook-20">Growth Hacker Marketing: A Primer on the Future of PR, Marketing, and Advertising</a>
-
-<small>This page uses affiliate links.</small>
+* <a href="http://www.amazon.com/gp/product/0385480016/ref=as_li_qf_sp_asin_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0385480016&linkCode=as2&tag=sagacionlook-20">Bird by Bird: Some Instructions on Writing and Life</a>
+* <a href="http://www.amazon.com/gp/product/147670001X/ref=as_li_qf_sp_asin_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=147670001X&linkCode=as2&tag=sagacionlook-20">The Little Blue Book: The Essential Guide to Thinking and Talking Democratic</a>
+* <a href="http://www.amazon.com/gp/product/0306821664/ref=as_li_qf_sp_asin_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0306821664&linkCode=as2&tag=sagacionlook-20">No Better Time: The Brief, Remarkable Life of Danny Lewin, the Genius Who Transformed the Internet</a>
