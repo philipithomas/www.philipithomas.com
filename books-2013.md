@@ -70,3 +70,10 @@ permalink: /books-2013/
 * <a href="http://www.amazon.com/gp/product/0385480016/ref=as_li_qf_sp_asin_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0385480016&linkCode=as2&tag=sagacionlook-20">Bird by Bird: Some Instructions on Writing and Life</a>
 * <a href="http://www.amazon.com/gp/product/147670001X/ref=as_li_qf_sp_asin_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=147670001X&linkCode=as2&tag=sagacionlook-20">The Little Blue Book: The Essential Guide to Thinking and Talking Democratic</a>
 * <a href="http://www.amazon.com/gp/product/0306821664/ref=as_li_qf_sp_asin_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0306821664&linkCode=as2&tag=sagacionlook-20">No Better Time: The Brief, Remarkable Life of Danny Lewin, the Genius Who Transformed the Internet</a>
+
+## December
+* <a href="http://www.amazon.com/gp/product/0307273601/ref=as_li_qf_sp_asin_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0307273601&linkCode=as2&tag=sagacionlook-20">Daily Rituals: How Artists Work</a>
+* <a href="http://www.amazon.com/gp/product/0738216569/ref=as_li_qf_sp_asin_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0738216569&linkCode=as2&tag=sagacionlook-20">The Science Writers' Handbook: Everything You Need to Know to Pitch, Publish, and Prosper in the Digital Age</a>
+
+
+
