@@ -6,3 +6,4 @@ _jekyll_s3.yml
 upload.py
 .sass-cache/
 css/
+s3_website.yml
