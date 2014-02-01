@@ -12,7 +12,7 @@ The idea was kicked off by a twitter converstion with [Zed Shaw](http://zedshaw.
 <blockquote class="twitter-tweet" lang="en"><p>There is a distinct lack of late night hack spots in San Francisco.</p>&mdash; zedshaw (@zedshaw) <a href="https://twitter.com/zedshaw/statuses/424736720995639296">January 19, 2014</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-[Join the meetup group to follow future events](http://meetup.com/openlate). If you are interested in hosting a OpenLate at your San Francisco office, [shoot me an email](mailto:mail@philipithomas.com).
+[Join the meetup group to follow future events](http://meetup.com/openlate). If you are interested in hosting an OpenLate event at your San Francisco office, [shoot me an email](mailto:mail@philipithomas.com).
 
 
 
