@@ -1,0 +1,49 @@
+html { 
+    background: url('/images/layout/background.jpg') no-repeat center center fixed; 
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+$homecolor: rgba(255,255,255,.5);
+
+body {
+    background-color: rgba(0,0,0,0);
+}
+
+
+.sidebar {
+    background-color: rgba(0,0,0,0);
+    color: white;
+    li > a {
+      color: #ffffff;
+      text-decoration: none;
+    }
+}
+
+.home-title {
+    margin-top: 0;
+    color: $homecolor !important;
+}
+
+
+#homebody {
+    color: $homecolor;
+    font-size: 120%;
+}
+.align-right {
+    text-align: right;
+}
+
+footer {
+    color: #999999 !important;
+}
+
+.table-striped > tbody > tr:nth-child(odd) > td,
+.table-striped > tbody > tr:nth-child(odd) > th {
+      background-color: rgba(0,0,0,.4);
+}
+
