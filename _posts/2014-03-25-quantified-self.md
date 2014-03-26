@@ -16,4 +16,4 @@ To see the dashboard, [check out the homepage](/).
 
 At the meetup, these slides will auto-advance every fifteen seconds. 
 
-<iframe src="http://www.slideshare.net/slideshow/embed_code/32773175" width="476" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+<iframe src="https://www.slideshare.net/slideshow/embed_code/32773175" width="476" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
