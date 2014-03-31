@@ -5,7 +5,6 @@ title: Quantified Self
 
 My latest project has been collecting and visualizing data from my life. I built a basic system during recent [OpenLate](http://www.openlate.io) meetups that collects information from sites around the internet, then displays it in near real-time  on my [homepage](/). 
 
-
 ## Presentation
 
 Tonight I am presenting at the [Quantified Self Meetup Show and Tell #33](http://www.meetup.com/quantifiedself/events/155119662/) event at the Exploratorium in San Francisco. The 7-minute talk is in an [ignite](http://en.wikipedia.org/wiki/Ignite_(event) format and talks about how I visualize data from my life using a personal dashboard. 
