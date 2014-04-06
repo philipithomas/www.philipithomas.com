@@ -1,22 +1,22 @@
 <meta charset="utf-8" />
-<meta http-equiv="X-UA-Compatible" content="chrome=1" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 <title>
     {% if page.title %}
-        {{ page.title}} | Philip I. Thomas
+      {{ page.title}} | {{ site.name }}
     {% else %}
-        Philip I. Thomas
+      {{ site.name}}
     {% endif %}
 </title>
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="author" content="Philip I. Thomas" />
-<link rel="shortcut icon" href="/favicon.ico">
-<link rel='alternate' type='application/atom+xml' title='Atom 0.3' href='/atom.xml'>
-<meta name="description" content="{% if page.description %}{{page.description}}{% else %}Explorer and Engineer in San Francisco{% endif %}" />
-<link rel="stylesheet" href="/css/main.css" /> 
+<meta name="author" content="{{ site.description }}" />
+<link rel="shortcut icon" type="img/png" href="/favicon.ico">
+<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
+
+{% stylesheet app %}
+
 <style type="text/css">
-    .wf-loading .logo,
-    .wf-loading .sidebar,
+    <!-- TODO: What is minimum for this? -->
     .wf-loading .container {
         visibility:hidden;
     }

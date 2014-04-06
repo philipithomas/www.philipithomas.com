@@ -1,4 +1,27 @@
-exclude: ['scss/*', 'config.rb', '_jekyll_s3.rb']
+exclude: ['scss/*', 'config.rb', 's3_website.yml', 'config.yml']
 markdown: rdiscount
 pygments: false
-permalink: /:title
+permalink: /:title/
+
+
+These are required for rss
+name: Philip I. Thomas
+url: 'https://www.philipithomas.com'
+description: The Blog and Portfolio of Philip I. Thomas, Quant in San Francisco
+tagline: Quant in San Francisco
+author: Philip I. Thomas
+copyright: All rights reserved. 
+rss_path: /
+rss_name: rss.xml
+assets:
+  dirname: assets
+  baseurl: /assets/
+  css_compressor: yui
+  js_compressor: yui
+  cachebust: none
+  cache: false
+  debug: true
+  sources:
+    - _assets/javascripts
+    - _assets/stylesheets
+    - _assets/images
