@@ -2,9 +2,6 @@ exclude: ['scss/*', 'config.rb', 's3_website.yml', 'config.yml']
 markdown: rdiscount
 pygments: false
 permalink: /:title/
-
-
-These are required for rss
 name: Philip I. Thomas
 url: 'https://www.philipithomas.com'
 description: The Blog and Portfolio of Philip I. Thomas, Quant in San Francisco

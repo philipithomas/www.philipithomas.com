@@ -1,0 +1,24 @@
+.pretty-top {
+  /* adds a red border to the top */
+  width: 100%;
+  height: 3px;
+  background-color: @brand-primary;
+  z-index: @zindex-navbar-fixed;
+}
+
+.logo-container {
+  padding-top: 40px;
+  .logo {
+    color: @brand-primary;
+    font-weight: 300;
+    font-family: "ff-basic-gothic-sc-web-pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    &:hover {
+      color: darken(@brand-primary, 10%);
+      text-decoration: none;
+    }
+    &:active {
+      color: @brand-primary;
+    }
+  }
+}

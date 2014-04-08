@@ -1,44 +1,23 @@
 ---
 layout: default
 ---
-<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-    {% include logo.html %}
-    <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-        </button>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse navbar-ex1-collapse">
-        <ul class="nav navbar-nav">
-            {% include menu.html %}
-        </ul>
-    </div><!-- /.navbar-collapse -->
-</nav>
-
-
+<div class="pretty-top"></div>
 <div class="container torso">
-
     <div class="row">
-        <div class="col col-lg-2 col-lg-offset-1 col-md-2 col-sm-2">
-            {% if (page.sidebar != 'false') %}
-                <ul class="nav nav-pills nav-stacked sidebar hidden-xs">
-                    {% include menu.html %}
-                </ul>
-            {% endif %}
-        </div>
-        <div class="col col-sm-10 col-md-8 col-lg-6 content">
-            
+      <div class="col-sm-12 logo-container">
+        <a href="/" class="logo">Philip I. Thomas</a>
+      </div>
+      <div class="col col-md-7">
             {{ content }}
-
-        </div>
+      </div>
+      <div class="col col-md-5">
+        {% include layout/sidebar.html %}
+      </div>
+    </div>
+    <div class="row"
+      <footer class="col-sm-12">
+          {% include layout/footer.html %}
+      </footer>
     </div>
 </div>
 
-<footer class="container">
-    {% include footer.html %}
-</footer>
