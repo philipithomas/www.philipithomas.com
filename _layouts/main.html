@@ -5,16 +5,17 @@ layout: default
 <div class="container torso">
     <div class="row">
       <div class="col-sm-12 logo-container">
-        <a href="/" class="logo">Philip I. Thomas</a>
+        <a href="/" class="logo">{{ site.name }}</a>
+        <div class="tagline">{{ site.tagline }}</div>
       </div>
-      <div class="col col-md-7">
+      <div class="col col-lg-9 col-md-8 col-sm-12">
             {{ content }}
       </div>
-      <div class="col col-md-5">
+      <div class="col col-lg-3 col-md-4 hidden-sm">
         {% include layout/sidebar.html %}
       </div>
     </div>
-    <div class="row"
+    <div class="row">
       <footer class="col-sm-12">
           {% include layout/footer.html %}
       </footer>
