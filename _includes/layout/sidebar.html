@@ -1,22 +1,14 @@
 <div class="sidebar">
   <ul class="main-nav">
-    <li>
-      Posts
-    </li>
-    <li>
-      Resume
-    </li>
-    <li>Articles</li>
+    {% for link in site.data.navigation %}
+      <li><a href="{{ link.href }}">{{ link.name }}</a></li>
+    {% endfor %}
   </ul>
-  <!-- TODO: _DATA-->
-  <ul class="categories">
-    <li>
-      Essays
-    </li>
-    <li>
-      Projects
-    </li>
-    <li>
-      News
-    </li>
+  {% if page.categories == true %}
+  <ul class="categories-nav">
+    {% for category in site.data.categories %}
+      <li> <a href="{{ category.href }}"><i class="glyphicon glyphicon-tag"></i> {{ category.name }}</a></li>
+    {% endfor %}
+  </ul>
+  {% endif %}
 </div>

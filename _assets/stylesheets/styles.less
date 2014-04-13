@@ -10,10 +10,10 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   height: 2px;
 
-  -webkit-transition: width 1s;
-  -moz-transition: width 1s;
-  -o-transition: width 1s;
-  transition: width 1s;
+  -webkit-transition: width .2s;
+  -moz-transition: width .2s;
+  -o-transition: width .2s;
+  transition: width .2s;
 }
 
 .logo-container {
@@ -45,7 +45,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* articles */
 header {
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 25px;
   h1 {
     margin: 0;
   }
@@ -66,5 +67,31 @@ header {
     font-weight: 300;
     font-size: 16px;
     font-family: @font-family-sans-serif;
+  }
+}
+
+.sidebar {
+  font-family: @font-family-sans-serif;
+  text-transform: lowercase;
+  .main-nav {
+    font-size: 18px;
+    list-style: none;
+    li {
+      padding-top: 12px;
+    }
+  }
+  .categories-nav {
+    list-style: none;
+    font-size: 15px;
+    li {
+      padding-top: 10px;
+      a {
+        color: rgba(0, 0, 0, .5);
+        .glyphicon {
+          opacity: .5;
+          height: 50%;
+        }
+      }
+    }
   }
 }
