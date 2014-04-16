@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Ending Food Trucks Near Me
+description: Deprecating an old project due to Twitter API updates
+category: project
 ---
 
 <img src="/images/ftnmQuestion.png" alt="Food Trucks Near Me" />

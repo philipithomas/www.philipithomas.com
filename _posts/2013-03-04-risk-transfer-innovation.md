@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Edward Jung's Risk-Transfer Innovation Model
+description: Thoughts after a discussion with the CTO of Intellectual Ventures
+category: essay
 ---
 *In the technology world, it is easy to narrowly focused on "apps" and ignore the bigger picture of solving more ambitious problems. This post discusses how Edward Jung proposes tackling these types of problems in a dynamic innovation ecosystem.*
 

@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Salsa Videos
+description: All videos from my time on a salsa dance team
+description: essay
 ---
 
 With my last performance on the [WUSauce](//wusauce.wustl.edu) salsa team now over, I have compiled videos of my dancing on the team from the last three years *(from oldest to newest)*.

@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Photos from San Francisco City Hall Speech
+description: Pi day speech to WUSTL alumni
+category: news
 ---
 On March 14, I addressed 500 WUSTL Alumni at San Francisco City Hall. Read more about the event and see the transcript [here](/san-francisco-transcript/).
 

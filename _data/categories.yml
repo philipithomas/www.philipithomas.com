@@ -1,8 +1,11 @@
 - name: Essays
   href: /posts/essays/
+  tag:  essay
 
 - name: Projects
   href: /posts/projects/
+  tag:  project
 
 - name: News
   href: /posts/news/
+  tag:  news

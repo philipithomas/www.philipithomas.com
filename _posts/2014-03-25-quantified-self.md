@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Quantified Self
+description: Upcoming speech about building a personal dashboard
+category: news
 ---
 
 My latest project has been collecting and visualizing data from my life. I built a basic system during recent [OpenLate](http://www.openlate.io) meetups that collects information from sites around the internet, then displays it in near real-time  on my [homepage](/). 

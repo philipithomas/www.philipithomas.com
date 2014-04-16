@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Launching the OpenLate Meetup Group
+description: San Francisco evening hack lounge
+category: project
 ---
 
 This week I am launching the [OpenLate Meetup Group](http://meetup.com/openlate) - a San Francisco evening hack lounge. During the day, San Francisco's coffee shops are packed with engineers innovating with the latest technologies. During the evenings, the city lacks places to work and continue that energy. OpenLate provides an evening work spot for coders as a freeform hack night. 

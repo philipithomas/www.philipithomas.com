@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Walled Garden Approach to Facebook Privacy
+description: Restricting social media to an inner circle
+category: essay
 ---
 
 Facebook left me feeling disconnected and exposed. Sharing new statuses and photos made me  uncomfortable because I did not know which of my 750 digital friends would see the update. The news feed was crowded with advertisements and updates from people I didn't care about. I gravitated away from Facebook and began trying alternatives that focused on core friends, like Path.
