@@ -1,1 +1,30 @@
-Copyright {{ site.time | date: '%Y' }} <a href="/">{{ site.name }}</a>. {{ site.copyright }} <a href="/colophon/">Colophon</a>.
+<div class="col-md-4">
+  <div class="footer-left">
+    <h3>&copy; {{ site.time | date: '%Y' }}</h3>
+    <ul>
+      {% for item in site.data.footer_legal %}
+        <li><a href="{{ item.href }}">{{ item.name }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="footer-middle">
+    <h3>Pages</h3>
+    <ul>
+      {% for item in site.data.footer_nav %}
+        <li><a href="{{ item.href }}">{{ item.name }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="footer-right">
+    <h3>Social</h3>
+    <ul>
+      {% for item in site.data.footer_nav %}
+        <li><a href="{{ item.href }}">{{ item.name }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
