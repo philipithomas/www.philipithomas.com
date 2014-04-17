@@ -5,7 +5,13 @@ categories: true
 <article>
     <header>    
             <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
-            <div class="subtitle">{{ page.date | date: "%e %B %Y" }}</div>
+            <div class="subtitle">
+              {{ page.date | date: "%e %B %Y" }}
+              {% if page.category %}
+                in <a href="/posts/{{ page.category }}">{{ page.category }}</a>
+              {% endif %}
+
+            </div>
     </header>
 
     {{ content }}

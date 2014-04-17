@@ -1,5 +1,5 @@
-<div class="col-md-4">
-  <div class="footer-left">
+<div class="col-sm-3">
+  <div class="footer-legal">
     <h3>&copy; {{ site.time | date: '%Y' }}</h3>
     <ul>
       {% for item in site.data.footer_legal %}
@@ -8,8 +8,8 @@
     </ul>
   </div>
 </div>
-<div class="col-md-4">
-  <div class="footer-middle">
+<div class="col-sm-3 hidden-xs">
+  <div class="footer-nav">
     <h3>Pages</h3>
     <ul>
       {% for item in site.data.footer_nav %}
@@ -18,8 +18,18 @@
     </ul>
   </div>
 </div>
-<div class="col-md-4">
-  <div class="footer-right">
+<div class="col-sm-3 hidden-xs">
+  <div class="footer-projects">
+    <h3>Projects</h3>
+    <ul>
+      {% for item in site.data.footer_projects %}
+        <li><a href="{{ item.href }}">{{ item.name }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+<div class="col-sm-3 hidden-xs">
+  <div class="footer-social">
     <h3>Social</h3>
     <ul>
       {% for item in site.data.footer_social %}
