@@ -4,6 +4,9 @@
 - name: Privacy Policy
   href: /privacy-policy/
 
+- name: RSS
+  href: /rss.xml
+
 - name: Colophon
   href: /colophon/
 
