@@ -4,13 +4,15 @@
         {% include layout/head.html %}
     </head>
     <body>
-      <div class="navbar-toggle">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </div>
+      <div id="main-wrapper">
+        <div id="sidebar-toggle" class="navbar-toggle">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </div>
 
-      {{ content }} 
+        {{ content }} 
+      </div>
     </body>
 </html>
