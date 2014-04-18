@@ -1,4 +1,10 @@
 $(document).ready(function(){    
+  
+  // 300ms delays fucking suck
+  $(function() {
+      FastClick.attach(document.body);
+  });
+
   var snapper = new Snap({
       element: document.getElementById('main-wrapper'),
       hyperextensible: false,
