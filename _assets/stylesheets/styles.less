@@ -17,6 +17,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .logo-container {
   margin: 40px 0 40px 0;
+  @media (max-width: (@screen-xs-max + 1)) {
+    /* At this point the sidebar disappears */
+    margin-top: 0;
+  }
   .logo {
     color: @brand-primary;
     font-weight: 300;
@@ -133,8 +137,9 @@ footer {
 
 
 .navbar-toggle {
-  width: 38px;
-  height: 38px;
+  padding: 7px;
+  width: 36px;
+  height: 36px;
   right: 5px;
   margin: 5px;
   z-index: @zindex-navbar-fixed;
@@ -143,10 +148,11 @@ footer {
   border: 0;
   float: right;
   .icon-bar {
-    margin: 0px 0px 6px 0px;
-    height: 3px;
+    margin: 0px 0px 5px 0px;
+    height: 4px;
     width: 100%;
     background-color: white;
     z-index: @zindex-modal;
   }
+  
 }
