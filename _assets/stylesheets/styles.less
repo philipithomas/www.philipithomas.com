@@ -1,22 +1,18 @@
 #main-wrapper {
   z-index: 1;
+  background-color: white;
 }
+.snap-drawers { 
+  z-index: -1;
+  background-color: @brand-primary;
+  .sidebar  a {
+    color: white;
+  }
+}
+
 
 h1, h2, h3, h4, h5, h6 {
   text-transform: lowercase;
-}
-
-.pace .pace-progress {
-  background: @brand-primary;
-  z-index: @zindex-navbar-fixed;
-  top: 0;
-  left: 0;
-  height: 2px;
-
-  -webkit-transition: width .2s;
-  -moz-transition: width .2s;
-  -o-transition: width .2s;
-  transition: width .2s;
 }
 
 .logo-container {
