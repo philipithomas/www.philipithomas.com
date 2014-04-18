@@ -130,3 +130,23 @@ footer {
     margin-bottom: 20px;
   }
 }
+
+
+.navbar-toggle {
+  width: 38px;
+  height: 38px;
+  right: 5px;
+  margin: 5px;
+  z-index: @zindex-navbar-fixed;
+  background-color: @brand-primary;
+  position: fixed;
+  border: 0;
+  float: right;
+  .icon-bar {
+    margin: 0px 0px 6px 0px;
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    z-index: @zindex-modal;
+  }
+}
