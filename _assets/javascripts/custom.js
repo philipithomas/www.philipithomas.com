@@ -34,6 +34,8 @@ $(document).ready(function(){
       $('#sidebar-toggle').hide();
   });
   snapper.on('close', function() {
-    $('#sidebar-toggle').delay(200).show(100);
+    // Animation to close takes 300ms
+    // Need an animation to create the queue
+    $('#sidebar-toggle').delay(160).fadeIn(5);
   });
 });
