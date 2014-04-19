@@ -1,4 +1,5 @@
 $(document).ready(function(){    
+
   // 300ms delays fucking suck
   $(function() {
       FastClick.attach(document.body);
@@ -8,6 +9,7 @@ $(document).ready(function(){
       element: document.getElementById('main-wrapper'),
       hyperextensible: false,
       disable: 'left',
+      touchToDrag: false, // Unfortunately there's a bug with flicking
   });
   $( window ).resize(function() {
     if ($( window ).width() >= 768) {
@@ -32,7 +34,6 @@ $(document).ready(function(){
       $('#sidebar-toggle').hide();
   });
   snapper.on('close', function() {
-    console.log('close');
-      $('#sidebar-toggle').delay(200).show(100);
+    $('#sidebar-toggle').delay(200).show(100);
   });
 });
