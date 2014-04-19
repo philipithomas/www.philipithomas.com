@@ -37,7 +37,7 @@ deployment:
     branch: stage
     commands:
       - rm _site/robots.txt
-      - echo "User-agent: * \nDisallow: /" > _site/robots.txt
+    #- echo "User-agent: * \nDisallow: /" > _site/robots.txt
       - s3_website push --headless:
           environment:
             s3_bucket: stage.philipithomas.com
