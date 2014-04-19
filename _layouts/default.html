@@ -4,18 +4,18 @@
         {% include layout/head.html %}
     </head>
     <body>
+      <div id="sidebar-toggle" class="navbar-toggle">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </div>
       <div class="snap-drawers">
         <div class="snap-drawer snap-drawer-right">
           {% include layout/sidebar.html %}
         </div>
       </div>
       <div id="main-wrapper" class="snap-content">
-        <div id="sidebar-toggle" class="navbar-toggle">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </div>
 
         {{ content }} 
       </div>
