@@ -1,0 +1,45 @@
+general:
+  branches:
+    only:
+#     - master
+      - stage
+
+machine:
+  timezone:
+    America/Los_Angeles
+  ruby:
+    version:
+      2.1.1
+
+checkout:
+  # nothing special here
+
+dependencies:
+  # should (?) bundle install autoamtically
+  postk:
+    - bundle exec jekyll build:
+        timeout: 300 # 10 min
+
+test:
+  override:
+    - echo "No tests are needed"
+
+## Customize deployment commands
+deployment:
+#  production:
+#    branch: master
+#    commands:
+#      - bundle exec s3_website push --headless:
+#         environment:
+#           s3_bucket: www.philipithomas.com
+#     - bash clear_cache.sh
+  staging:
+    branch: stage
+    commands:
+      - rm _site/robots.txt
+      - echo "User-agent: * \nDisallow: /" > _site/robots.txt
+      - s3_website push --headless:
+          environment:
+            s3_bucket: stage.philipithomas.com
+      - bash clear_cache.sh
+
