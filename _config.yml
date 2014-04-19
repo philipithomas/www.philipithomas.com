@@ -18,6 +18,7 @@ assets:
   cachebust: none
   cache: false
   debug: true
+  gzip: nil # Cloudflare will do this
   sources:
     - _assets/javascripts
     - _assets/stylesheets

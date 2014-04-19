@@ -11,7 +11,7 @@ machine:
     version:
       2.1.1
 
-checkout:
+# checkout:
   # nothing special here
 
 dependencies:
