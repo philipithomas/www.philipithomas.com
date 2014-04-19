@@ -17,7 +17,7 @@ machine:
 dependencies:
   # should (?) bundle install autoamtically
   post:
-    - bundle exec jekyll build:
+    - jekyll build:
         timeout: 300 # 10 min
 
 test:
@@ -37,7 +37,7 @@ deployment:
     branch: stage
     commands:
       - bash dev_override.sh
-      - bundle exec s3_website push --headless:
+      - s3_website push --headless:
           environment:
             s3_bucket: stage.philipithomas.com
       - bash clear_cache.sh
