@@ -16,7 +16,7 @@ checkout:
 
 dependencies:
   # should (?) bundle install autoamtically
-  postk:
+  post:
     - bundle exec jekyll build:
         timeout: 300 # 10 min
 
