@@ -7,4 +7,4 @@ gem 'jekyll-press'
 gem 'less'
 gem 'therubyracer'
 gem 'yui-compressor'
-gem 'psych' --enable-bundled-libyaml
+gem 'libyaml'
