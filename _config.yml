@@ -1,4 +1,4 @@
-exclude: ['scss/*', 'config.rb', 's3_website.yml', 'config.yml']
+exclude: ['scss/*', 'config.rb', 's3_website.yml', 'config.yml', 'vendor']
 markdown: rdiscount
 pygments: false
 permalink: /:title/
