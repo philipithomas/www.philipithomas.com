@@ -17,6 +17,7 @@ machine:
 dependencies:
   # should (?) bundle install autoamtically
   post:
+    - pwd
     - bundle exec jekyll build:
         timeout: 300 # 10 min
 
