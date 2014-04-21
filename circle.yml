@@ -17,6 +17,7 @@ machine:
 dependencies:
   # should (?) bundle install autoamtically
   post:
+    - gem install psych -- --enable-bundled-libyaml
     - bundle exec jekyll build:
         timeout: 300 # 10 min
 
