@@ -17,8 +17,7 @@ machine:
 dependencies:
   # should (?) bundle install autoamtically
   post:
-    - gem uninstall safe_yaml
-    - gem install safe_yaml -v "=1.0.1"
+    - rvm reinstall all --force
     - bundle exec jekyll build:
         timeout: 300 # 10 min
 
