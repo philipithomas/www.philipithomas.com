@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Skip Study Abroad 
-summary: The dangers of a hiatus from education
+description: The dangers of a hiatus from education
+category: essay
 ---
 
 

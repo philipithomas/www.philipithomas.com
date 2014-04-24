@@ -1,7 +1,8 @@
 ---
 layout: post
 title: A Tale of Two Remote Companies
-summary: A look at telecommuting based on two recently published books, The Year without Pants by Scott Berkun of Automattic, and Remote by Jason Fried and David Heinemeier Hansson of 37Signals
+description: A look at telecommuting based on two recently published books, The Year without Pants by Scott Berkun of Automattic, and Remote by Jason Fried and David Heinemeier Hansson of 37Signals
+category: essay
 ---
 In the past month, employees at two software companies have published books documenting their companies’ experiences with fully remote workforces. Marissa Mayer brought attention to remote work earlier this year when she fully prohibited the practice for Yahoo employees. With the publication of these books, successful software companies Automattic and 37Signals bring a soundness to the discussion of remote workforces with a holistic look at their management practices.
 

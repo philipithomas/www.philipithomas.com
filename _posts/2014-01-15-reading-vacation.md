@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Take a Vacation to Read
-summary: An experiment in uninterrupted reading time.
+description: An experiment in uninterrupted reading time.
+category: essay
 ---
 
 My preschool teachers told my parents that I "asked too many questions." As I grew older, I found the answers I wanted in books. This past October I attended an event featuring an interview of [Bill Gates](http://www.thegatesnotes.com/) by [Michael Moritz](http://en.wikipedia.org/wiki/Michael_Moritz), and Bill shared an idea that stuck with me. Every year, he takes a week-long vacation to read.  That idea stuck with me enough that I had to try it myself. I took a reading vacation, where I found the opportunity to focus on books, indulge my interests, and renew my creativity.

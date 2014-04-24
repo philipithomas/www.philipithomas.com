@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Experience Design
-summary: Combining business and branding to vitalize a company.
+description: Combining business and branding to vitalize a company.
+category: essay
 ---
 What defines a brand? Successful businesses do more than treat a sale as a singular event - they create an ecosystem so powerful that customers develop an emotional tie to the company. Brands such as Nordstrom, Zappos, and American Express have perfected messaging, consumer relationships, and sales to create strong ties to the primary stakeholders, the customers. Experience design serves as a strategy for building such a relationship with customers using a multi-faceted approach across marketing, design, and product. 
 

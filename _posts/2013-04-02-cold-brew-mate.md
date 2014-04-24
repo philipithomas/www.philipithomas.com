@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Cold Brew Experiment 1 - Yerba Mate
-summary: Making cold-brewed yerba mate using a Toddy. 
+description: Making cold-brewed yerba mate using a Toddy. 
+category: essay
 ---
 *This is a first blog post about my experiments with the [Toddy cold brew system](http://www.amazon.com/gp/product/B0006H0JVW/ref=as_li_qf_sp_asin_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0006H0JVW&linkCode=as2&tag=sagacionlook-20). This covers making a [Yerba Mate](http://en.wikipedia.org/wiki/Yerba_mate) cold brew concentrate that is similar to iced tea.*
 

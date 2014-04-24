@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Cold Brew Experiment 2 - Tea Bags in a Jar
-summary: Making cold-brewed tea with common office supplies.
+description: Making cold-brewed tea with common office supplies.
+category: essay
 ---
 
 After testing an uncommon cold-brewing ingredient, [yerba mate](/cold-brew-mate/), I decided to vary the cold-brewing method to make it more accessible. 

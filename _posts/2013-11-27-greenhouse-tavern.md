@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Cleveland's Greenhouse Tavern Loses Its Luster
-summary: Food creates strong memories. Food that fails to live up to prior experiences is a nightmare. 
+description: Food creates strong memories. Food that fails to live up to prior experiences is a nightmare. 
+category: essay
 ---
 
 My family has been going to [Greenhouse Tavern](http://www.thegreenhousetavern.com/) in Cleveland since it opened in 2009. As Chef Michael Symon was receiving national attention as an Iron Chef and TV Show host, the locals realized that Chef Jonathon Sawyer, an alum of Symon's flagship Lola restaurant, was the real star of the local food scene. With ambitious dishes like coq au vin served in a puff pastry shell and offal delights, the farm-to-table food appealed both due to its precise execution and due to its strong, unadulterated flavors. After I moved away from Ohio, we returned to Greenhouse Tavern for special occasions, such as my grandparents' 50th wedding anniversary. 

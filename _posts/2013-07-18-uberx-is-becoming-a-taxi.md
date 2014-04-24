@@ -1,7 +1,8 @@
 ---
 layout: post
 title: UberX is becoming a taxi
-summary: In an effort to compete with taxis for price, Uber is decreasing the quality of service. 
+description: In an effort to compete with taxis for price, Uber is decreasing the quality of service.
+category: essay
 ---
 
 San Francisco-based Uber became famous for providing on-demand black car transportation. In 39 cities worldwide, with the click of a button, a clean luxury car would pick you up, the driver would be professional, and billing was handled unobtrusively through the iPhone app. Recently, Uber has made an effort to provide a [low-cost option in all of its markets](http://techcrunch.com/2012/09/07/uber-wants-to-offer-a-low-cost-option-in-all-of-its-markets/). The campaign focuses on UberX, which provides the same convenience of Uber, but with primarily hybrid vehicles and lower costs. [In San Francisco](http://blog.uber.com/2013/06/11/uberx-cheaper-than-a-taxi/), the service is being marketed as "<span class="">Better, Faster, and Cheaper than a Taxi.</span>" Unfortunately, while onboarding so many UberX drivers, the <span class="highlight">service level is declining to taxi-like levels.</span> 

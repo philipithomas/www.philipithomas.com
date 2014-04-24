@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Kindle Convert
-summary: A lover of paper books adopts the Kindle.
+category: A lover of paper books adopts the Kindle.
+category: essay
 ---
 
 Paper books enamor me. Selling back textbooks in college seemed a foreign concept to me - bookshelves served as a physical representation of what I had learned, both to me and my visitors. E-book readers seemed to rid one of my favorite hobbies of its intimacy and artistry.   

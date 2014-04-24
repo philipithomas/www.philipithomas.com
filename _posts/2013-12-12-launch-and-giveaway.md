@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Launch, Google Glass Invite, and Stickers
-summary: Official blog launch, and a giveaway of a Google Glass invitation code
+description: Official blog launch, and a giveaway of a Google Glass invitation code
+category: essay
 ---
 
 I have been working on this blog as a side project for a few months, and today I am officially launching it. Brouhaha shares explorations in learning and culture. In the last week, it has experienced significant traction with a #1 Hacker News post and a [feature in Lifehacker](http://lifehacker.com/make-your-own-cold-brewed-tea-in-a-jar-1477800155?utm_campaign=socialflow_lifehacker_twitter&utm_source=lifehacker_twitter&utm_medium=socialflow). To celebrate the launch, I am giving away a valid invitation code to the [Google Glass Explorer Program](http://www.google.com/glass/start/). 

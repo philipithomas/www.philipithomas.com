@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Facts About the Military Empire of Switzerland
-summary: "Switzerland does not have an army, Switzerland is an army" 
+description: "Switzerland does not have an army, Switzerland is an army" 
+category: essay
 ---
 
 <img src="/images/switzerland.png" alt="Switzerland Coat of Arms" class="img-float" />

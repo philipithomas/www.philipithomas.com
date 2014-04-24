@@ -2,6 +2,7 @@
 layout: post
 title: Paypal and Future of Currency 
 description: A look at mobile payments.
+category: essay
 ---
 
 

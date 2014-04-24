@@ -1,7 +1,8 @@
 ---
 layout: post
 title: The Commando Scientist Billionaire who Died Fighting Terrorists
-summary: The remarkable life of Danny Lewin, Founder of Akamai Technologies.
+description: The remarkable life of Danny Lewin, Founder of Akamai Technologies.
+category: essay
 ---
 
 <a href="http://www.amazon.com/gp/product/0306821664/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=1789&creative=9325&creativeASIN=0306821664&linkCode=as2&tag=sagacionlook-20"><img border="0" class="img-float" src="http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=0306821664&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=sagacionlook-20" ></a>Last week, I read a biography that left an impression on me. [No Better Time: The Brief, Remarkable Life of Danny Lewin, the Genius Who Transformed the Internet](http://www.amazon.com/gp/product/0306821664/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0306821664&linkCode=as2&tag=sagacionlook-20) by Molly Knight Raskin documents the 31-year life of Danny Lewin, the Founder of [Akamai Technologies](https://www.google.com/finance?cid=663784). What Danny accomplished between the ages of 18 and 31 blew my mind. 

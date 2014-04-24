@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Perspectives on Writing
-summary: A look at 4 books with separate views of prose.
+description: A look at 4 books with separate views of prose.
+category: essay
 ---
 
 What lies behind the articles, books, and ads that we read every day? To dive more into the world of writing, I read books that share different views, from instructive to insightful, of the written word.

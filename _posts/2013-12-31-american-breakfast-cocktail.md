@@ -1,7 +1,8 @@
 ---
 layout: post
 title: The American Breakfast Cocktail 
-summary: Bacon, maple syrup, eggs, and orange juice - shaken, not stirred.
+description: Bacon, maple syrup, eggs, and orange juice - shaken, not stirred.
+category: essay
 ---
 <div class="panel panel-info">
     <div class="panel-heading">

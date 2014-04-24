@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Crowd-Pleasing Holiday Gifts 
-summary: Gift ideas from crowdfunding campaigns
+category: essay
+description: Gift ideas from crowdfunding campaigns
 ---
 
 Crowdfunding popularized itself in 2012 as a way for anybody to support new products and projects by contributing on websites such as [Kickstarter](http://kickstarter.com) and [Indiegogo](http://indiegogo.com). Companies like [Pebble](https://getpebble.com/) were able to raise millions of dollars, but it was not until this year that many of these mega-projects completed their crowdfunding goal: delivering the finished products to their supporters. Now, many of these successful projects are available in the general market, all because of the generous support of initial backers.

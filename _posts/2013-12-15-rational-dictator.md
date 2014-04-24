@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Tito - The Rational Dictator?
-summary: Josip Broz Tito and Communism in Yugoslavia
+description: Josip Broz Tito and Communism in Yugoslavia
 ---
 <div class="panel panel-info">
     <div class="panel-heading">

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Explore San Francisco Neighborhoods Through Coffee Shops
-summary: Visiting cafes to understand the cultures among different San Francisco districts.
+description: Visiting cafes to understand the cultures among different San Francisco districts.
+category: essay
 ---
 
 Neighborhoods define San Francisco. From the microclimates to the history to the people, every area of the city has its own defining traits and resulting culture. I have found that the best way to meet and observe San Francisco locals in their natural habitats is to visit coffee shops. I explored the major neighborhoods of San Francisco in an effort to identify the cafes that share the authentic culture of their neighborhoods.

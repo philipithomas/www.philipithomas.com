@@ -1,7 +1,8 @@
 ---
 layout: post
 title: First Home of Salesforce.com
-summary: Tracking down the apartment where a billion-dollar company began
+description: Tracking down the apartment where a billion-dollar company began
+category: essay
 ---
 
 Last month, Salesforce held its annual [Dreamforce](http://www.salesforce.com/dreamforce/DF13/) convention in San Francisco. As I passed the massive 100,000 person gathering day, I became interested in learning more about the company. So, I picked up and read [Behind the Cloud: The Untold Story of How Salesforce.com Went from Idea to Billion-Dollar Company-and Revolutionized an Industry](http://www.amazon.com/gp/product/B002PJ4SU2/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B002PJ4SU2&linkCode=as2&tag=sagacionlook-20). Written by Salesforce Founder Marc Benioff, the book serves as an autobiographical account of Marc's transition from being an Oracle exectuive to running an international software company. When I  began reading the book, I didn't realize that it would also send me on a little bit of an adventure. 

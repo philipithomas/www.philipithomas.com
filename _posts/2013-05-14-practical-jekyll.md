@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Practical Jekyll Workflow
-summary: Suggestions for managing a website that runs on the Jekyll blogging software. 
+description: Suggestions for managing a website that runs on the Jekyll blogging software. 
+category: essay
 ---
 *This post outlines my preferred workflow for Jekyll, a coder-oriented blogging system, by using Cloudflare and Amazon S3.* 
 

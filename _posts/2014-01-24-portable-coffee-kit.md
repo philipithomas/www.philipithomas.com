@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Portable Coffee Kit
-summary: Compact equipment for brewing craft coffee.
+description: Compact equipment for brewing craft coffee.
+category: essay
 ---
 
 The coffee in Cleveland sucks. The closest decent brew I have found is 150 miles away in Columbus. While going home for the holidays, I needed a solution to keep me caffeinated in the coffee tundra of Northeast Ohio. I devised a coffee kit capable of sustaining me through a week in Cleveland. 

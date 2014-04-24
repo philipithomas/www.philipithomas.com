@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Cold Brew Experiment 3 - Cascara Tea
-summary: Beverage from the Cherry of Coffee Plants.
+description: Beverage from the Cherry of Coffee Plants.
+category: essay
 ---
 
 This week I stumbled upon an unusual item - cascara tea. Cascara is not technically a tea, but rather a dried berry from the coffee plant. In coffee-growing areas, it is commonly brewed like tea into a lightly-caffeinated hot beverage. This fruit is rarely exported, so when I came across a tin I had to try preparing it with my favorite method - cold brewing.

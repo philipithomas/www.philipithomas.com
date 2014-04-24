@@ -1,7 +1,8 @@
 ---
 layout: post
 title: The Basics of Your First Website
-summary: How to create and set up a personal homepage or blog.
+description: How to create and set up a personal homepage or blog.
+category: essay
 ---
 
 Friends and family often ask me about how to set up a personal website or blog. After writing or explaining my thoughts many times, I decided to sit down and write out my full recommendations. 
