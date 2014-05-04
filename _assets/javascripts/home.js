@@ -4,23 +4,23 @@ $("document").ready(function() {
     var keyToName = {
         'twitterFollowers': {
           'pre': '',
-          'post': 'people follow me on <a href="http://twitter.com/philipithomas">Twitter</a>',
+          'post': 'people follow me on <a href="http://twitter.com/philipithomas">Twitter</a>.',
         },
         'pageviewsDay': {
           'pre': 'This site had',
-          'post': "page views in the last 24 Hours",
+          'post': "page views in the last 24 Hours.",
         }, 
         'stepsThisWeek': {
           'pre': 'I took',
-          'post': 'steps this week with <a href="https://www.fitbit.com/user/282XN5">Fitbit</a>',
+          'post': 'steps this week with <a href="https://www.fitbit.com/user/282XN5">Fitbit</a>.',
         },
         'openLateMembers': {
           'pre': '',
-          'post': 'people are in the <a href="http://meetup.com/openlate">OpenLate Meetup</a>',
+          'post': 'people are in the <a href="http://meetup.com/openlate">OpenLate Meetup</a>.',
         },
         'beers': {
           'pre': 'I have tried',
-          'post': 'different <a href="http://beer.philipithomas.com">beers</a>',
+          'post': 'different <a href="http://beer.philipithomas.com">beers</a>.',
         },
     };
     var display;
