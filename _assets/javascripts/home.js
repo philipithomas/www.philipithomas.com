@@ -7,8 +7,8 @@ $("document").ready(function() {
           'post': 'people follow me on <a href="http://twitter.com/philipithomas">Twitter</a>',
         },
         'pageviewsDay': {
-          'pre': '',
-          'post': "times people accessed my website in the last 24 Hours",
+          'pre': 'This site had',
+          'post': "page views in the last 24 Hours",
         }, 
         'stepsThisWeek': {
           'pre': 'I took',
