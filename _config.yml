@@ -15,7 +15,7 @@ assets:
   baseurl: /assets/
   css_compressor: yui
   js_compressor: yui
-  cachebust: none
+  cachebust: hard
   cache: false
   debug: true
   gzip: nil # Cloudflare will do this
