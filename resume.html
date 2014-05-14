@@ -23,16 +23,25 @@ description: Resume for Philip I. Thomas, Software Engineer in San Francisco
 
     <section id="leadership">
       <div class="page-header"><h2>Leadership</h2></div>
+        {% for section in site.data.resume_leadership %}
+          {% include layout/resume_section.html %}
+        {% endfor %}
 
     </section>
 
+    <!-- TODO
     <section id="technical">
       <div class="page-header"><h2>Technical</h2></div>
 
     </section>
+    -->
 
     <section id="skills">
       <div class="page-header"><h2>Honors and Skills</h2></div>
-
+        <div class="container no-padding">
+          {% for section_hash in site.data.resume_skills %}
+            {% include layout/resume_column.html %}
+          {% endfor %}
+        </div>
     </section>
 </article>

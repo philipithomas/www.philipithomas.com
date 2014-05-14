@@ -1,0 +1,18 @@
+{% for section in section_hash %}
+  <div class="row">
+    <div class="col-xs-3">
+      <h4 class="no-margin pull-right">
+        {{ section[0] }}
+      </h4>
+    </div>
+    <div class="col-xs-9">
+      <ul>
+        {% for item in section[1] %}
+          <li>
+            {{ item | markdownify }}
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+{% endfor %}
