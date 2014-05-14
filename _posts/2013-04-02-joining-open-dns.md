@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Joining OpenDNS
+description: Moving to San Francisco
+category: news
 ---
 <a href="http://opendns.com"><img src="/images/opendns.png" alt="OpenDNS" /></a>
 

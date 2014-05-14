@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Pi Day Speech to Bay-Area WUSTL Alumni
+description: Upcoming speech at San Francisco City Hall
+category: news
 ---
 
 This Thursday, [Pi Day](http://en.wikipedia.org/wiki/Pi_Day), I will be addressing 500 [WUSTL](http://wustl.edu) alumni at a dinner at San Francisco City Hall. As the featured student speaker for the evening, I will be discussing innovation and entrepreneurship at the university. If you are an alum in the Bay who would like to attend, please [contact the university](http://alumni.wustl.edu/contactus/Pages/default.aspx).

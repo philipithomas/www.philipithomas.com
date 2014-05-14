@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Minimalist Business Card
+description: Personal branding with an email address
+category: project
 ---
 
 <a href="/images/business_card.jpg"><img src="/images/business_card_small.jpg" alt="Philip Thomas business card" /></a>

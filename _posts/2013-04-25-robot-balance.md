@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Robot Balance Project
+description: Using Lagrangian mechanics to control a robot
+category: project
 ---
 
 <p><iframe src="//player.vimeo.com/video/64852854?badge=0" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> 

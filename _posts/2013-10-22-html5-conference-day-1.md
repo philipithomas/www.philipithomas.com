@@ -2,6 +2,7 @@
 layout: post
 title: HTML5 Developer Conference - Day 1
 description: Speeches and experiences at the first day of the 2013 HTML5 Developer Conference in San Francisco
+category: essay
 ---
 <img src="/images/html5Day1.jpg" alt="HTML5 Developer Conference" />
 

@@ -1,0 +1,17 @@
+---
+layout: page 
+title: Posts - Project
+permalink: /posts/project/
+categories: true
+---
+<table id="posts" class="table">
+    <colgroup>
+        <col class="date">
+        <col class="title">
+    </colgroup>
+    {% for post in site.posts %}
+      {% if post.category == 'project'%}
+        <tr><td class="right">{{ post.date | date: "%e %B %Y" }}</td><td><a href="{{ post.url }}">{{ post.title }}</a></td></tr>
+      {% endif %}
+    {% endfor %}
+</table>

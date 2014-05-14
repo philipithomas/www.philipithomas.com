@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Launching Brouhaha
+description: Blog exploring learning
+category: project
 ---
 
 <a href="http://www.brouhaha.io"><img src="/images/brouhaha.jpg" alt="Brouhaha logo"/></a>

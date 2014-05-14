@@ -2,6 +2,7 @@
 layout: post
 title: OpenDNS Tech Talk at WUSTL
 description: Details about my tech talk about engineering at OpenDNS tomorrow at Washington University in St. Louis
+category: news
 ---
 
 <div class="panel panel-default">

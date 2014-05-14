@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Video from wute.vc Hangout with Union Square Ventures
+description: Albert Wenger talks to WUSTL students
+category: news
 ---
 
 This afternoon [wute.vc](http://wute.vc) hosted [Albert Wenger](http://continuations.com/) from [Union Square Ventures](http://www.usv.com/) for a remote discussion about venture capital. Students and startup community members were in attendance. Topics of discussion were network effect, Jeff Atwood's [Discourse](http://discourse.org) project, trends at Yahoo, crowdfunding, changes in education, and Science 2.0.

@@ -1,0 +1,50 @@
+s3_id: <%= ENV['s3_id'] %>
+s3_secret: <%= ENV['s3_secret'] %>
+s3_bucket: <%= ENV['s3_bucket'] %>
+
+gzip: false
+
+redirects:
+  calendar: 'https://www.google.com/calendar/embed?src=philipithomas%40gmail.com'
+  appointment: 'https://www.google.com/calendar/embed?src=philipithomas%40gmail.com'
+  availability: 'https://www.google.com/calendar/embed?src=philipithomas%40gmail.com'
+  beer: 'http://beer.philipithomas.com'
+  connect: '/about/'
+  cv: '/resume/'
+  dropbox: 'https://www.dropbox.com/sh/k5ze6g902vazckv/VkLi2f9292'
+  hire-me: '/about/'
+  macys-building: /
+  code-until-dawn-may-2012: /
+  schlafly-growler-failure: /
+  schlafly-redeemed: /
+  easy-password-hash-enhancement: /
+  venture-draft-kicks-off: /
+  rock-climbing-is-dangerous: /
+  interview-on-startups-co: /
+  aeropress-explosion: /
+  riverfront-times-features-text-reject: /
+  textreject-arch-grants: /
+  commencement-speaker-conflift: /
+  hacker-cocktail: /
+  wute-vc-in-st-louis-business-journal: /
+  me-on-tv: /
+  inefficiencies-in-optimization-textbook: /
+  student-startup-madness: /
+  cs40-macklemore: /
+  sitemap: /colophon/
+  books-read: https://goodreads.com/philipithomas
+  books-2013: https://goodreads.com/philipithomas
+  books-2014: https://goodreads.com/philipithomas
+  articles: /posts/
+  dogfish-head-90-minute-ipa: /
+  great-lakes-edmund-fitzgerald-porter: /
+  glenmorangie-nectar-dor: /
+  sierra-nevada-pale-ale-a-benchmark-beer: /
+  founders-porter: /
+  harviestoun-ola-dubh-special-reserve-40: /
+  dogfish-head-signature-glass: /
+  magic-hat-9: /
+  sierra-nevada-torpedo: /
+  founders-double-trouble-double-the-fun: /
+  duvel-tulip-glass-a-big-glass-for-big-beers: /
+  rational-dictator: /

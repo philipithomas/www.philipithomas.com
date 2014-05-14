@@ -2,6 +2,7 @@
 layout: post
 title: HTML5 Developer Conference - Day 2 
 description: Speeches and experiences at the second day of the 2013 HTML5 Developer Conference in San Francisco
+category: essay
 ---
 <img src="/images/html5Day2.jpg" alt="HTML5 Developer Conference Day 2" />
 

@@ -2,6 +2,7 @@
 layout: post
 title: Locked out of your iPhone today? 
 description: Apple locks developers out of iOS7 Beta
+category: essay
 ---
 
 This afternoon, did your iPhone unexpectedly display "Activation Required" and lock you out? Then, after attempting the activation process, did you receive an error message that 

@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Do college students go to events for free food? 
+description: Multivariate testing email subject lines
+category: essay
 ---
 
 When organizing activities with student groups, I often wonder what effect free food has on attendance. For a recent event with <a href="http://wute.vc">wute.vc</a>, I decided to run a multivariate test through our <a href="http://kb.mailchimp.com/article/how-a-b-split-testing-works">Mailchimp</a> mailing list to see whether including "Free Food" in the subject line affected the open rate. The results were surprising.  

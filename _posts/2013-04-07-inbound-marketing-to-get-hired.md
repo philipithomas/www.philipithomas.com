@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Using Inbound Marketing to Get A Job
+description: Landing pages, multivariate testing, and other techniques used to obtain job interviews
+category: project
 ---
 
 Next month I graduate from engineering school, so two weeks ago I started actively pursuing a software job for after graduation. This wasn't my first time looking for a post-graduation job: I started looking back in November, and I had many problems - the main one being that the startups where I wanted to work lacked the runway to make hiring committments so far in advance. The second difficulty I found with pursuing jobs at startups in November was that they were nowhere as good at the hiring process as large companies. 

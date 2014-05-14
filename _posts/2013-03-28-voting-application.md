@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Crowd Voting Application
+description: Basic SMS-based application for crowd polling
+category: project
 ---
 *This post is about a text message-based voting system I built for my student group to use at an event. [Fork it on Github](https://github.com/philipithomas/wusauce_vote).*
 

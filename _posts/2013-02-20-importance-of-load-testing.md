@@ -1,6 +1,8 @@
 ---
 layout: post
 title: The Importance of Load Testing
+description: Testing application scalability
+category: essay
 ---
 
 This morning, the Washington University in St. Louis emergency alert system was activated with the following message:

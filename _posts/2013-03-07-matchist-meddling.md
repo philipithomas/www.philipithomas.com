@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Matchist Meddling with Client Deals
+category: essay
+description: Unethical practices by a freelance market
 ---
 
 ## Background

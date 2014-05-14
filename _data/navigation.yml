@@ -1,0 +1,8 @@
+- name: About
+  href: /about/
+
+- name: Posts
+  href: /posts
+
+- name: Resume
+  href: /resume/

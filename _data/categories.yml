@@ -1,0 +1,11 @@
+- name: Essay
+  href: /posts/essay/
+  tag:  essay
+
+- name: Project
+  href: /posts/project/
+  tag:  project
+
+- name: News
+  href: /posts/news/
+  tag:  news
