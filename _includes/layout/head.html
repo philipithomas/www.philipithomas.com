@@ -56,6 +56,7 @@ MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
   (function() {
     var config = {
       kitId: 'frj7cta',
+
       scriptTimeout: 3000
     };
     var h=document.getElementsByTagName("html")[0];h.className+=" wf-loading";var t=setTimeout(function(){h.className=h.className.replace(/(\s|^)wf-loading(\s|$)/g," ");h.className+=" wf-inactive"},config.scriptTimeout);var tk=document.createElement("script"),d=false;tk.src='//use.typekit.net/'+config.kitId+'.js';tk.type="text/javascript";tk.async="true";tk.onload=tk.onreadystatechange=function(){var a=this.readyState;if(d||a&&a!="complete"&&a!="loaded")return;d=true;clearTimeout(t);try{Typekit.load(config)}catch(b){}};var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(tk,s)
@@ -92,3 +93,26 @@ MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
     })();
 </script>
 
+<!-- Whaddup facebook open graph -->
+<meta property="og:site_name" content="{{site.name}}"/>
+{% if page.title %}
+<meta property="og:title" content="{{page.title}}"/>
+{% endif %}
+<meta property="og:image" content="{{ site.url }}{{ 'opengraph.jpg' | asset_path }}"/>
+<meta property="og:type" content="article"/>
+<meta property="og:link" content="{{ site.url }}{{post.url}}"/>
+
+<!-- Twitter card meta tags -->
+<meta property="twitter:card" content="summary"/>
+{% if page.title %}
+<meta property="twitter:title" content="{{ page.title }}"/>
+{% else %}
+<meta property="twitter:title" content="{{ site.name }}"/>
+{% endif %}
+{% if page.summary %}
+<meta property="twitter:description" content="{{ page.summary }}"/>
+{% else %}
+<meta property="twitter:description" content="{{ site.description }}"/>
+{% endif %}
+<meta property="twitter:site" content="@{{ site.twitter}}"/>
+<meta property="twitter:creator" content="@{{ site.twitter }}"/>
