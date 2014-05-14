@@ -11,11 +11,7 @@ machine:
     version:
       2.1.1
 
-# checkout:
-  # nothing special here
-
 dependencies:
-  # should (?) bundle install autoamtically
   post:
     - bundle exec jekyll build:
         timeout: 300 # 10 min
@@ -24,7 +20,6 @@ test:
   override:
     - echo "No tests are needed"
 
-## Customize deployment commands
 deployment:
   production:
     branch: master
@@ -33,6 +28,13 @@ deployment:
         environment:
           s3_bucket: www.philipithomas.com
      - bash clear_cache.sh
+  production:
+    branch: master
+    commands:
+      - bundle exec s3_website push --headless:
+          environment:
+            s3_bucket: www.philipithomas.com
+      - bash clear_cache.sh
   staging:
     branch: stage
     commands:
