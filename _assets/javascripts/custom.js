@@ -11,12 +11,17 @@ $(document).ready(function(){
       disable: 'left',
       touchToDrag: false, // Unfortunately there's a bug with flicking
   });
+
+  var showWidth = 768;
   $( window ).resize(function() {
-    if ($( window ).width() >= 768) {
+    if ($( window ).width() >= showWidth) {
       snapper.close();
       snapper.disable();
+      $('#sidebar-toggle').hide();
     } else {
       snapper.enable();
+      $('#sidebar-toggle').show();
+
     }
   });
 
@@ -36,6 +41,8 @@ $(document).ready(function(){
   snapper.on('close', function() {
     // Animation to close takes 300ms
     // Need an animation to create the queue
-    $('#sidebar-toggle').delay(160).fadeIn(5);
+    if ($( window ).width() < showWidth) {
+      $('#sidebar-toggle').delay(160).fadeIn(5);
+    }
   });
 });
