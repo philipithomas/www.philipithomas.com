@@ -24,15 +24,15 @@ deployment:
   production:
     branch: master
     commands:
-      - bash deploy.sh
-          environment: 
+      - bash deploy.sh:
+          environment:
             s3_bucket: www.philipithomas.com
             environment: production
       - echo "done";
   staging:
     branch: stage
     commands:
-      - bash deploy.sh
-          environment: 
+      - bash deploy.sh:
+          environment:
             s3_bucket: stage.philipithomas.com
             environment: staging
