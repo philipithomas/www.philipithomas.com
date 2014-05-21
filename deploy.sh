@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ "$environment" -ne "production" ]; then
+if [ "$environment" != "production" ]; then
   echo "Overriding robots.txt for a $environment environment"
   rm _site/robots.txt
   echo "User-agent: * \nDisallow: /" > _site/robots.txt
