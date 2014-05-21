@@ -28,6 +28,7 @@ deployment:
           environment: 
             s3_bucket: www.philipithomas.com
             environment: production
+      - echo "done";
   staging:
     branch: stage
     commands:
