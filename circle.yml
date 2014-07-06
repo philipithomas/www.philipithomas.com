@@ -14,7 +14,7 @@ machine:
 dependencies:
   post:
     - bundle exec jekyll build:
-        timeout: 300 # 10 min
+        timeout: 300 # 5 min
 
 test:
   override:
