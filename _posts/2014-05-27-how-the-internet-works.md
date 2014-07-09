@@ -2,6 +2,7 @@
 layout: post
 title: How The Internet Works
 category: news
+description: Presentation at Hackbright Academy
 ---
 
 Tonight I am presenting the talk *How the Internet Works* at [Hackbright Academy](http://hackbrightacademy.com) in San Francisco. The 45-minute talk seeks to answer the question "What happens when I type a website into my web browser and hit enter?" for those with basic programming experience but no background in computer networking. The talk first talks about TCP/IP, then it discusses the basics of the modern internet such as DNS and ASNs, and then it focuses on topics relevant to software developers including content delivery networks and IPv6. The speech concludes by answering the question "What happens when I type a website into my web browser and hit enter?". 
