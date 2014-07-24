@@ -1,6 +1,6 @@
 exclude: ['scss/*', 'config.rb', 's3_website.yml', 'config.yml', 'vendor', 'Gemfile', 'Gemfile.lock', 'circle.yml', '*.sh']
 markdown: rdiscount
-pygments: false
+highlighter: pygments
 permalink: /:title/
 name: Philip I. Thomas
 url: 'https://www.philipithomas.com'
