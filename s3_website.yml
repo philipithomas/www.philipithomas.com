@@ -5,9 +5,6 @@ s3_bucket: <%= ENV['s3_bucket'] %>
 gzip: false
 
 redirects:
-  calendar/index.html: 'https://www.google.com/calendar/embed?src=philipithomas%40gmail.com'
-  appointment/index.html: 'https://www.google.com/calendar/embed?src=philipithomas%40gmail.com'
-  availability/index.html: 'https://www.google.com/calendar/embed?src=philipithomas%40gmail.com'
   beer/index.html: 'http://beer.philipithomas.com'
   connect/index.html: '/about/'
   cv/index.html: '/resume/'
