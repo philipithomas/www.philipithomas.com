@@ -4,25 +4,19 @@ categories: true
 ---
 <article>
     <header>    
+        {% if page.display-title: %}
+            <h1 class="literal"><a href="{{ page.url }}">{{ page.display-title }}</a></h1>
+        {% else %}
             <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
-            <div class="subtitle">
-              {{ page.date | date: "%e %B %Y" }}
-              {% if page.category %}
-                in <a href="/posts/{{ page.category }}">{{ page.category }}</a>
-              {% endif %}
+        {% endif %}
+        <div class="subtitle">
+          {{ page.date | date: "%e %B %Y" }}
+          {% if page.category %}
+            in <a href="/posts/{{ page.category }}">{{ page.category }}</a>
+          {% endif %}
 
-            </div>
+        </div>
     </header>
 
     {{ content }}
-
-    <aside class="panel panel-info mailchimp">
-      <div class="panel panel-heading">
-        <h3>Get broadcasts about future articles</h3>
-      </div>
-      <div class="panel-body">
-        {% include layout/mailchimp.html %}
-      </div>
-    </aside>
-
 </article>
