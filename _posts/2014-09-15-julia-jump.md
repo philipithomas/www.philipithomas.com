@@ -30,7 +30,7 @@ JuMP (“**Ju**lia for **M**athematical **P**rogramming”) is a [project by Mil
 
 JuMP is a Rosetta Stone for optimization - with a single formulation, a problem can be tested on a variety of different solving tools. The project is still new and [in active development](https://github.com/JuliaOpt/JuMP.jl), but in its present state it brings a refreshing change to optimization problem formulation. 
 
-JuMP is not the first project to support multiple solvers, but it is the most actively maintained and the easiest to use. What it accomplishes is making a clean, maintainable way to express optimization problems to a variety of different solving packages. Thus, to some extent, a user can express the problem they wish to solver, then independently identify a solver that provides the features necessary to solve that problem. 
+JuMP is not the first project to support multiple solvers, but it is the most actively maintained and the easiest to use. What it accomplishes is making a clean, maintainable way to express optimization problems to a variety of different solving packages. Thus, to some extent, a user can express the problem they wish to solve, then independently identify a solver that provides the features necessary to solve that problem. 
 
 <div class="panel panel-info">
     <div class="panel-heading">
