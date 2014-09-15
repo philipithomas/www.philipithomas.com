@@ -24,7 +24,7 @@ I found a solution through the open-source project JuMP, which I compare the Pyt
 
 # JuMP
 
-I learned about the programing language [Julia](http://julia.readthedocs.org/en/release-0.3/) from a group of scientists turned computer programmers. Julia builds on the matrix syntax of [Matlab](https://imgur.com/5zE08DX) and the statistics tools of  [R](https://en.wikipedia.org/wiki/R_%28programming_language%29), but modernizes both with a just-in-time compiler and multiple dispatch. Best of all, it is open-source and it excels in in distributed and multi-core environments.
+I learned about the programing language [Julia](http://julia.readthedocs.org/en/release-0.3/) from a group of scientists turned computer programmers. Julia builds on the matrix syntax of [Matlab](https://imgur.com/5zE08DX) and the statistics tools of  [R](https://en.wikipedia.org/wiki/R_%28programming_language%29), but modernizes both with a just-in-time compiler and multiple dispatch. Best of all, it is open-source and it excels in distributed and multi-core environments.
 
 JuMP (“**Ju**lia for **M**athematical **P**rogramming”) is a [project by Miles Lubin and Ian Dunning at MIT](http://www.mit.edu/~mlubin/juliacomputing.pdf) to create a common tool for formulating optimization problems. JuMP builds a common interface to a variety of mathematical solving packages, including Gurobi, other commercial solvers, and a variety of open-source solvers.
 
