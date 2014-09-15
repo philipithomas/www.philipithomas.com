@@ -20,7 +20,7 @@ Recently I have returned to my old work as a side project called [StaffJoy](http
 
 As I returned to scheduling problems for StaffJoy, I realized that my Macbook Air lacked sufficient computing power for some problems, so I investigated Gurobi’s pricing for Amazon EC2. With licensing costs at about $15 per hour, running a large optimization in the could cost hundreds of dollars! Dissuaded, I began investigating other options.
 
-I found a solution through the open-source project JuMP, which Icompare the Python interface of Gurobi, [GurobiPy](http://www.gurobi.com/documentation/5.6/quick-start-guide/the_gurobi_python_interfac), to JuMP in order to understand the general state of optimization software.
+I found a solution through the open-source project JuMP, which I compare the Python interface of Gurobi, [GurobiPy](http://www.gurobi.com/documentation/5.6/quick-start-guide/the_gurobi_python_interfac), to JuMP in order to understand the general state of optimization software.
 
 # JuMP
 
