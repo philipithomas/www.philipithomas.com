@@ -6,7 +6,7 @@ description: Converting code from GurobiPy to the new Julia Mathematical Program
 category: essay
 ---
 
-Recently I have been working on solutions to the [nurse scheduling problem](https://en.wikipedia.org/wiki/Nurse_scheduling_problem) using optimization techniques  My interest in problem started with [my senior project at Washington University in St. Louis](http://scheduling.philipithomas.com), where I used Excel Solver and the Gurobi Python Interface to create a basic solution.
+Recently I have been working on solutions to the [nurse scheduling problem](https://en.wikipedia.org/wiki/Nurse_scheduling_problem) using optimization techniques. My interest in problem started with [my senior project at Washington University in St. Louis](http://scheduling.philipithomas.com), where I used Excel Solver and the Gurobi Python Interface to create a basic solution.
 
 Recently I have returned to my old work as a side project called [StaffJoy](http://www.staffjoy.com). As I have been improving my formulation, I began using a new tool called [JuMP](https://github.com/JuliaOpt/JuMP.jl) to formulate solutions. JuMP brings extensibility and clarity to optimization community brings a modern extensibility to optimization computing.
 
