@@ -8,19 +8,19 @@ category: essay
 
 Recently I have been working on solutions to the [nurse scheduling problem](https://en.wikipedia.org/wiki/Nurse_scheduling_problem) using optimization techniques  My interest in problem started with [my senior project at Washington University in St. Louis](http://scheduling.philipithomas.com), where I used Excel Solver and the Gurobi Python Interface to create a basic solution.
 
-Recently I have returned to my old work as a side project called [StaffJoy](https://www.staffjoy.com). As I have been improving my formulation, I began using a new tool called JuMP to formulate solutions. JuMP brings extensibility and clarity to optimization community brings a modern extensibility to optimization computing. 
+Recently I have returned to my old work as a side project called [StaffJoy](https://www.staffjoy.com). As I have been improving my formulation, I began using a new tool called [JuMP](https://github.com/JuliaOpt/JuMP.jl) to formulate solutions. JuMP brings extensibility and clarity to optimization community brings a modern extensibility to optimization computing.
 
 # Background
 
-Operations Research (OR) applies big mathematics to business problems, typically with a goal of minimizing or maximizing some value. Routing, like Google Maps, is an OR problem - “Get me from here to there in the minimum amount of time.” Scheduling is another massive mathematical problem - for example, [Professor Michael Trick schedules every Major League Baseball game in the country](https://www.youtube.com/watch?v=CdECArt8jDM) with goal of minimizing team travel time. 
+[Operations Research](https://en.wikipedia.org/wiki/Operations_research) (OR) applies big mathematics to business problems, typically with a goal of minimizing or maximizing some value. Routing, like Google Maps, is an OR problem - “Get me from here to there in the minimum amount of time.” Scheduling is another massive mathematical problem - for example, [Professor Michael Trick schedules every Major League Baseball game in the country](https://www.youtube.com/watch?v=CdECArt8jDM) with goal of minimizing team travel time. 
 
 # Gurobi
 
-Gurobi is one of the largest commercial optimization packages. The software is fast, stable, and decently flexible. The company provides official interfaces in a variety of programming languages. I started using Gurobi in college because they offer free licenses to students. In general,
+[Gurobi](http://gurobi.com/) is one of the largest commercial optimization packages. The software is fast, stable, and decently flexible. The company provides official interfaces in a variety of programming languages. I started using Gurobi in college because they offer free licenses to students.
 
-As I returned to scheduling problems for StaffJoy, I realized that my Macbook Air lacked sufficient computing power for some problems, so I investigated Gurobi’s pricing for EC2. At $15 per hour, running a large optimization in the could cost hundreds of dollars in licensing fees! Dissuaded, I began investigating other options. 
+As I returned to scheduling problems for StaffJoy, I realized that my Macbook Air lacked sufficient computing power for some problems, so I investigated Gurobi’s pricing for EC2. At about $15 per hour, running a large optimization in the could cost hundreds of dollars in licensing fees! Dissuaded, I began investigating other options.
 
-I compare the Python interface to Gurobi, [GurobiPy](http://www.gurobi.com/documentation/5.6/quick-start-guide/the_gurobi_python_interfac), to JuMP in order to understand the general state of optimization software. 
+I compare the Python interface of Gurobi, [GurobiPy](http://www.gurobi.com/documentation/5.6/quick-start-guide/the_gurobi_python_interfac), to JuMP in order to understand the general state of optimization software.
 
 # JuMP
 
@@ -30,7 +30,7 @@ JuMP (“**Ju**lia for **M**athematical **P**rogramming”) is a [project by Mil
 
 JuMP is a Rosetta Stone for optimization - with a single formulation, a problem can be tested on a variety of different solving tools. The project is still new and [in active development](https://github.com/JuliaOpt/JuMP.jl), but in its present state is brings a refreshing change to optimization problem formulation. 
 
-JuMP is not the first project to support multiple solvers, but it is the most actively maintained and the easiest to use. 
+JuMP is not the first project to support multiple solvers, but it is the most actively maintained and the easiest to use. What it accomplishes is making a clean, maintainable way to express optimization problems to a variety of different solving packages. Thus, to some extent, a user can express the problem they wish to solver, then independently identify a solver that provides the features necessary to solve that problem. 
 
 <div class="panel panel-info">
     <div class="panel-heading">
@@ -50,7 +50,7 @@ The true speed in an optimization problem comes from the solver. Thus, as cool o
 
 # Usability
 
-The Gurobi Python system provides a comprehensive interface to the Gurobi solver, and it provides Pythonic tools and data structures for problem formulation. I used their proprietary [tuplelist](http://www.gurobi.com/documentation/5.6/reference-manual/py_tuplelist) data structure quite extensively. In scheduling problems, it made adding constraints for particular employees or particular time periods straightforward because its usage pattern feels like basic SQL.
+The GurobiPy provides a comprehensive interface to the Gurobi solver, and it provides Pythonic tools and data structures for problem formulation. I used their proprietary [tuplelist](http://www.gurobi.com/documentation/5.6/reference-manual/py_tuplelist) data structure quite extensively. In scheduling problems, it made adding constraints for particular employees or particular time periods straightforward because its usage pattern feels like basic SQL.
 
 The GurobiPy syntax is readable for short problems, but for complex formulations it becomes exceedingly verbose. In addition, the use of many functions and constants becomes confusing. JuMP adds macros for adding multiple variables and multiple constraints that makes complex formulations more compact. It took about half the lines of code to convert the same problem from GurobiPy to JuMP. 
 
@@ -136,11 +136,11 @@ The Julia optimization community is quite active, and currently it is composed o
 
 # Conclusion
 
-If you are working on optimization problems, it is worth trying JuMP. The community is defining the future of operations research projects.
+If you are working on optimization problems, it is worth trying JuMP. The community is defining the future of operations research projects. Gurobi is a benchmark optimization tool, but the company's core competency is optimization, not Python libraries. JuMP brings coherence to operations research by providing a versatile way of expressing problems that is compatible with a variety of solvers.
 
 
 # Looking Forward
 
-My experiments in converting GurobiPy to JuMP were successful, but it appears that branch-and-bound algorithms are too inefficient for my scheduling formulations, so I am working to convert the techniques to a custom tree-based solver that can be run via [MapReduce](https://en.wikipedia.org/wiki/MapReduce).
+My experiments in converting GurobiPy to JuMP were successful, but it appears that branch-and-bound algorithms are too inefficient for my scheduling formulations, so I am working to convert the techniques to a custom search tree algorithms inspired by artificial intelligence that can be run via [MapReduce](https://en.wikipedia.org/wiki/MapReduce).
 
 
