@@ -28,7 +28,7 @@ I learned about the programing language [Julia](http://julia.readthedocs.org/en/
 
 JuMP (“**Ju**lia for **M**athematical **P**rogramming”) is a [project by Miles Lubin and Ian Dunning at MIT](http://www.mit.edu/~mlubin/juliacomputing.pdf) to create a common tool for formulating optimization problems. JuMP builds a common interface to a variety of mathematical solving packages, including Gurobi, other commercial solvers, and a variety of open-source solvers.
 
-JuMP is a Rosetta Stone for optimization - with a single formulation, a problem can be tested on a variety of different solving tools. The project is still new and [in active development](https://github.com/JuliaOpt/JuMP.jl), but in its present state it brings a refreshing change to optimization problem formulation. 
+JuMP is a Rosetta Stone for optimization - with a single formulation, a problem can be tested on a variety of different solving tools. The project is still new and [in active development](https://github.com/JuliaOpt/JuMP.jl), but in its present state it brings a refreshing change to optimization problem formulation.
 
 JuMP is not the first project to support multiple solvers, but it is the most actively maintained and the easiest to use. What it accomplishes is making a clean, maintainable way to express optimization problems to a variety of different solving packages. Thus, to some extent, a user can express the problem they wish to solve, then independently identify a solver that provides the features necessary to solve that problem. 
 
@@ -52,7 +52,7 @@ The true speed in an optimization problem comes from the solver. Thus, as cool o
 
 The GurobiPy provides a comprehensive interface to the Gurobi solver, and it provides Pythonic tools and data structures for problem formulation. I used their proprietary [tuplelist](http://www.gurobi.com/documentation/5.6/reference-manual/py_tuplelist) data structure quite extensively. In scheduling problems, it made adding constraints for particular employees or particular time periods straightforward because its usage pattern feels like basic SQL.
 
-The GurobiPy syntax is readable for short problems, but for complex formulations it becomes exceedingly verbose. In addition, the use of many functions and constants becomes confusing. JuMP adds macros for adding multiple variables and multiple constraints that makes complex formulations more compact. It took about half the lines of code to convert the same problem from GurobiPy to JuMP. 
+The GurobiPy syntax is readable for short problems, but for complex formulations it becomes exceedingly verbose. In addition, the use of many functions and constants becomes confusing. JuMP adds macros for adding multiple variables and multiple constraints that makes complex formulations more compact. It took me about half the lines of code to convert the same problem from GurobiPy to JuMP. 
 
 One of the most frustrating parts of the GurobiPy syntax was retrieving variable values after optimization. Instead of using the Python variables themselves, a unique string name is assigned during variable creation, and that string is used to retrieve the value after solving. JuMP brings sanity by allowing you to use variables instead of naming schemes to retrieve information.
 
@@ -136,7 +136,7 @@ The Julia optimization community is quite active, and currently it is composed o
 
 # Conclusion
 
-If you are working on optimization problems, it is worth trying JuMP. The community is defining the future of operations research projects. Gurobi is a benchmark optimization tool, but the company's core competency is optimization, not Python libraries. JuMP brings coherence to operations research by providing a versatile way of expressing problems that is compatible with a variety of solvers.
+If you are working on optimization problems, it is worth trying JuMP. The community is defining the future of operations research projects. Gurobi is a benchmark optimization tool, but the company's core competency is optimization, not Python interfaces. JuMP brings coherence to operations research by providing a versatile way of expressing problems that is compatible with a variety of solvers.
 
 
 # Looking Forward
