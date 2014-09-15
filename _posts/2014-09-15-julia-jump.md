@@ -28,7 +28,7 @@ I learned about the programing language [Julia](http://julia.readthedocs.org/en/
 
 JuMP (“**Ju**lia for **M**athematical **P**rogramming”) is a [project by Miles Lubin and Ian Dunning at MIT](http://www.mit.edu/~mlubin/juliacomputing.pdf) to create a common tool for formulating optimization problems. JuMP builds a common interface to a variety of mathematical solving packages, including Gurobi, other commercial solvers, and a variety of open-source solvers.
 
-JuMP is a Rosetta Stone for optimization - with a single formulation, a problem can be tested on a variety of different solving tools. The project is still new and [in active development](https://github.com/JuliaOpt/JuMP.jl), but in its present state is brings a refreshing change to optimization problem formulation. 
+JuMP is a Rosetta Stone for optimization - with a single formulation, a problem can be tested on a variety of different solving tools. The project is still new and [in active development](https://github.com/JuliaOpt/JuMP.jl), but in its present state it brings a refreshing change to optimization problem formulation. 
 
 JuMP is not the first project to support multiple solvers, but it is the most actively maintained and the easiest to use. What it accomplishes is making a clean, maintainable way to express optimization problems to a variety of different solving packages. Thus, to some extent, a user can express the problem they wish to solver, then independently identify a solver that provides the features necessary to solve that problem. 
 
