@@ -3,27 +3,10 @@ layout: page
 title: Writing
 permalink: /writing/
 ---
-<div id="writing">
-  <table id="writing">
-  	  <col style="width:30%">
-      <col style="width:70%">
-      <tr><td>23 February 2012</td><td><a href="/files/SBSL.pdf">Measuring Frequency Dependence and Q-Data of Single Bubble Sonoluminescence in Water
- </a>[PDF]</td></tr>
-      <tr><td>29 February 2012</td><td><a href="/files/FountainPenMechanism.pdf">Mechanism of the Fleur-De-Lis Edison Pearl Fountain Pen </a>[PDF]</td></tr>
-      <tr><td>27 March 2012</td><td><a href="/files/SQUID.pdf">Temperature Dependence of the Critical Current in the YBCO Superconducting Quantum Interference Device </a> [PDF]</td></tr>
-
-      <tr><td>1 May 2012</td><td><a href="/files/FuelCell.pdf">Laser Trapping of Micrometer-Sized Objects </a> [PDF]</td></tr>
-
-
-      <tr><td>27 September 2012</td><td><a href="/files/diffusion.pdf">Computational Analysis of Diffusion as a Stochastic System </a>[PDF]</td></tr>
-
-       <tr><td>30 October 2012</td><td><a href="/files/Ultrasound.pdf">Exploration of Wave Properties in Solids with Ultrasound </a>[PDF]</td></tr>
-       <tr><td> 6 December 2012</td><td><a href="/files/OpticalTweezers.pdf">Laser Trapping of Micrometer-Sized Objects </a>[PDF]</td></td>
-       <tr><td> May 2013</td><td><a href="/files/CashierSimulation.pdf">Cashier Simulation</a>[PDF]</td></td>
-       <tr><td> May 2013</td><td><a href="http://scheduling.philipithomas.com/scheduling.pdf">Scheduling Algorithm with Optimization of Employee Satisfaction</a>[PDF]</td></td>
-
-
-
-</table>
-</div>
-
+<ul>
+{% for article in site.data.writing reversed %}
+    <li>
+        <a href="{{ article.url }}">{{ article.title }}</a> ({{ article.site }})
+    </li>
+{% endfor %}
+</ul>
