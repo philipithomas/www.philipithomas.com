@@ -1,0 +1,19 @@
+---
+layout: page
+title: Papers
+permalink: /papers/
+---
+<table id="papers" class="table">
+    <col style="width:30%">
+    <col style="width:70%">
+    {% for paper in site.data.papers %}
+    <tr>
+        <td>
+            {{ paper.date }}
+        </td>
+        <td>
+            <a href="{{ paper.url }}">{{ paper.title }}</a>
+        </td>
+    </tr>
+    {% endfor %}
+</table>
