@@ -15,6 +15,9 @@ Recently I have returned to my old work as a side project called [StaffJoy](http
 [Operations Research](https://en.wikipedia.org/wiki/Operations_research) (OR) applies big mathematics to business problems, typically with a goal of minimizing or maximizing some value. Routing, like Google Maps, is an OR problem - “Get me from here to there in the minimum amount of time.” Scheduling is another massive mathematical problem - for example, [Professor Michael Trick schedules every Major League Baseball game in the country](https://www.youtube.com/watch?v=CdECArt8jDM) with goal of minimizing team travel time. 
 
 # Gurobi
+<div class="alert alert-info">
+    <p>After emailing with one of the founders of Gurobi I have made some updates. The revision history of this article is available <a href="https://github.com/philipithomas/www.philipithomas.com/blob/master/_posts/2014-09-15-julia-jump.md">on Github</a>.</p>
+</div>
 
 [Gurobi](http://gurobi.com/) is one of the largest commercial optimization packages. The software is fast, stable, and decently flexible. The company provides official interfaces in a variety of programming languages. I started using Gurobi in college because they offer free licenses to students.
 
@@ -52,11 +55,11 @@ The true speed in an optimization problem comes from the solver. Thus, as cool o
 
 The GurobiPy provides a comprehensive interface to the Gurobi solver, and it provides Pythonic tools and data structures for problem formulation. I used their proprietary [tuplelist](http://www.gurobi.com/documentation/5.6/reference-manual/py_tuplelist) data structure quite extensively. In scheduling problems, it made adding constraints for particular employees or particular time periods straightforward because its usage pattern feels like basic SQL.
 
-The GurobiPy syntax is readable for short problems, but for complex formulations it becomes exceedingly verbose. In addition, the use of many functions and constants becomes confusing. JuMP adds macros for adding multiple variables and multiple constraints that makes complex formulations more compact. It took me about half the lines of code to convert the same problem from GurobiPy to JuMP. 
+The GurobiPy syntax is readable for short problems, but for complex formulations it becomes exceedingly verbose. In addition, the use of many functions and constants becomes confusing. JuMP adds macros for adding multiple variables and multiple constraints that makes complex formulations more compact. It took me about half the lines of code to convert the same problem from GurobiPy to JuMP. <span class="label label-info">Update</span> *Gurobi offers a more compact syntax for variable declaration, but I think that it makes less maintainable code. Unfortunately there is no simple solution in Python.*
 
-One of the most frustrating parts of the GurobiPy syntax was retrieving variable values after optimization. Instead of using the Python variables themselves, a unique string name is assigned during variable creation, and that string is used to retrieve the value after solving. JuMP brings sanity by allowing you to use variables instead of naming schemes to retrieve information.
+<span class="cross-out">One of the most frustrating parts of the GurobiPy syntax was retrieving variable values after optimization. Instead of using the Python variables themselves, a unique string name is assigned during variable creation, and that string is used to retrieve the value after solving. JuMP brings sanity by allowing you to use variables instead of naming schemes to retrieve information.</span> <span class="label label-info">Update</span> *I was wrong - every Gurobi variable object has an "x" attribute that may be used to retrieve its final value, e.g. "print(my_variable.x)".*
 
-Here is an example of adding a couple of variables and constraints in GurobiPy. The code means nothing, but basically we are defining a start time, and end time, and an event time with the event between start and finish. With more complex variables (such as tupleLists), breaking "addVar" and "addConstraint" calls into multiple lines becomes necessary due to line length and legibility.
+Here is an example of adding a couple of variables and constraints in GurobiPy. The code means nothing, but basically we are defining a start time, and end time, and an event time with the event between start and finish. With more complex variables (such as tupleLists), breaking "addVar" <span class="cross-out">and "addConstraint"</span> calls into multiple lines becomes necessary due to line length and legibility. <span class="label label-info">Update</span> *More concise addVar and addConstraint syntaxes are available. However, I find that the addVar compact syntax produces unclear code that is not maintainable.*
 
     from gurobipy import *
 
@@ -69,13 +72,13 @@ Here is an example of adding a couple of variables and constraints in GurobiPy. 
         lb = 0,
         ub =  t_max,
         name = "start"
-    )
+    ) # alternative - m.addVar(0, t_max, GRB.INTEGER, "start")
     finish = m.addVar(
         vtype = GRB.INTEGER,
         lb = 0,
         ub =  t_max,
         name = "finish"
-    )
+    ) 
     event = m.addVar(
         vtype = GRB.INTEGER,
         lb = 0,
@@ -83,22 +86,10 @@ Here is an example of adding a couple of variables and constraints in GurobiPy. 
         name = "event"
     )
 
-    # constaraints
-    m.addConstraint(
-        start,
-        GRB.LESS_EQUAL,
-        finish,
-    )
-    m.addConstraint(
-        event,
-        GRB.GREATER_EQUAL,
-        start,
-    )
-    m.addConstraint(
-        event,
-        GRB.LESS_EQUAL,
-        finish,
-    )
+    # constraints
+    m.addConstraint(start <= finish)
+    m.addConstraint(event >= start)
+    m.addConstraint(event <= finish)
 
 
 This is the same formulation in JuMP:
