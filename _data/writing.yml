@@ -29,7 +29,8 @@
   site: Rackspace Blog
   url: http://www.rackspace.com/blog/supercharge-html5-video-with-rackspace-cloud-files/
   date: Feb 7 2013
-  title: Reddit co-founder returns for St. Louis victory lap
+  highlight: true
+- title: Reddit co-founder returns for St. Louis victory lap
   site: St. Louis Business Journal
   url: http://www.bizjournals.com/stlouis/blog/BizNext/2013/10/reddit-co-founder-returns-for-st.html
   date: Oct 25 2013
@@ -37,10 +38,12 @@
   site: OpenDNS Blog
   url: http://blog.opendns.com/2013/12/11/speed-security-safety-dns/
   date: December 11 2013
+  highlight: true
 - title: Analysis of Hired - The Marketplace Where Tech Companies Compete to Hire You
   site: Telegraph Research
   date: 19 Feb 2014
   url: http://www.telegraphresearch.com/hired/
+  highlight: true
 - title: Introducing OpenLate @ OpenDNS
   site: OpenDNS Blog
   url: http://blog.opendns.com/2014/02/28/code-community-introducing-openlate-opendns/
@@ -77,11 +80,15 @@
   site: OpenDNS Engineering Blog
   url: http://engineering.opendns.com/2014/06/13/hackathon/
   date: Jun 13 2014
+  highlight: true
 - title: OpenLate Javascript Night Recap
   site: OpenDNS Engineering Blog
   url: http://engineering.opendns.com/2014/07/02/code-community-openlate-javascript-night-recap/
   date: Jul 2 2014
-
+- title: Caching at Scale
+  site: OpenDNS Engineering Blog
+  url: http://engineering.opendns.com/2014/09/16/caching-scale/
+  date: 16 Sep 2014
 
 
 

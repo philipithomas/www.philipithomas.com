@@ -6,7 +6,9 @@ permalink: /writing/
 <ul>
 {% for article in site.data.writing reversed %}
     <li>
+        {% if article.highlight%}<span class="highlight">{% endif %}
         <a href="{{ article.url }}">{{ article.title }}</a> ({{ article.site }})
+        {% if article.highlight%}</span>{% endif %}
     </li>
 {% endfor %}
 </ul>
