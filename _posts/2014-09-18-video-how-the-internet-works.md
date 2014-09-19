@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Video - How The Internet Works
-category: news
+category: essay
 description: Recording of my presentation at Hackbright Academy in San Francisco
 ---
 
