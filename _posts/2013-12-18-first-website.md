@@ -9,7 +9,7 @@ Friends and family often ask me about how to set up a personal website or blog. 
 
 # Step 1: Domain
 
-The first step to a professional website is buying the domain. Domains are what you see in your address bar - like *example.com* or *brouhaha.io*. Owning a domain basically gives you control where people go when they look up that address. Here, it means that you can direct them to a website, but it even means that you can control how email sent to the domain works. The domain is how people get to your website - it is not the website itself.
+The first step to a professional website is buying the domain. Domains are what you see in your address bar - like *example.com* or *philipithomas.com*. Owning a domain basically gives you control where people go when they look up that address. Here, it means that you can direct them to a website, but it even means that you can control how email sent to the domain works. The domain is how people get to your website - it is not the website itself.
 
 Owning a domain name is cheap - about $10/year, but the popular extensions like .com have many of the best options taken. So, you have to be creative, or use a less-known extension like *.io*. 
 

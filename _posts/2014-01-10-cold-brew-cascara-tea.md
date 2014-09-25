@@ -7,7 +7,7 @@ category: essay
 
 This week I stumbled upon an unusual item - cascara tea. Cascara is not technically a tea, but rather a dried berry from the coffee plant. In coffee-growing areas, it is commonly brewed like tea into a lightly-caffeinated hot beverage. This fruit is rarely exported, so when I came across a tin I had to try preparing it with my favorite method - cold brewing.
 
-<img class="full" src="http://www.brouhaha.io/images/cascara/2.jpg" alt="Cascara Tea Cold Brew"/>
+<img class="full" src="/images/cascara/2.jpg" alt="Cascara Tea Cold Brew"/>
 
 ## A Brief History of Coffee 
 
@@ -25,15 +25,15 @@ Finding the dried coffee berry, known as Cascara Tea, can be difficult. In San F
 
 The "tea" itself looks like large raisins, but the brittle texture feels more like egg shells than dried fruit. The cascara smell sweet like musty grapes and ancho chile. When brewed hot, the beverage is lightly caffeinated, and it has a dark red color like [rooibos](http://en.wikipedia.org/wiki/Rooibos).
 
-<img class="full" src="http://www.brouhaha.io/images/cascara/1.jpg" alt="Cascara Tea Cold Brew"/> 
+<img class="full" src="/images/cascara/1.jpg" alt="Cascara Tea Cold Brew"/> 
 
 
 
 ## Experiment 
 
-<img class="full" src="http://www.brouhaha.io/images/cascara/3.jpg" alt="Cascara Tea Cold Brew"/>
+<img class="full" src="/images/cascara/3.jpg" alt="Cascara Tea Cold Brew"/>
 
-To cold brew the Cascara, I opted for the small-batch, jar-based method that I first tried with my [second cold brew experiment](http://www.brouhaha.io/cold-brew-tea-in-a-jar/). The basic idea is mixing a lot of tea with water in a closed container, leaving it to steep at room temperature overnight, then straining the tea out for a concentrate. 
+To cold brew the Cascara, I opted for the small-batch, jar-based method that I first tried with my [second cold brew experiment](/cold-brew-tea-in-a-jar/). The basic idea is mixing a lot of tea with water in a closed container, leaving it to steep at room temperature overnight, then straining the tea out for a concentrate. 
 
 The tea came in a 50-gram tin, so I tried 5 grams brewed hot, then used the remaining 45 grams for the cold brew.
 
@@ -58,7 +58,7 @@ http://www.amazon.com/gp/product/B0000YWF5E/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&c
 
 ## How It Tastes
 
-<img class="full" src="http://www.brouhaha.io/images/cascara/4.jpg" alt="Cascara Tea Cold Brew"/>
+<img class="full" src="/images/cascara/4.jpg" alt="Cascara Tea Cold Brew"/>
 
 The cold-brewed cascara tea smells like raisins and ancho chile. The beverage is mildly oily, and it tastes like grape, citrus, and hibiscus. There is a strong sweetness that reminds you that this is a fruit, not a tea. The finish has mild astringency. Relative to coffee, the beverage is lightly caffeinated. 
 
