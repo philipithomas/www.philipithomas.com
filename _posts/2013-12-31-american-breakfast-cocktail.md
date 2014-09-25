@@ -36,7 +36,7 @@ After an exciting New Year's Eve, brunch on New Year's Day is sometimes served b
 ## Bacon-Infused Bourbon
 
 
-<img src="http://www.brouhaha.io/images/bacon/1.jpg" class="full" alt="Knob Creek and Bacon Fat"/>
+<img src="/images/bacon/1.jpg" class="full" alt="Knob Creek and Bacon Fat"/>
 
 I came across the technique for bacon-infusing bourbon while reading [The Four Hour Chef](http://www.amazon.com/gp/product/0547884591/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0547884591&linkCode=as2&tag=sagacionlook-20). Rendering bacon fat is quite easy - while frying bacon, instead of pouring the extra fat down the drain, store it in a jar. A pound of bacon should yield about 5 liquid ounces of fat. 
 
@@ -61,13 +61,13 @@ For the other half of the equation, I selected Knob Creek bourbon because I felt
 
 ## The Cocktail
 
-<img src="http://www.brouhaha.io/images/bacon/3.jpg" class="full" alt="American Breakfast Cocktail Ingredients"/>
+<img src="/images/bacon/3.jpg" class="full" alt="American Breakfast Cocktail Ingredients"/>
 
 The cocktail mixes elements of an [Old Fashioned](http://en.wikipedia.org/wiki/Old_Fashioned) and a [Whiskey Sour](http://en.wikipedia.org/wiki/Whiskey_sour). Maple syrup takes the place of sugar, and orange bitters are added to traditional angostura bitters. Originally I used no orange juice, but I found that a small splash helped to balance the smokiness. The egg whites lend a silkiness that compliments the richness of the maple syrup.
 
 ## Results 
 
-<img src="http://www.brouhaha.io/images/bacon/4.jpg" class="full" alt="The American Breakfast Cocktail"/>
+<img src="/images/bacon/4.jpg" class="full" alt="The American Breakfast Cocktail"/>
 
 The aromas of orange and bacon from the garnish greet the nose. Upon tasting, the smoothness of the egg white and the sweetness of the maple syrup create a warm mouthfeel. The body showcases the bacon-infused bourbon with smoke and oak made more full by the angostura bitters. The finish of citrus from the orange bitters leaves a fresh mouthfeel that brings a juiciness that compliments the original aroma. 
 
