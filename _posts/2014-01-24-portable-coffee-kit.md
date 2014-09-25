@@ -7,7 +7,7 @@ category: essay
 
 The coffee in Cleveland sucks. The closest decent brew I have found is 150 miles away in Columbus. While going home for the holidays, I needed a solution to keep me caffeinated in the coffee tundra of Northeast Ohio. I devised a coffee kit capable of sustaining me through a week in Cleveland. 
 
-<img src="http://www.brouhaha.io/images/aeropress/1.jpg" alt="Travel coffee kit in action" class="full"/>
+<img src="/images/aeropress/1.jpg" alt="Travel coffee kit in action" class="full"/>
 
 ## Gear
 
@@ -24,7 +24,7 @@ The core of a coffee kit is the brewing device. Most days, I brew coffee in a gl
 
 The plastic Aeropress was invented in 2005 by [Alan Adler](http://en.wikipedia.org/wiki/Alan_Adler), the President of Aerobie. After building frisbees that still fly after being chucked at brick walls, Alan built a coffee maker that stands up to abuse. The three pieces - the body, the plunger, and the filter - work in the same basic way as a French press. However, the resulting coffee is has a stronger, cleaner flavor. The plastic device has quite a cult following - including  [an international Aeropress competition](http://worldaeropresschampionship.com/).
 
-<img src="http://www.brouhaha.io/images/aeropress/2.jpg" alt="Travel coffee kit in action" class="full"/>
+<img src="/images/aeropress/2.jpg" alt="Travel coffee kit in action" class="full"/>
 
 The Aeropress uses disposable paper filters. I wanted a coffee kit that wouldn't be limited by my need to pack enough filters. So, I experimented with metal Aeropess filter replacements from [Able Brewing Company](http://ablebrewing.com/). Their metal Aeropress filter comes in two styles- the *Disk* and *Disk Fine*. Both are perforated discs, but the *fine* is made with thinner metal and more perforations. I found little direct flavor difference between the two, but the thinner metal of the disk fine is sharp enough to cut your fingers. So, keeping in mind my safety and the likelihood of TSA seizure, I opted for the standard disk in my kit. 
 
@@ -56,5 +56,5 @@ I omitted a thermometer because waiting for water to cool for 5 minutes after bo
 
 The travel coffee kit survived as carry-on luggage, and it produced excellent coffee. For the first time ever, a decent cup of coffee was available to me in Cleveland. Since this trip, I have found myself carrying the kit around on business travel and other occasions. In fact, as I write this I am enjoying coffee from this kit up in the mountains of Tahoe - just note that the boiling temperature is lower at altitude!
 
-<img src="http://www.brouhaha.io/images/aeropress/3.jpg" alt="Travel Mode" class="full"/>
+<img src="/images/aeropress/3.jpg" alt="Travel Mode" class="full"/>
 
