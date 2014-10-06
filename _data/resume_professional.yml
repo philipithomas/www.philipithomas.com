@@ -3,7 +3,7 @@
   location: San Francisco, CA
   when: May 2013 - Now
   bullets: 
-    - Develop a telemetry platform for client software services by aggregating and analyzing remote log data, resulting in halving related cusotmer support case resolution times and detecting client bugs.
+    - Develop a telemetry platform for client software services by aggregating and analyzing remote log data, resulting in halving related customer support case resolution times and detecting client bugs.
     - Architect distributed, fault-tolerant processing system using Flask, Docker, nginx, and Amazon Web Services.
     - Formerly A-Team - Maintain reliability, speed, and uptime of client-facing systems by rapidly fixing bugs, resulting in better uptime, improved security, new sales deals, and better customer satisfaction.
 
