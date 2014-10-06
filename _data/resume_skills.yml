@@ -1,12 +1,29 @@
-- Awards:
-  - Eagle Scout
-  - First place, [2013 WUSTL Discovery Competition](https://www.philipithomas.com/sparo-wins-discovery/)
-  - Winner, OpenDNS 2014H2 Company Hackathon
-  - Winner, OpenDNS 2013H2 Company Hackathon
-  - Yellow Belt, [Krav Maga](https://en.wikipedia.org/wiki/Krav_Maga) (2014)
-  - Certified Beer Server, [Cicerone Program](http://cicerone.org) (2014)
-- Associations:
-  - Mentor, [Hackbright Academy](http://hackbrightacademy.com)
-  - Advisor, [wute.vc](http://www.wute.vc)
-  - Alumni Board, [Washington University Student Investment Fund](http://olinwustl.campusgroups.com/wusif/about/)
-
+- Languages:
+    primary:
+      - Python
+      - PHP
+    secondary:
+      - Javascript
+      - Bash
+      - Ruby
+      - Julia
+      - Matlab
+- Systems:
+    primary:
+      - Debian
+      - Docker
+      - Git
+      - DNS
+    secondary:
+      - nginx
+      - Logstash
+- Technical:
+    primary:
+      - Operations Research
+      - Continuous Integration
+      - Statistics
+      - Distributed Systems
+    secondary:
+      - Signal Analysis
+      - Control Systems
+      - Queuing Theory
