@@ -1,7 +1,7 @@
 {% for section_hash in site.data.resume_skills %}
     {% for section in section_hash %}
     <div class="skills-row">
-        <span class="h4">{{ section[0] }} - </span>
+        <strong class="">{{ section[0] }} - </strong>
         {% for item in section[1]['primary'] %}
             <span class="">{{ item }}</span>, 
         {% endfor %}
