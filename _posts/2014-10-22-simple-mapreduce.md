@@ -23,19 +23,19 @@ The MapReduce method would be:
 
 Google published the [MapReduce algorithm](http://research.google.com/archive/mapreduce.html) for analyzing massive amounts of data in 2004. Whenever you hear the phrase "big data," it refers to problems that are too large for a single machine to store or analyze efficiently. MapReduce solves most of the analysis problems related to big data by spreading calculations over clusters of computers. [Hadoop](https://en.wikipedia.org/wiki/Apache_Hadoop) provides the most popular open-source way of managing large data and using MapReduce algorithms. Today MapReduce is mainstream.
 
-So - in general, when you hear "big data" that probably means Hadoop is being used to store the data, which probably means that MapReduce is how the data is being extracted and queried.
+So - in general, when you hear "big data" that probably means that Hadoop is being used to store the data, which probably means that MapReduce is how the data is being extracted and queried.
 
 ## Breaking it down
 
 MapReduce combines two classic functions:
 
-* **Mapping** spreads out a function by applying it to all targets in a set. So - if you want to double every cell in an spreadsheet, then applying that function to each cell individually would be mapping.
-* **Reducing** recurses through data to return an aggregated result. So, printing the sum of a spreadsheet column is reducing.
+* **Mapping** applies an operation to each target in a set. So - if you want to double every cell in an spreadsheet, then applying that function to each cell individually would be mapping.
+* **Reducing** recurses through a set to return an aggregated result. So, printing the sum of a spreadsheet column is reducing.
 
 
 ## Example Revisited
 
-Revisiting our original example of spreading out cards, we have a basic technique for MapReduce analysis of data. Fair warning: it is not a rigorous example, but it illustrates the algorithm's practicality. In our example, the people represent computers, and because they are working together they are a **cluster**. In most real-world applications, we assume that the data is already on every computer - so handing out the cards is not a MapReduce step. (*In fact, how files are stored among a cluster of computers is the real core of Hadoop.*)
+Revisiting our original example of spreading out cards, we have a basic technique for MapReduce analysis of data. Fair warning: it is not a rigorous example. In our example, the people represent computers, and because they are working together they are a **cluster**. In most real-world applications, we assume that the data is already on every computer - so handing out the cards is not a MapReduce step. (*In fact, how files are stored among a cluster of computers is the real core of Hadoop.*)
 
 By splitting up the deck of cards among multiple players and asking them to each count, you execute calculations in **parallel** because every player is counting at the same time. This also makes the job **distributed** because multiple different people are working on the same problem without needing to know what their neighbors are doing.
 
