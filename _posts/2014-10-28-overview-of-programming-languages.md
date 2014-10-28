@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Overview of Programming Languages
+title: Slides - Overview of Programming Languages
 category: news
 description: Presentation at Hackership Coding School
 ---
 
-Tonight I am presenting the talk *Overview of Programming Languages* at [Hackership.co](http://hackership.co) in Berkeley. The 30-minute talk introduces beginning programmers to the differences between programming languages.
+Tonight I am presenting the talk *Overview of Programming Languages* at [Hackership.co](http://hackership.co) in Berkeley. The 30-minute talk introduces beginning programmers to the differences between programming languages. I hope to have a recording online after the talk.
 
 # Slides
 
