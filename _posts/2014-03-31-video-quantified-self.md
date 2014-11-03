@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Video of Quantified Self Presentation
+title: Video - Quantified Self Presentation
 description: My speech to the Bay Area Quantified Self meetup
 category: news
 ---
