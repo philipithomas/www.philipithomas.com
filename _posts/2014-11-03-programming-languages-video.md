@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Video - Overview of Programming Languages
-category: Essay
+category: essay
 description: Recording of Presentation at Hackership Coding School
 ---
 

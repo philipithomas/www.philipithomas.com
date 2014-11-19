@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Gamifying Charity Impact
-category: Essay
+category: essay
 description: Thoughts on Charity Opportunity
 ---
 
