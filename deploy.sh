@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 # Script for deploying a jekyll build to AWS
 
 # override cache
