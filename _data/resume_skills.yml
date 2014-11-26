@@ -12,7 +12,6 @@
     primary:
       - Debian
       - Docker
-      - Git
       - DNS
     secondary:
       - nginx
@@ -20,10 +19,10 @@
 - Technical:
     primary:
       - Operations Research
-      - Continuous Integration
       - Statistics
       - Distributed Systems
     secondary:
+      - Continuous Integration
       - Signal Analysis
       - Control Systems
       - Queuing Theory
