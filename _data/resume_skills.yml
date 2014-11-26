@@ -3,9 +3,9 @@
       - Python
       - PHP
     secondary:
+      - Go
       - Javascript
       - Bash
-      - Ruby
       - Julia
       - Matlab
 - Systems:
