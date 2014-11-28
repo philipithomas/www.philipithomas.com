@@ -4,14 +4,14 @@
       - PHP
     secondary:
       - Go
-      - Javascript
-      - Bash
       - Julia
+      - Javascript
       - Matlab
 - Systems:
     primary:
       - Debian
       - Docker
+      - Bash
       - DNS
     secondary:
       - nginx
