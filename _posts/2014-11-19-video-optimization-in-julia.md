@@ -11,6 +11,8 @@ Last night I gave a talk at the [OpenLate Meetup Group](http://meetup.com/openla
 
 <iframe width="640" height="480" src="//www.youtube-nocookie.com/embed/UmMn-N5w-lI?rel=0" frameborder="0" allowfullscreen></iframe>
 
+*Note: Miles from the JuMP team points out that the package doesn't really support constraint programming as it's usually defined. JuMP can formulate integer linear constraint satisfaction problems.*
+
 ## Slides
 
 <iframe src="https://docs.google.com/presentation/d/1CbSXF0oCHjzKJ7Wo64SOYsQrQjPDA7K4D72HwUXxPc0/embed?start=false&loop=false&delayms=3000" frameborder="0" width="640" height="380" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
