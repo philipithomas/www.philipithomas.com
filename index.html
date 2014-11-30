@@ -2,3 +2,48 @@
 layout: main
 permalink: /
 ---
+<div class="row">
+    <div class="col-md-5 col-sm-12">
+        <h2>Latest Posts</h2>
+        <ul>
+            {% for post in site.posts limit:5 %}
+            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+            <li class="list-unstyled"><span class="pull-right"><a class="btn btn-default btn-xs" href="/posts/">Posts</a></span></li>
+        </ul>
+    </div>
+    <div class="col-md-5 col-md-offset-1 col-sm-12">
+        <h2>Recent Writing</h2>
+        <ul>
+            {% for article in site.data.writing reversed %}
+                {% if forloop.index < 4 %}
+                <li><a href="{{ article.url }}">{{ article.title }}</a> <span class="text-muted">({{ article.site }})</span>  </li>
+                {% endif %}
+            {% endfor %}
+            <li class="list-unstyled"><span class="pull-right"><a class="btn btn-default btn-xs" href="/writing/">Writing</a></span></li>
+        </ul>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-5 col-md-offset-1 col-sm-12">
+        <h2>Press</h2>
+        <ul>
+            {% for article in site.data.press %}
+                {% if forloop.index < 4 %}
+                <li><a href="{{ article.url }}">{{ article.title }}</a> <span class="text-muted">({{ article.site }})</span>  </li>
+                {% endif %}
+            {% endfor %}
+            <li class="list-unstyled"><span class="pull-right"><a class="btn btn-default btn-xs" href="/press/">Press</a></span></li>
+        </ul>
+    </div>
+    <div class="col-md-5 col-sm-12">
+        <h2>Current Projects</h2>
+        <ul>
+            {% for project in site.data.projects %}
+            <li><a href="{{ project.url }}">{{ project.title }}</a></li>
+            {% endfor %}
+            <li class="list-unstyled"><span class="pull-right"><a class="btn btn-default btn-xs" href="/resume/">Resume</a></span></li>
+        </ul>
+    </div>
+</div>
