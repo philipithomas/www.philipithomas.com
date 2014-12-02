@@ -10,39 +10,6 @@ redirects:
   cv/index.html: '/resume/'
   dropbox/index.html: 'https://www.dropbox.com/sh/k5ze6g902vazckv/VkLi2f9292'
   hire-me/index.html: '/about/'
-  macys-building/index.html: /
-  code-until-dawn-may-2012/index.html: /
-  schlafly-growler-failure/index.html: /
-  schlafly-redeemed/index.html: /
-  easy-password-hash-enhancement/index.html: /
-  venture-draft-kicks-off/index.html: /
-  rock-climbing-is-dangerous/index.html: /
-  interview-on-startups-co/index.html: /
-  aeropress-explosion/index.html: /
-  riverfront-times-features-text-reject/index.html: /
-  textreject-arch-grants/index.html: /
-  commencement-speaker-conflift/index.html: /
-  hacker-cocktail/index.html: /
-  wute-vc-in-st-louis-business-journal/index.html: /
-  me-on-tv/index.html: /
-  inefficiencies-in-optimization-textbook/index.html: /
-  student-startup-madness/index.html: /
-  cs40-macklemore/index.html: /
-  sitemap/index.html: /colophon/
-  books-read/index.html: https://goodreads.com/philipithomas
-  books-2013/index.html: https://goodreads.com/philipithomas
-  books-2014/index.html: https://goodreads.com/philipithomas
-  articles/index.html: /posts/
-  dogfish-head-90-minute-ipa/index.html: /
-  great-lakes-edmund-fitzgerald-porter/index.html: /
-  glenmorangie-nectar-dor/index.html: /
-  sierra-nevada-pale-ale-a-benchmark-beer/index.html: /
-  founders-porter/index.html: /
-  harviestoun-ola-dubh-special-reserve-40/index.html: /
-  dogfish-head-signature-glass/index.html: /
-  magic-hat-9/index.html: /
-  sierra-nevada-torpedo/index.html: /
-  founders-double-trouble-double-the-fun/index.html: /
-  duvel-tulip-glass-a-big-glass-for-big-beers/index.html: /
-  rational-dictator/index.html: /
   projects/index.html: /resume/
+  calendar/index.html: https://calendly.com/philipithomas
+  appointment/index.html: https://calendly.com/philipithomas
