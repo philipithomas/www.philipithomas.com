@@ -30,7 +30,12 @@ We chose to package the application in Docker because it abstracts away the inte
 
 ## Try It 
 
-Go to [OpenResolve.com](https://www.OpenResolve.com).
+Go to [OpenResolve.com](https://www.OpenResolve.com) or try running the [public Docker container](https://registry.hub.docker.com/u/opendns/openresolve):
+
+```
+docker pull opendns/openresolve
+docker run opendns/openresolve
+```
 
 
 
