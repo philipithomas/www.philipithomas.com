@@ -5,6 +5,7 @@
   bullets: 
     - Developed a telemetry platform for client software services by aggregating and analyzing remote log data, resulting in halving related customer support case resolution times and detecting client bugs.
     - Architected the distributed, fault-tolerant processing system using Flask, Docker, nginx, and Amazon Web Services.
+    - Co-managed an intern team to build [OpenResolve](https://www.openresolve.com), an open-source Docker image for domain information as a REST-like API.
     - Formerly A-Team - Maintained reliability, speed, and uptime of client-facing systems by rapidly fixing bugs, resulting in higher uptime, improved security, closed sales deals, and better customer satisfaction.
 
 - org: Cultivation Capital
