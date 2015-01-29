@@ -29,7 +29,8 @@ category: essay
 <p>After you have configured DNS, the next step is uploading your Jekyll site to the CDN. First, run the command <em>Jekyll</em> to compile your site into the <em>_site</em> folder.</p>
 <p>In order to upload my site to the CDN, I use <a href="https://github.com/nicholaskuechler/jekyll-rackspace-cloudfiles-clean-urls/blob/master/cloudfiles_jekyll_upload.py">this Jekyll to Rackspace Cloud Files Python script</a>. It requires having Python installed on your computer - if you are unsure of how to do this, Google directions because installation on each operating system differs. </p>
 <p>Save the script to your root Jekyll directory, and edit it to put in your Rackspace username, API key, and container name. To run the file, thus uploading your site to the CDN, use the command:</p>
-<pre>python cloudfiles_jekyll_upload.py </pre>
+
+python cloudfiles_jekyll_upload.py </pre>
 
 <p><strong>Warning:</strong> Add the uploading script to the <a href="http://blog.patrickcrosby.com/2009/09/05/jekyll-exclude-files.html">exclude</a> in your <i>_config.yml</i>, and consider adding it to your <i>.gitignore</i>. Otherwise, the access credentials for your Rackspace account could be compromised.</p>
 <p><strong>Note:</strong> You may upload the contents of your <em>_site</em> folder however you wish; I find the above script most efficient, but using the web interface or <a href="http://cyberduck.ch">Cyberduck</a> are equally viable.</p> 
@@ -44,25 +45,27 @@ category: essay
 <p>In order to obtain an authentication token and in order to see the CDN URL, you need your Rackspace username and Rackspace API Key (available in your Rackspace Account information). Run this cURL command: </p>
 
 
-<pre>
-cURL -H "X-Auth-User: <em>[Rackspace Username]</em>" -H "X-Auth-Key: <em>[Your Rackspace API Key]</em>" https://auth.api.rackspacecloud.com/v1.0/ -v
-</pre>
+{% highlight bash %}
+cURL -H "X-Auth-User: [Rackspace Username]" -H "X-Auth-Key: [Your Rackspace API Key]" https://auth.api.rackspacecloud.com/v1.0/ -v
+{% endhighlight %}
 <p>In the response, there are two important lines for this guide. <strong>X-Storage-Url</strong> is your <strong>CDN URL</strong>, and <strong>X-Auth-Token</strong> is your <strong>authentication token</strong>. Record both of these, as we will use them in the next step. </p>
 
 	<h3>Setting Web Index</h3>
 	<p>Now that we have the authentication token and CDN URL, we can set the web index file using the below cURL command. The command is specific to a container, so you need your container name, which you append to the CDN URL.  Here, I am setting the web index to <em>index.html</em>, but you could hypothetically set it to any file in the container. </p>
 
-<pre>
-cURL -X POST -H "X-Container-Meta-Web-Index: <em>index.html</em>" -H "X-Auth-Token: <em>[Authentication Token]</em>" <em>[CDN URL]</em>/<em>[Container Name]</em>/ -v
-</pre>
+{% highlight bash %}
+cURL -X POST -H "X-Container-Meta-Web-Index: index.html" -H "X-Auth-Token: [Authentication Token]" [CDN URL]/[Container Name]/ -v
+{% endhighlight %}
 <p>It should take a few minutes for this to propagate, but you then should be able to navigate to your root URL, e.g. <em>www.example.com</em>, and see the contents of <em>index.html</em>.
 
 <h2>Error Pages</h2>
 <p>Rackspace also allows <strong>401</strong> (unauthorized) and <strong>404</strong> (not found) error pages to be configured for a container. This means that if somebody navigates to <em>www.example.com/nonexistent_file</em>, you can show your own 404 error page instead of the default Rackspace error. This adds professionalism to your site.</p>
 <p>To start, you need to add two static pages to Jekyll: <strong>401error.html</strong> and <strong>404error.html</strong>. Rackspace is a bit idisyncratic in that you must have <strong>both</strong> a 401 page and a 404 page to use their custom error pages. The query for configuring error pages is almost exactly the same as creating a web index, and requires information from teh <a href="#api_auth">preceeding API authentication step</a>. Once you have uploaded the error pages and obtained the authentication token and CDN URL, run this cURL statement:</p>
-<pre>
-cURL -X POST -H "X-Container-Meta-Web-Error: <em>error.html</em>" -H "X-Auth-Token: <em>[Authentication Token]</em>" <em>[CDN URL]</em>/<em>[Container Name]</em>/ -v
-</pre>
+
+{% highlight bash %}
+cURL -X POST -H "X-Container-Meta-Web-Error: error.html" -H "X-Auth-Token: [Authentication Token]" [CDN URL]/[Container Name]/ -v
+{% endhighlight %}
+
 <p>Note that we set the web error page to error.html, even though we created the pages 401error.html and 404error.html. This is because Rackspace preprends the error code to the page we set. Thus, if you want the error pages to be 401request.html and 404request.html, you could update the above statement with <em>request.html</em> in place of <em>error.html</em>.</p>
 
 
@@ -91,17 +94,19 @@ www.example.com/folder/</p>
 <p>In order to overcome this, we need to use the API again. We run three separate purges - one for each of the file structures. However, these purges are <strong>destructive</strong>, meaning that you must upload the corrected file <strong>after</strong> running these queries. </p>
 <p>Run these three queries, subbing in your authorization token, CDN URL, and container name. They are structured to delete the file path /folder/index.html; modify the query for folders or sub-folders. In addition, you can insert your email address and Akamai will email you when the purge is complete. In my experience, deleting files through this method takes about 10 minutes. </p>
 <strong>Delete /folder</strong>
-<pre>
-cURL -D – -X DELETE -H "X-Auth-Token: <em>[Auth Token]</em>" -H "X-Purge-Email: <em>[Your Email]</em>"  <em>[CDN URL]</em>/<em>[Container Name]</em>/folder -v
-</pre>
+
+{% highlight bash %}
+cURL -D – -X DELETE -H "X-Auth-Token: [Auth Token]" -H "X-Purge-Email: [Your Email]"  [CDN URL]/[Container Name]/folder -v
+{% endhighlight %}
+
 <strong>Delete /folder/</strong>
-<pre>
-cURL -D – -X DELETE -H "X-Auth-Token: <em>[Auth Token]</em>" -H "X-Purge-Email: <em>[Your Email]</em>"  <em>[CDN URL]</em>/<em>[Container Name]</em>/folder/ -v
-</pre>
+{% highlight bash %}
+cURL -D – -X DELETE -H "X-Auth-Token: [Auth Token]" -H "X-Purge-Email: [Your Email]"  [CDN URL]/[Container Name]/folder/ -v
+{% endhighlight %}
 <strong>Delete /folder/index.html</strong>
-<pre>
-cURL -D – -X DELETE -H "X-Auth-Token: <em>[Auth Token]</em>" -H "X-Purge-Email: <em>[Your Email]</em>"  <em>[CDN URL]</em>/<em>[Container Name]</em>/folder -v
-</pre>
+{% highlight bash %}
+cURL -D – -X DELETE -H "X-Auth-Token: [Auth Token]" -H "X-Purge-Email: [Your Email]"  [CDN URL]/[Container Name]/folder -v
+{% endhighlight %}
 <p>At this point, you have successfully deleted the old file. Now , upload your corrected /folder/index.html file, and changes should be reflected online in about 5 minutes.</p>
 <p><strong>Note:</strong> Each of these purges counts against your daily limit of 25 Edge Purges through Rackspace.</p>
 <h2>Site-wide change</h2>
