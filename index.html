@@ -2,48 +2,36 @@
 layout: main
 permalink: /
 ---
-<div class="row">
-    <div class="col-md-5 col-sm-12">
-        <h2>Latest Posts</h2>
-        <ul>
-            {% for post in site.posts limit:5 %}
-            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-            {% endfor %}
-            <li class="list-unstyled"><span class="pull-right"><a class="btn btn-default btn-xs" href="/posts/">Posts</a></span></li>
-        </ul>
-    </div>
-    <div class="col-md-5 col-md-offset-1 col-sm-12">
-        <h2>Recent Writing</h2>
-        <ul>
-            {% for article in site.data.writing reversed %}
-                {% if forloop.index < 4 %}
-                <li><a href="{{ article.url }}">{{ article.title }}</a> <span class="text-muted">({{ article.site }})</span>  </li>
-                {% endif %}
-            {% endfor %}
-            <li class="list-unstyled"><span class="pull-right"><a class="btn btn-default btn-xs" href="/writing/">Writing</a></span></li>
-        </ul>
-    </div>
-</div>
 
-<div class="row">
-    <div class="col-md-5 col-sm-12">
-        <h2>Press</h2>
-        <ul>
-            {% for article in site.data.press %}
-                {% if forloop.index < 4 %}
-                <li><a href="{{ article.url }}">{{ article.title }}</a> <span class="text-muted">({{ article.site }})</span>  </li>
-                {% endif %}
-            {% endfor %}
-            <li class="list-unstyled"><span class="pull-right"><a class="btn btn-default btn-xs" href="/press/">Press</a></span></li>
-        </ul>
-    </div>
-    <div class="col-md-5 col-md-offset-1 col-sm-12">
-        <h2>Current Projects</h2>
-        <ul>
-            {% for project in site.data.projects %}
-            <li><a href="{{ project.url }}">{{ project.title }}</a></li>
-            {% endfor %}
-            <li class="list-unstyled"><span class="pull-right"><a class="btn btn-default btn-xs" href="/resume/">Resume</a></span></li>
-        </ul>
-    </div>
-</div>
+<table id="homepage">
+    <tr>
+        <td class="col-sm-6 col-left">
+                I work at
+        </td>
+        <td class="col-sm-6">
+            <a href="https://www.opendns.com">
+                <img src="/images/homepage/opendns.png" alt="OpenDNS">
+            </a>
+        </td>
+    </tr>
+    <tr>
+        <td class="col-sm-6 col-left">
+                I run
+        </td>
+        <td class="col-sm-6">
+            <a href="http://meetup.com/openlate/">
+                <img src="/images/homepage/openlate.png" alt="OpenLate">
+            </a>
+        </td>
+    </tr>
+    <tr>
+        <td class="col-sm-6 col-left">
+                I am building
+        </td>
+        <td class="col-sm-6">
+            <a href="https://www.StaffJoy.com">
+                <img src="/images/homepage/staffjoy.png" alt="StaffJoy">
+            </a>
+        </td>
+    </tr>
+</table>
