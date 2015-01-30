@@ -13,6 +13,3 @@ This website is built in Jekyll and hosted on Amazon S3 with Cloudflare CDN. [Vi
 * [Life](http://life.philipithomas.com)
 * [Wordpress network](http://network.philipithomas.com)
 * [Git server](http://git.philipithomas.com)
-* [API](http://api.philipithomas.com)
-
-
