@@ -3,7 +3,7 @@
   location: San Francisco, CA
   when: May 2013 - Now
   bullets:
-    - Studying the network performance of client software using Apache Pig and the internal Beacon platform to identify adverse network configurations and to quantify their effect on security enforcement.
+    - Studying the network performance of client software using Apache Pig and the internal Beacon platform to identify adverse network configurations and to quantify their effects on security enforcement.
     - Architected, developed, and maintain the internal Beacon system - a scalable telemetry and data science platform for studying client software network performance - using Go, Flask, Docker, and Amazon Web Services.
     - Designed and implemented a support tool for visualizing network events using the internal Beacon API, resulting in decreased customer support case resolution times, improved bug detection, and quantification of alorithm performance on client networks.
     - Co-managed an intern team to build [OpenResolve](https://www.openresolve.com), an open-source Docker image for domain information as a REST-like API.
