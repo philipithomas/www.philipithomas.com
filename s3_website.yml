@@ -6,10 +6,11 @@ gzip: false
 
 redirects:
   beer/index.html: 'http://beer.philipithomas.com'
-  connect/index.html: '/about/'
+  connect/index.html: '/'
   cv/index.html: '/resume/'
   dropbox/index.html: 'https://www.dropbox.com/sh/k5ze6g902vazckv/VkLi2f9292'
-  hire-me/index.html: '/about/'
+  hire-me/index.html: '/'
   projects/index.html: /resume/
   calendar/index.html: https://calendly.com/philipithomas
   appointment/index.html: https://calendly.com/philipithomas
+  about/index.html: '/' 
