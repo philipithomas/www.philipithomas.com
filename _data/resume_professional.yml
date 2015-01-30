@@ -2,9 +2,10 @@
   role: Software Engineer
   location: San Francisco, CA
   when: May 2013 - Now
-  bullets: 
-    - Developed a telemetry platform for client software services by aggregating and analyzing remote log data, resulting in halving related customer support case resolution times and detecting client bugs.
-    - Architected the distributed, fault-tolerant processing system using Flask, Docker, nginx, and Amazon Web Services.
+  bullets:
+    - Studying the network performance of client software using Apache Pig and the internal Beacon platform to identify adverse network configurations and to quantify their effect on security enforcement.
+    - Architected, developed, and maintain the internal Beacon system - a scalable telemetry and data science platform for studying client software network performance - using Go, Flask, Docker, and Amazon Web Services.
+    - Designed and implemented a support tool for visualizing network events using the internal Beacon API, resulting in decreased customer support case resolution times, improved bug detection, and quantification of alorithm performance on client networks.
     - Co-managed an intern team to build [OpenResolve](https://www.openresolve.com), an open-source Docker image for domain information as a REST-like API.
     - Formerly A-Team - Maintained reliability, speed, and uptime of client-facing systems by rapidly fixing bugs, resulting in higher uptime, improved security, closed sales deals, and better customer satisfaction.
 
@@ -13,4 +14,4 @@
   location: St. Louis, MO
   when: Mar 2012 - May 2013
   bullets: 
-    - Performed technical analysis of early investments by the fund resulting in the fund being recognized as a [Top 12 Midwest Venture Player](http://www.forbes.com/sites/karstenstrauss/2013/08/26/big-money-midwest-12-venture-players/) by Forbes and exits such as [Yurbuds](http://www.stltoday.com/business/local/st-louis-based-yurbuds-sold-to-connecticut-audio-firm-harman/article_8a4c46da-2776-5dd2-a444-6798afed8e74.html).
+    - Performed technical analysis of early investments by the fund, including Yurbuds ([acquired 2014](http://www.stltoday.com/business/local/st-louis-based-yurbuds-sold-to-connecticut-audio-firm-harman/article_8a4c46da-2776-5dd2-a444-6798afed8e74.html)), Gainsight ([raised >$50M after seed round](https://www.crunchbase.com/organization/gainsight)), and [Aisle411](http://streetfightmag.com/2014/06/30/aisle411-google-partner-to-launch-3d-mapped-shopping-solution/).

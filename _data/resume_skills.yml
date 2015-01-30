@@ -1,10 +1,10 @@
 - Languages:
     primary:
       - Python
-      - PHP
-    secondary:
       - Go
       - Julia
+    secondary:
+      - PHP
       - Javascript
       - Matlab
 - Systems:
@@ -14,6 +14,7 @@
       - Bash
       - DNS
     secondary:
+      - Apache Pig
       - nginx
       - Logstash
 - Technical:
