@@ -101,3 +101,6 @@
   site: OpenDNS Engineering Blog
   url: https://engineering.opendns.com/2014/12/29/year-openlate/
   date: 30 Dec 2014
+- title: Scaling A/B Testing on Netflix.com with Node.js
+  site: OpenDNS Engineering Blog
+  url: https://engineering.opendns.com/2015/01/14/scaling-ab-testing-netflix-com-node-js/
