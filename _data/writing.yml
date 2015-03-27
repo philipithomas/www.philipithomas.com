@@ -117,3 +117,8 @@
   site: OpenDNS Engineering Blog
   url: https://engineering.opendns.com/2015/03/11/end-to-end-provider-testing-at-pagerduty/
   date: 11 March 2015
+- title: How Operations Research and Artificial Intelligence Overlap
+  site: StaffJoy Blog
+  url: https://blog.staffjoy.com/2015/03/26/or-vs-ai/
+  date: 26 March 2015
+  highlight: true
