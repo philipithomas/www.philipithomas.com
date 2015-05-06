@@ -1,14 +1,11 @@
+- name: StaffJoy
+  href: https://www.staffjoy.com
+
 - name: OpenDNS Engineering
   href: http://engineering.opendns.com
 
 - name: OpenLate Meetup Group
   href: http://meetup.com/openlate
-
-- name: StaffJoy
-  href: https://www.staffjoy.com
-
-- name: Turing Mechanic
-  href: https://www.turingmechanic.com
 
 - name: Beer Database
   href: http://beer.philipithomas.com
