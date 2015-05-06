@@ -126,3 +126,8 @@
   site: StaffJoy Blog
   url: https://blog.staffjoy.com/2015/05/05/3-lies-about-time/
   date: 5 May 2015
+- title: Docker Container Scheduling as a Bin Packing Problem
+  site: OpenDNS Engineering Blog
+  url: https://engineering.opendns.com/2015/05/06/docker-container-scheduling-as-a-bin-packing-problem/
+  date: 6 May 2015
+  highlight: true
