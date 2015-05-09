@@ -3,15 +3,14 @@
   location: San Francisco, CA
   when: May 2013 - Now
   bullets:
-    - Studying the network performance of client software using Apache Pig and the internal Beacon platform to identify adverse network configurations and to quantify their effects on security enforcement.
-    - Architected, developed, and maintain the internal Beacon system - a scalable telemetry and data science platform for studying client software network performance - using Go, Flask, Docker, and Amazon Web Services. The Beacon system has been deployed by 3 engineering teams and and it has been utilized in over 100 enterprise support cases.
-    - Designed and implemented a support tool for visualizing network events using the internal Beacon API, resulting in decreased customer support case resolution times, improved bug detection, and quantification of algorithm performance on client networks.
-    - Co-managed an intern team of two university students to build [OpenResolve](https://www.openresolve.com), an open-source Docker image for domain information as a REST-like API. One intern was subsequently hired as a full-time engineer. 
+    - Designed and developing the internal Floodgate system, a client software orchestration platform, to scale to 86K queries/sec using Go, Docker, Redis, and Amazon Aurora.
+    - Architected, developed, and maintain the internal Beacon system - a scalable telemetry and data science platform for studying client software network performance - using Go, Flask, Docker, and Amazon Web Services.
+    - Co-managed an intern team of two university students to build [OpenResolve](https://www.openresolve.com), an open-source Docker image for domain information as a REST-like API. One intern was subsequently hired as a full-time engineer.
     - Formerly A-Team - Maintained reliability, speed, and uptime of client-facing systems by rapidly fixing bugs, resulting in higher uptime, improved security, closed sales deals, and better customer satisfaction.
 
 - org: Cultivation Capital
   role: Analyst
   location: St. Louis, MO
   when: Mar 2012 - May 2013
-  bullets: 
+  bullets:
     - Performed technical analysis of early investments by the fund, including Yurbuds ([acquired 2014](http://www.stltoday.com/business/local/st-louis-based-yurbuds-sold-to-connecticut-audio-firm-harman/article_8a4c46da-2776-5dd2-a444-6798afed8e74.html)), Gainsight ([raised >$50M after seed round](https://www.crunchbase.com/organization/gainsight)), and [Aisle411](http://streetfightmag.com/2014/06/30/aisle411-google-partner-to-launch-3d-mapped-shopping-solution/).

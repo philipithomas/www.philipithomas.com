@@ -4,7 +4,6 @@
       - Go
       - Julia
     secondary:
-      - PHP
       - Javascript
       - Matlab
 - Systems:
@@ -14,16 +13,16 @@
       - Bash
       - DNS
     secondary:
-      - Apache Pig
+      - MySQL
+      - Redis
       - nginx
       - Logstash
 - Technical:
     primary:
+      - Applied Mathematics
       - Operations Research
-      - Statistics
       - Distributed Systems
     secondary:
-      - Continuous Integration
       - Signal Analysis
       - Control Systems
       - Queuing Theory

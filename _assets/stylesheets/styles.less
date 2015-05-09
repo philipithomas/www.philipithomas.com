@@ -189,6 +189,28 @@ article img {
   }
 }
 .resume {
+  .page-header {
+    position: relative;
+    text-align: left;
+    border: none;
+    margin: 0;
+
+    h2 {
+        display: inline-block;
+        color: @gray-light;
+    }
+    h2:after, h2:before {
+        border-top: 2px solid @gray-lighter;
+        display: block;
+        height: 2px;
+        content: " ";
+        width: 75%;
+        position: absolute;
+        left: auto;
+        right: 0;
+        top: 1.25em;
+    }
+  }
   .section {
     padding-top: 20px;
     padding-bottom: 24px;
