@@ -1,3 +1,11 @@
+- org: StaffJoy
+  role: Co-Founder
+  location: San Francisco, CA
+  when: Jan 2014 - Now
+  bullets:
+    - Building a tool that decreases labor costs 10% by automating shift scheduling and management.
+    - Developed proprietary algorithms hybridizing operations research and artificial intelligence techniques to generate optimal shift schedules.
+    - Currently in closed testing, but used daily by over 200 people.
 - org:  OpenLate Meetup Group
   role: Founder and Organizer
   location: San Francisco, CA
