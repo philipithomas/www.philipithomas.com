@@ -198,17 +198,20 @@ article img {
     h2 {
         display: inline-block;
         color: @gray-light;
+        background-color: white;
+        padding-right: 10px;
     }
     h2:after, h2:before {
         border-top: 2px solid @gray-lighter;
         display: block;
         height: 2px;
         content: " ";
-        width: 62%;
+        width: 90%;
         position: absolute;
         left: auto;
         right: 0;
         top: 1.25em;
+        z-index: -1;
     }
   }
   .section {
