@@ -93,14 +93,24 @@
   site: Telegraph Research
   url: http://www.telegraphresearch.com/ridesharing/
   date: 6 Oct 2014
+  highlight: true
 - title: Bayes Impact Hackathon at OpenDNS HQ
   site: OpenDNS Engineering Blog
   url: http://engineering.opendns.com/2014/10/21/bayes-impact-hackathon-opendns-hq/
   date: 21 Oct 2014
+- title: Optimization in Julia
+  site: OpenDNS Engineering Blog
+  url: https://engineering.opendns.com/2014/12/01/video-optimization-julia/
+  date: 1 Dec 2014
 - title: A Year of OpenLate
   site: OpenDNS Engineering Blog
   url: https://engineering.opendns.com/2014/12/29/year-openlate/
-  date: 30 Dec 2014
+  date: 29 December 2014
+  highlight: true
+- title: Optimization in Julia using JuMP
+  site: StaffJoy Blog
+  url: https://blog.staffjoy.com/2015/01/04/video-optimization-in-julia-using-jump/
+  date: 4 Jan 2015
 - title: Scaling A/B Testing on Netflix.com with Node.js
   site: OpenDNS Engineering Blog
   url: https://engineering.opendns.com/2015/01/14/scaling-ab-testing-netflix-com-node-js/
@@ -122,6 +132,14 @@
   url: https://blog.staffjoy.com/2015/03/26/or-vs-ai/
   date: 26 March 2015
   highlight: true
+- title: Redesigning MySQL for Scalability at AWS
+  site: OpenDNS Engineering Blog
+  url: https://engineering.opendns.com/2015/04/07/redesigning-mysql-aws-tech-talk-on-the-aurora-database/
+  date: 7 April 2015
+- title: StaffJoy Trials Show 10% Decrease in Labor Costs
+  site: StaffJoy Blog
+  url: https://blog.staffjoy.com/2015/04/22/decreasing-labor-costs/
+  date: 22 April 2015
 - title: 3 Lies About Time
   site: StaffJoy Blog
   url: https://blog.staffjoy.com/2015/05/05/3-lies-about-time/
@@ -131,3 +149,24 @@
   url: https://engineering.opendns.com/2015/05/06/docker-container-scheduling-as-a-bin-packing-problem/
   date: 6 May 2015
   highlight: true
+- title: "Founders' Update #1"
+  site: StaffJoy Blog
+  url: https://blog.staffjoy.com/2015/05/08/founders-update-1/
+  date: 8 May 2015
+  highlight: true
+- title: Scaling Startup Teams
+  site: OpenDNS Engineering Blog
+  url: https://engineering.opendns.com/2015/05/11/scaling-startup-teams/
+  date: 11 May 2015
+- title: Async Intercom User Tracking in Python
+  site: StaffJoy Blog
+  url: https://blog.staffjoy.com/2015/07/05/async-intercom-user-tracking-in-python/
+  date: 5 July 2015
+- title: Elasticsearch for SQL Users
+  site: OpenDNS Engineering Blog
+  url: https://engineering.opendns.com/2015/07/16/elasticsearch-for-sql-users/
+  date: 16 July 2015
+- title: Dashboard Building at the OpenDNS Q3 Hack Day
+  site: OpenDNS Engineering Blog
+  url: https://engineering.opendns.com/2015/07/24/dashboard-building-at-the-opendns-q3-hack-day/
+  date: 24 July 2015
