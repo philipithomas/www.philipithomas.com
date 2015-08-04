@@ -20,11 +20,11 @@ The 837 people on the mailing list were randomly assigned to one of two email su
 
 ## Results
 
-<table>
+<table class="table table-striped">
 	<tr>
 		<th></th>
 		<th>A (Free Food)</th>
-		<th>B</th>
+		<th>B (Control)</th>
 	</tr>
 
 	<tr>

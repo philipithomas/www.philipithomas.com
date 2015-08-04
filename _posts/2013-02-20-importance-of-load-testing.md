@@ -17,7 +17,7 @@ Shortly therafter, a second message was sent:
 
 Unfortunately, most students (me included) received the "all clear" message before the "threat to safety" message, thus creating confusion. 
 
-Thus, everybody began to navigate to [emergency.wustl.edu](http://emergency.wustl.edu) to understand the situation. **There, they found the emergency notification website unavailable. ** The number of visitors had crashed the website.
+Thus, everybody began to navigate to [emergency.wustl.edu](http://emergency.wustl.edu) to understand the situation. There, they found the emergency notification website unavailable. <span class="highlight">The number of visitors had crashed the website.</span>
 
 Due to the confusion, a third message was broadcast to campus: 
 
@@ -26,6 +26,7 @@ Due to the confusion, a third message was broadcast to campus:
 In a debrief email sent later in the day, it was revealed that, during training, the real emergency notification system was accidentally activated. Buried in the email, the university acknowledged the unavailability of the website: 
 
 >Q: Why couldn’t some people access the emergency website, as instructed?
+>
 >A: Simply put, the site was overwhelmed with traffic and crashed. While the whole scenario was unfortunate and caused undue alarm, learning about this defect in our system today is the most valuable part of the experience. The University is investigating why this happened and will be recommending a solution.
 
 
