@@ -1,12 +1,13 @@
-- org:  OpenDNS
-  role: Software Engineer
+- org:  OpenDNS (acquired by Cisco)
+  role: Senior Software Engineer
   location: San Francisco, CA
   when: May 2013 - Now
   bullets:
-    - Designed and developing the internal Floodgate system, a client software orchestration platform, to scale to 86K queries/sec using Go, Docker, Redis, and Amazon Aurora.
+    - Designed and developing the internal Floodgate system, a client software orchestration platform, to scale from 300 queries/sec to 86K queries/sec using Go, Docker, Redis, and Amazon Aurora.
     - Architected, developed, and maintain the internal Beacon system - a scalable telemetry and data science platform for studying client software network performance - using Go, Flask, Docker, and Amazon Web Services.
     - Co-managed an intern team of two university students to build [OpenResolve](https://www.openresolve.com), an open-source Docker image for domain information as a REST-like API. One intern was subsequently hired as a full-time engineer.
     - Formerly A-Team - Maintained reliability, speed, and uptime of client-facing systems by rapidly fixing bugs, resulting in higher uptime, improved security, closed sales deals, and better customer satisfaction.
+    - Acquired in August 2015 by Cisco for $635 million.
 
 - org: Cultivation Capital
   role: Analyst
