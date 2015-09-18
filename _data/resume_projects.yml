@@ -1,15 +1,7 @@
-- org: StaffJoy
-  role: Co-Founder
-  location: San Francisco, CA
-  when: Jan 2014 - Now
-  bullets:
-    - Application decreases labor costs by precisely scheduling hourly employees to fulfill business demand.
-    - Developed proprietary algorithms utilizing integer programming, dynamic programming, and heuristics to optimally schedule hourly shifts.
-
 - org:  OpenLate Meetup Group
   role: Founder and Organizer
   location: San Francisco, CA
-  when: Feb 2014 - Now
+  when: Feb 2014 - Aug 2015
   bullets:
     - Started an [engineering tech talk series](https://engineering.opendns.com/openlate/) and grew it to 2600 members by hosting biweekly events.
     - Community directly resulted in over $100K in closed deals and three technical hires.
