@@ -9,7 +9,7 @@
 - org:  OpenDNS
   role: Senior Software Engineer
   location: San Francisco, CA
-  when: May 2013 - Sept 2015
+  when: May 2013 - Oct 2015
   bullets:
     - Architected, developed, and maintain the internal Beacon system - a scalable telemetry and data science platform for studying client software network performance - using Go, Flask, Docker, and Amazon Web Services.
     - Co-managed an intern team of two university students to build [OpenResolve](https://www.openresolve.com), an open-source Docker image for domain information as a REST-like API. One intern was subsequently hired as a full-time engineer.
