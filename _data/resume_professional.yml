@@ -1,9 +1,9 @@
-- org: StaffJoy
+- org: Staffjoy
   role: Co-Founder and CEO
   location: San Francisco, CA
   when: Jan 2015 - Now
   bullets:
-    - StaffJoy decreases labor costs by precisely scheduling hourly employees to fulfill business demand.
+    - We automatically schedule your workforce so people can work when they want and your business saves money.
     - Developed proprietary algorithms utilizing integer programming, dynamic programming, and heuristics to optimally schedule hourly shifts.
 
 - org:  OpenDNS
