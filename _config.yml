@@ -11,6 +11,8 @@ twitter: philipithomas
 copyright: All rights reserved. 
 rss_path: /
 rss_name: rss.xml
+gems:
+  - jekyll-assets
 assets:
   dirname: assets
   baseurl: /assets/
@@ -24,4 +26,3 @@ assets:
     - _assets/javascripts
     - _assets/stylesheets
     - _assets/images
-

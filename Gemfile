@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-gem 'jekyll'
+gem 'jekyll', '<3.0'
 gem 's3_website'
 gem 'jekyll-assets'
 gem 'rdiscount'
