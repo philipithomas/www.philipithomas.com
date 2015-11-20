@@ -1,0 +1,11 @@
+theme:                      "www.philipithomas.com"
+title:                      "Philip I. Thomas"
+baseURL:                    "https://www.philipithomas.com/"
+description:                "The blog and portfolio of Philip I. Thomas, co-founder of Staffjoy."
+buildDrafts:                true
+buildFuture:                true
+relativeURLs:               true
+canonifyURLs:               false
+config:                     "config.yaml"
+defaultExtension:           "md"
+defaultLayout:              "post"
