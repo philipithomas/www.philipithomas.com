@@ -9,3 +9,4 @@ canonifyURLs:               false
 config:                     "config.yaml"
 defaultExtension:           "md"
 defaultLayout:              "post"
+MetaDataFormat:             "yaml"
