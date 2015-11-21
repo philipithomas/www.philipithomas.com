@@ -10,3 +10,13 @@ config:                     "config.yaml"
 defaultExtension:           "md"
 defaultLayout:              "post"
 MetaDataFormat:             "yaml"
+
+# Theme
+parameters:
+    TwitterUser: "philipithomas"
+    FacebookUser: "philipithomas"
+    copyright: "&copy; 2015 Philip I. Thomas. All Rights Reserved."
+    author: "Philip I. Thomas"
+    bgcolor: "black"
+    primary: "indigo"
+    accent: "pink"
