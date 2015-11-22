@@ -260,6 +260,7 @@ body .main-container {
 }
 .main-container .mdl-card h3 {
   margin: 0;
+  text-shadow: 3px 3px 8px rgba(0,0,0,.6);
 }
 .main-container .mdl-card h3 a {
   text-decoration: none;
@@ -299,9 +300,16 @@ body .main-container {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-.blog--blogpost .meta + .mdl-card__supporting-text p {
+.mdl-card__supporting-text.content {
   max-width: 512px;
   margin: 16px auto;
+}
+
+.content img, .content iframe {
+    max-width: 100%;
+}
+
+.blog--blogpost .meta + .mdl-card__supporting-text p {
   font-size: 16px;
   line-height: 28px;
 }

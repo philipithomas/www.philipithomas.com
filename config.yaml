@@ -18,9 +18,9 @@ Params:
     FacebookUser: "philipithomas"
     copyright: "&copy; 2015 Philip I. Thomas. All Rights Reserved."
     author: "Philip I. Thomas"
-    bgcolor: "black"
-    primary: "indigo"
-    accent: "pink"
+    bgcolor: "#171717"
+    primary: "grey"
+    accent: "blue"
     defaultImage: "/images/cover/default.jpg"
 
 permalinks:
