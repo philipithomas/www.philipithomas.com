@@ -1,6 +1,5 @@
 ---
 category: "news"
-layout: "post"
 description: "Presentation at Hackership Coding School"
 title: "Slides - Overview of Programming Languages"
 date: "2014-10-28"

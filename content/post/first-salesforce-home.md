@@ -1,6 +1,5 @@
 ---
 category: "essay"
-layout: "post"
 description: "Tracking down the apartment where a billion-dollar company began"
 title: "First Home of Salesforce.com"
 date: "2013-12-03"

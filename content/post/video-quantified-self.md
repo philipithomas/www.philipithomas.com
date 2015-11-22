@@ -1,6 +1,5 @@
 ---
 category: "news"
-layout: "post"
 description: "My speech to the Bay Area Quantified Self meetup"
 title: "Video - Quantified Self Presentation"
 date: "2014-03-31"

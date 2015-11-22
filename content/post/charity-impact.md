@@ -1,6 +1,5 @@
 ---
 category: "essay"
-layout: "post"
 description: "Thoughts on Charity Opportunity"
 title: "Gamifying Charity Impact"
 date: "2014-11-15"

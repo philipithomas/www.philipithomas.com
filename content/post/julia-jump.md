@@ -1,7 +1,5 @@
 ---
 category: "essay"
-display-title: "optimization in julia using JuMP"
-layout: "post"
 description: "Converting code from GurobiPy to the new Julia Mathematical Programming package."
 title: "Optimization in Julia using JuMP"
 date: "2014-09-15"

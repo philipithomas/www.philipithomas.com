@@ -1,6 +1,5 @@
 ---
 category: "news"
-layout: "post"
 description: "Pi day speech to WUSTL alumni"
 title: "Photos from San Francisco City Hall Speech"
 date: "2013-03-27"

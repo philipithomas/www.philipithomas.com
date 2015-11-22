@@ -1,10 +1,10 @@
 ---
 category: "essay"
-layout: "post"
 description: "Bacon, maple syrup, eggs, and orange juice - shaken, not stirred."
 title: "The American Breakfast Cocktail"
 date: "2013-12-31"
 ---
+
 <div class="panel panel-info">
     <div class="panel-heading">
         American Breakfast Cocktail Recipe 

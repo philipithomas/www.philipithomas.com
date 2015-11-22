@@ -1,6 +1,5 @@
 ---
 category: "essay"
-layout: "post"
 description: "Speeches and experiences at the first day of the 2013 HTML5 Developer Conference in San Francisco"
 title: "HTML5 Developer Conference - Day 1"
 date: "2013-10-22"

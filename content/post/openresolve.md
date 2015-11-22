@@ -1,6 +1,5 @@
 ---
 category: "project"
-layout: "post"
 description: "Docker Image for Domain Information as a REST-like API"
 title: "Introducing OpenResolve"
 date: "2014-12-04"

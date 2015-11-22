@@ -1,6 +1,5 @@
 ---
 category: "essay"
-layout: "post"
 description: "An experiment in uninterrupted reading time."
 title: "Take a Vacation to Read"
 date: "2014-01-15"

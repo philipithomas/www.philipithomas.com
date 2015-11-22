@@ -1,6 +1,5 @@
 ---
 category: "essay"
-layout: "post"
 description: "Testing application scalability"
 title: "The Importance of Load Testing"
 date: "2013-02-20"

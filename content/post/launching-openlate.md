@@ -1,6 +1,5 @@
 ---
 category: "project"
-layout: "post"
 description: "San Francisco evening hack lounge"
 title: "Launching the OpenLate Meetup Group"
 date: "2014-02-01"

@@ -1,6 +1,5 @@
 ---
 category: "news"
-layout: "post"
 description: "Spirometer team wins $50K prize"
 title: "Sparo Labs Wins WUSTL Discovery Competition"
 date: "2013-05-01"

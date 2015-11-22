@@ -1,11 +1,6 @@
 <div class="mdl-card author-box mdl-cell mdl-cell--8-col mdl-cell--4-col-desktop">
-        <div class="mdl-card__media mdl-color--white mdl-color-text--grey-600">
-              {{ if isset .Site.Params "logo" }}
-                <img src="{{ .Site.Params.logo }}" alt="logo">
-              {{ else }}
-                <img src="images/logo.png" alt="logo">
-              {{ end }}
-        </div>
+                <div class="mdl-card__media mdl-color--white mdl-color-text--grey-600" style="background-image: url('images/home-logo.jpg');" alt="logo">        </div>
+
         <div class="mdl-card__supporting-text meta meta--fill mdl-color-text--grey-600">
                 <div>
                         {{with .Site.Params.author}}<strong>{{.}}</strong>{{end}}

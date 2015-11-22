@@ -1,6 +1,5 @@
 ---
 category: "essay"
-layout: "post"
 description: "Compact equipment for brewing craft coffee."
 title: "Portable Coffee Kit"
 date: "2014-01-24"

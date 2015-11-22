@@ -1,6 +1,5 @@
 ---
 category: "essay"
-layout: "post"
 description: "A look at 4 books with separate views of prose."
 title: "Perspectives on Writing"
 date: "2014-01-07"

@@ -1,6 +1,5 @@
 ---
 category: "news"
-layout: "post"
 description: "Our company OpenDNS was acquired by Cisco for $635 Million."
 title: "Cisco Acquires OpenDNS"
 date: "2015-08-27"

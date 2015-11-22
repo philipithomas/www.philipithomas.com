@@ -1,6 +1,5 @@
 ---
 category: "project"
-layout: "post"
 description: "Deprecating an old project due to Twitter API updates"
 title: "Ending Food Trucks Near Me"
 date: "2013-06-18"

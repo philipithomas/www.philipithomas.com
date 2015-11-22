@@ -1,6 +1,5 @@
 ---
 category: "news"
-layout: "post"
 description: "Details about my tech talk about engineering at OpenDNS tomorrow at Washington University in St. Louis"
 title: "OpenDNS Tech Talk at WUSTL"
 date: "2013-09-16"

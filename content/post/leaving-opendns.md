@@ -1,6 +1,5 @@
 ---
 category: "news"
-layout: "post"
 description: "My last day at OpenDNS"
 title: "Leaving OpenDNS"
 date: "2015-09-16"

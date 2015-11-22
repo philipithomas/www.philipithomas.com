@@ -1,6 +1,5 @@
 ---
 category: "essay"
-layout: "post"
 description: "Visiting cafes to understand the cultures among different San Francisco districts."
 title: "Explore San Francisco Neighborhoods Through Coffee Shops"
 date: "2013-12-23"

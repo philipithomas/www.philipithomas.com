@@ -1,6 +1,5 @@
 ---
 category: "essay"
-layout: "post"
 description: "Food creates strong memories. Food that fails to live up to prior experiences is a nightmare."
 title: "Cleveland's Greenhouse Tavern Loses Its Luster"
 date: "2013-11-27"

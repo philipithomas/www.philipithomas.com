@@ -1,6 +1,5 @@
 ---
 category: "essay"
-layout: "post"
 description: "Multivariate testing email subject lines"
 title: "Do college students go to events for free food?"
 date: "2013-03-24"

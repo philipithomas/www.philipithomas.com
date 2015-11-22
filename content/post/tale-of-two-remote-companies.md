@@ -1,6 +1,5 @@
 ---
 category: "essay"
-layout: "post"
 description: "A look at telecommuting based on two recently published books, The Year without Pants by Scott Berkun of Automattic, and Remote by Jason Fried and David Heinemeier Hansson of 37Signals"
 title: "A Tale of Two Remote Companies"
 date: "2013-11-06"

@@ -1,6 +1,5 @@
 ---
 category: "essay"
-layout: "post"
 description: "Explaining the MapReduce algorithm in an on-technical way."
 title: "A Simplified Example of MapReduce"
 date: "2014-10-22"

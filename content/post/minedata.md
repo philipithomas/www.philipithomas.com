@@ -1,6 +1,5 @@
 ---
 category: "project"
-layout: "post"
 description: "Analyzing mining facility information to predict future accidents."
 title: "MineData.org Hackathon Project"
 date: "2014-11-30"

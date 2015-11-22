@@ -12,7 +12,8 @@ defaultLayout:              "post"
 MetaDataFormat:             "yaml"
 
 # Theme
-parameters:
+Params:
+    bgcolor: "indigo"
     TwitterUser: "philipithomas"
     FacebookUser: "philipithomas"
     copyright: "&copy; 2015 Philip I. Thomas. All Rights Reserved."
@@ -20,3 +21,8 @@ parameters:
     bgcolor: "black"
     primary: "indigo"
     accent: "pink"
+
+permalinks:
+    post: "/:filename/"
+    page: "/:filename/"
+

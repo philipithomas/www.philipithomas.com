@@ -1,6 +1,5 @@
 ---
 category: "essay"
-layout: "post"
 description: "My speech at San Francisco City Hall"
 title: "Transcript of San Francisco Speech to WUSTL Alumni"
 date: "2013-03-15"

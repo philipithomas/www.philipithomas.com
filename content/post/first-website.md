@@ -1,6 +1,5 @@
 ---
 category: "essay"
-layout: "post"
 description: "How to create and set up a personal homepage or blog."
 title: "The Basics of Your First Website"
 date: "2013-12-18"

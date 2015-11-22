@@ -1,6 +1,5 @@
 ---
 category: "news"
-layout: "post"
 description: "Upcoming speech at San Francisco City Hall"
 title: "Pi Day Speech to Bay-Area WUSTL Alumni"
 date: "2013-03-12"

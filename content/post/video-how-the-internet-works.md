@@ -1,6 +1,5 @@
 ---
 category: "essay"
-layout: "post"
 description: "Recording of my presentation at Hackbright Academy in San Francisco"
 title: "Video - How The Internet Works"
 date: "2014-09-18"

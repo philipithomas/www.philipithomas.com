@@ -1,6 +1,5 @@
 ---
 category: "essay"
-layout: "post"
 description: "Ineffective control of internal financing"
 title: "Red Flag in Tesla Motors 10-K"
 date: "2013-04-02"

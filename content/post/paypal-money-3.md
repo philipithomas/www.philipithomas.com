@@ -1,6 +1,5 @@
 ---
 category: "essay"
-layout: "post"
 description: "A look at mobile payments."
 title: "Paypal and Future of Currency"
 date: "2014-02-10"

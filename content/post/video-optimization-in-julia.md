@@ -1,6 +1,5 @@
 ---
 category: "essay"
-layout: "post"
 description: "Recording of my talk at OpenLate Meetup about Julia for Mathematical Programming"
 title: "Video - Optimization in Julia"
 date: "2014-11-19"

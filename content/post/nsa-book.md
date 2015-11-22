@@ -1,6 +1,5 @@
 ---
 category: "essay"
-layout: "post"
 description: "A look at modern signal intelligence and the National Security Agency."
 title: "Modern History of the NSA - Shadow Factory"
 date: "2013-11-16"

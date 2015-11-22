@@ -1,6 +1,5 @@
 ---
 category: "project"
-layout: "post"
 description: "Basic SMS-based application for crowd polling"
 title: "Crowd Voting Application"
 date: "2013-03-28"

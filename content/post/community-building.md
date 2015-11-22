@@ -1,6 +1,5 @@
 ---
 category: "essay"
-layout: "post"
 description: "Recording of my talk at OpenLate Meetup about building and running a technology community"
 title: "Video - How To Run a Tech Community"
 date: "2015-09-29"

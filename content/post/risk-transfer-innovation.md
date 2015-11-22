@@ -1,6 +1,5 @@
 ---
 category: "essay"
-layout: "post"
 description: "Thoughts after a discussion with the CTO of Intellectual Ventures"
 title: "Edward Jung's Risk-Transfer Innovation Model"
 date: "2013-03-04"

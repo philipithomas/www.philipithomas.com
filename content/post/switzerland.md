@@ -1,6 +1,5 @@
 ---
 category: "essay"
-layout: "post"
 description: "Switzerland does not have an army, Switzerland is an army"
 title: "Facts About the Military Empire of Switzerland"
 date: "2013-11-10"

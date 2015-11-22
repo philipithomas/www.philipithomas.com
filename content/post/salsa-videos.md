@@ -1,5 +1,4 @@
 ---
-layout: "post"
 description: "essay"
 title: "Salsa Videos"
 date: "2013-05-01"

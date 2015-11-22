@@ -1,6 +1,5 @@
 ---
 category: "essay"
-layout: "post"
 description: "A professor switches coursework to Julia after watching my video."
 title: "University Carlos III switches to Julia and JuMP"
 date: "2015-06-25"

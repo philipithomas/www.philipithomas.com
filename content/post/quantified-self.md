@@ -1,6 +1,5 @@
 ---
 category: "news"
-layout: "post"
 description: "Upcoming speech about building a personal dashboard"
 title: "Quantified Self"
 date: "2014-03-25"

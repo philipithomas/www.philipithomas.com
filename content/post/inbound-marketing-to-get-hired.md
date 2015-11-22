@@ -1,6 +1,5 @@
 ---
 category: "project"
-layout: "post"
 description: "Landing pages, multivariate testing, and other techniques used to obtain job interviews"
 title: "Using Inbound Marketing to Get A Job"
 date: "2013-04-07"

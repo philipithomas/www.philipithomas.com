@@ -1,6 +1,5 @@
 ---
 category: "essay"
-layout: "post"
 description: "Making cold-brewed yerba mate using a Toddy."
 title: "Cold Brew Experiment 1 - Yerba Mate"
 date: "2013-04-02"

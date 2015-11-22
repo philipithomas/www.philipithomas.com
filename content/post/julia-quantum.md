@@ -1,6 +1,5 @@
 ---
 category: "essay"
-layout: "post"
 description: "Recording of my talk at Julia Quantum about predictive analysis in Julia"
 title: "Video - Predictive Analysis at Julia Quantum"
 date: "2015-03-01"

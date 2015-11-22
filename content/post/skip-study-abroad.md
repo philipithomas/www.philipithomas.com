@@ -1,6 +1,5 @@
 ---
 category: "essay"
-layout: "post"
 description: "The dangers of a hiatus from education"
 title: "Skip Study Abroad"
 date: "2013-12-17"

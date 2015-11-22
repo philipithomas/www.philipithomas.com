@@ -1,6 +1,5 @@
 ---
 category: "essay"
-layout: "post"
 description: "Quantifying the year 2013"
 title: "Numbers from 2013"
 date: "2014-01-05"

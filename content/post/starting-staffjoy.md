@@ -1,6 +1,5 @@
 ---
 category: "news"
-layout: "post"
 description: "Co-founding a workforce intelligence company"
 title: "Starting StaffJoy"
 date: "2015-09-17"

@@ -1,6 +1,5 @@
 ---
 category: "essay"
-layout: "post"
 description: "Suggestions for managing a website that runs on the Jekyll blogging software."
 title: "Practical Jekyll Workflow"
 date: "2013-05-14"

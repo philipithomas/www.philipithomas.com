@@ -1,6 +1,5 @@
 ---
 category: "essay"
-layout: "post"
 title: "Kindle Convert"
 date: "2013-07-14"
 ---

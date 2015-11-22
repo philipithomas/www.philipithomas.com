@@ -1,6 +1,5 @@
 ---
 category: "project"
-layout: "post"
 description: "A digital resume using Jekyll and Google Web Starter Kit"
 title: "Jekyll Resume Project"
 date: "2014-09-25"

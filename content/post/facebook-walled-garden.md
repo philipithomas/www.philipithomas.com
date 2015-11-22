@@ -1,6 +1,5 @@
 ---
 category: "essay"
-layout: "post"
 description: "Restricting social media to an inner circle"
 title: "Walled Garden Approach to Facebook Privacy"
 date: "2013-03-18"

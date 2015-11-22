@@ -1,6 +1,5 @@
 ---
 category: "project"
-layout: "post"
 description: "Personal branding with an email address"
 title: "Minimalist Business Card"
 date: "2013-03-09"

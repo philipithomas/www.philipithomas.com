@@ -1,6 +1,5 @@
 ---
 category: "essay"
-layout: "post"
 description: "The remarkable life of Danny Lewin, Founder of Akamai Technologies."
 title: "The Commando Scientist Billionaire who Died Fighting Terrorists"
 date: "2013-12-07"

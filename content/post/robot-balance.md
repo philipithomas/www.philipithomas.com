@@ -1,6 +1,5 @@
 ---
 category: "project"
-layout: "post"
 description: "Using Lagrangian mechanics to control a robot"
 title: "Robot Balance Project"
 date: "2013-04-25"

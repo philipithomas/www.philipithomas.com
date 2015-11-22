@@ -1,6 +1,5 @@
 ---
 category: "news"
-layout: "post"
 description: "Presentation at Hackbright Academy"
 title: "How The Internet Works"
 date: "2014-05-27"

@@ -1,6 +1,5 @@
 ---
 category: "essay"
-layout: "post"
 description: "Making cold-brewed tea with common office supplies."
 title: "Cold Brew Experiment 2 - Tea Bags in a Jar"
 date: "2013-12-04"

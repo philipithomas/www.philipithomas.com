@@ -1,9 +1,9 @@
 ---
 category: "news"
-layout: "post"
 description: "Automated workforce scheduling"
 title: "Launching Staffjoy"
 date: "2015-10-22"
+image: "/images/cover/staffjoy.jpg"
 ---
 
 <a href="https://www.staffjoy.com"><img src="/images/staffjoy600.png" alt="Staffjoy" class="staffjoy-logo"/></a>

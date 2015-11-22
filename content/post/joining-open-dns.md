@@ -1,6 +1,5 @@
 ---
 category: "news"
-layout: "post"
 description: "Moving to San Francisco"
 title: "Joining OpenDNS"
 date: "2013-04-02"

@@ -1,6 +1,5 @@
 ---
 category: "essay"
-layout: "post"
 description: "Beverage from the Cherry of Coffee Plants."
 title: "Cold Brew Experiment 3 - Cascara Tea"
 date: "2014-01-10"

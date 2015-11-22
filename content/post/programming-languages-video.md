@@ -1,6 +1,5 @@
 ---
 category: "essay"
-layout: "post"
 description: "Recording of Presentation at Hackership Coding School"
 title: "Video - Overview of Programming Languages"
 date: "2014-11-03"

@@ -1,6 +1,5 @@
 ---
 category: "essay"
-layout: "post"
 description: "Combining business and branding to vitalize a company."
 title: "Experience Design"
 date: "2013-11-28"
