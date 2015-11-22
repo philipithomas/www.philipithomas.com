@@ -23,7 +23,7 @@ body .main-container {
 }
 
 .main-container.mdl-layout .mdl-layout__content {
-  padding-top: 230px;
+  padding-top: 100px;
   position: relative;
   -webkit-overflow-scrolling: touch;
 }
