@@ -1,6 +1,6 @@
 ---
-layout: page
 permalink: /
+title: about
 ---
 
 <img src="/images/about.jpg" alt="Philip I. Thomas"/>
