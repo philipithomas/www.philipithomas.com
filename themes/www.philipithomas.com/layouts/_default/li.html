@@ -1,4 +1,4 @@
-<div class="mdl-card__media mdl-color-text--grey-50" {{if .Params.image}}style="background-image: url('{{.Params.image}}');"{{end}}>
+<div class="mdl-card__media mdl-color-text--grey-50" {{if .Params.image}}style="background-image: url('{{.Params.image}}');"{{else if .Site.Params.defaultImage}}style="background-image: url('{{.Site.Params.defaultImage}}');"{{end}}>
 	<h3><a href="{{ .Permalink }}">{{.Title}}</a></h3>
 </div>
 <div class="mdl-card__supporting-text mdl-color-text--grey-600">

@@ -21,6 +21,7 @@ Params:
     bgcolor: "black"
     primary: "indigo"
     accent: "pink"
+    defaultImage: "/images/cover/default.jpg"
 
 permalinks:
     post: "/:filename/"
