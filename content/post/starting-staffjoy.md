@@ -3,6 +3,7 @@ category: "news"
 description: "Co-founding a workforce intelligence company"
 title: "Starting StaffJoy"
 date: "2015-09-17"
+image: "/images/cover/starting-staffjoy.jpg"
 ---
 
 <a href="https://www.staffjoy.com"><img src="/images/staffjoy.png" alt="StaffJoy" class="staffjoy-logo"/></a>

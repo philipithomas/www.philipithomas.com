@@ -3,6 +3,7 @@ category: "essay"
 description: "Recording of my talk at OpenLate Meetup about building and running a technology community"
 title: "Video - How To Run a Tech Community"
 date: "2015-09-29"
+image: "/images/cover/community-building.png"
 ---
 
 Last week I spoke at the [OpenLate Meetup Group](http://meetup.com/openlate) about technology community building. I started OpenLate last year as a place to code in the evenings, and it grew into a speaker series with over 2700 members in 2 countries. 

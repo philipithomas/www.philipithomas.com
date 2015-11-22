@@ -3,6 +3,7 @@ category: "essay"
 description: "Recording of my talk at OpenLate Meetup about Julia for Mathematical Programming"
 title: "Video - Optimization in Julia"
 date: "2014-11-19"
+image: "/images/cover/video-optimization-in-julia.png"
 ---
 
 Last night I gave a talk at the [OpenLate Meetup Group](http://meetup.com/openlate) about optimization in [Julia](http://julialang.org) using the [JuMP package](http://juliaopt.org). I previously wrote a [blog post about the topic](/julia-jump/), which I then expanded into a full talk.

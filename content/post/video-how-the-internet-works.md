@@ -3,6 +3,7 @@ category: "essay"
 description: "Recording of my presentation at Hackbright Academy in San Francisco"
 title: "Video - How The Internet Works"
 date: "2014-09-18"
+image: "/images/cover/video-how-the-internet-works.png"
 ---
 
 In May I gave a presentation to [Hackbright Academy](http://hackbrightacademy.com/), an engineering fellowship program in San Francisco where I mentor, about how the internet works. The goal of the talk is teaching the basics of internetwork communication to students with some background in web development. 

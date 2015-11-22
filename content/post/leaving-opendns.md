@@ -3,6 +3,7 @@ category: "news"
 description: "My last day at OpenDNS"
 title: "Leaving OpenDNS"
 date: "2015-09-16"
+image: "/images/cover/leaving-opendns.jpg"
 ---
 
 I sent the following email this morning as I spend my last day at [OpenDNS](http://www.opendns.com). An update about my new project is coming tomorrow.

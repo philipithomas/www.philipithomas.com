@@ -3,6 +3,7 @@ category: "essay"
 description: "A professor switches coursework to Julia after watching my video."
 title: "University Carlos III switches to Julia and JuMP"
 date: "2015-06-25"
+image: "/images/cover/jump-university.jpg"
 ---
 
 Last year I gave a [presentation about optimization in the Julia programming language using JuMP](/video-optimization-in-julia/) at the [OpenLate meetup](http://meetup.com/openlate/). This week I received an email about that video from a professor at the University Carlos III in Madrid that I want to share:

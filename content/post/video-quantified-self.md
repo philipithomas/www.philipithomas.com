@@ -3,6 +3,7 @@ category: "news"
 description: "My speech to the Bay Area Quantified Self meetup"
 title: "Video - Quantified Self Presentation"
 date: "2014-03-31"
+image: "/images/cover/video-quantified-self.png"
 ---
 
 Below is the video from my March 25 speech at the [Quantified Self](http://quantifiedself.com) group in San Francisco. About 180 people were in attendance. Learn more about the event and see my slides at my [last blog post](/quantified-self/).

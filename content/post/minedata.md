@@ -3,6 +3,7 @@ category: "project"
 description: "Analyzing mining facility information to predict future accidents."
 title: "MineData.org Hackathon Project"
 date: "2014-11-30"
+image: "/images/cover/minedata.jpg"
 ---
 <div class="alert alert-info">
     <a href="http://minedata.org">MineData.org</a> is temporarily offline. We made some questionable hackathon decisions - like loading data sets into memory - that require too large of a server to maintain in perpetuity. The site will be back online when we throw the results into a database.

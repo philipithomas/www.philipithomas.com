@@ -3,6 +3,7 @@ category: "essay"
 description: "Converting code from GurobiPy to the new Julia Mathematical Programming package."
 title: "Optimization in Julia using JuMP"
 date: "2014-09-15"
+image: "/images/cover/julia-jump.png"
 ---
 
 Recently I have been working on solutions to the [nurse scheduling problem](https://en.wikipedia.org/wiki/Nurse_scheduling_problem) using optimization techniques. My interest in problem started with [my senior project at Washington University in St. Louis](http://scheduling.philipithomas.com), where I used Excel Solver and the Gurobi Python Interface to create a basic solution.

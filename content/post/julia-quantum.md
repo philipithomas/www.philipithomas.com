@@ -3,6 +3,7 @@ category: "essay"
 description: "Recording of my talk at Julia Quantum about predictive analysis in Julia"
 title: "Video - Predictive Analysis at Julia Quantum"
 date: "2015-03-01"
+image: "/images/cover/julia-quantum.png"
 ---
 
 Last week I gave a presentation at [Julia Quantum](http://juliaquantum.github.io) about predictive analysis using the JuMP package for optimization. The talk focuses on examples in Physics, but talks about how we use JuMP at [StaffJoy](https://www.staffjoy.com) to solve the [nurse scheduling problem](https://en.wikipedia.org/wiki/Nurse_scheduling_problem).

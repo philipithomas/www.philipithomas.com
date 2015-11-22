@@ -3,6 +3,7 @@ category: "essay"
 description: "Recording of Presentation at Hackership Coding School"
 title: "Video - Overview of Programming Languages"
 date: "2014-11-03"
+image: "/images/cover/programming-languages-video.png"
 ---
 
 Last week I presented the talk *Overview of Programming Languages* at [Hackership.co](http://hackership.co) in Berkeley. The 30-minute talk introduces beginning programmers to the differences between programming languages. The original post about the talk was [here](/overview-of-programming-languages/). My next talk is about [optimization in Julia at the OpenLate Meetup Group](http://www.meetup.com/OpenLate/events/208535152/).
