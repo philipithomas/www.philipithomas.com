@@ -2,10 +2,9 @@
 set -e
 # Script for building the site and deploying it to S3
 
-# Install S3CMD. Need latest version, which we can't get through Travis containers (`sudo: false` mode)
-wget -O- -q http://s3tools.org/repo/deb-all/stable/s3tools.key | sudo apt-key add -
-sudo wget -O/etc/apt/sources.list.d/s3tools.list http://s3tools.org/repo/deb-all/stable/s3tools.list
-sudo apt-get update && sudo apt-get install s3cmd
+#Add s3cmd config file
+echo"[default]\naccess_key = ${AWS_ACCESS_KEY_ID}\nsecret_key = ${AWS_SECRET_ACCESS_KEY}" > .s3cfg
+
 
 # Install hugo
 hugo_version="0.14"
