@@ -45,6 +45,7 @@ then
         --acl-public \
         --delete-removed \
         --no-progress \
+        -guess-mime-type \
         sync public/* s3://$bucket/
 
     # Clear the Cloudflare cache
