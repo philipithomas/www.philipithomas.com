@@ -22,6 +22,7 @@ Params:
     primary: "grey"
     accent: "blue"
     defaultImage: "/images/cover/default.jpg"
+    # TODO  - logo (for social graph)
 
 permalinks:
     post: "/:filename/"
