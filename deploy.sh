@@ -28,8 +28,8 @@ then
         sed -i 's/https:\/\/www.philipithomas.com/https:\/\/stage.philipithomas.com/g' config.yaml
 
         # Don't let search engines see the stage
-        rm public/robots.txt
-        echo "User-agent: * \nDisallow: /" > public/robots.txt
+        rm static/robots.txt
+        echo "User-agent: * \nDisallow: /" > static/robots.txt
 
     fi
 
