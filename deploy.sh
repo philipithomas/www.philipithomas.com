@@ -2,6 +2,11 @@
 set -e
 # Script for building the site and deploying it to S3
 
+# Install S3CMD. Need latest version, which we can't get through Travis containers (`sudo: false` mode)
+wget -O- -q http://s3tools.org/repo/deb-all/stable/s3tools.key | sudo apt-key add -
+sudo wget -O/etc/apt/sources.list.d/s3tools.list http://s3tools.org/repo/deb-all/stable/s3tools.list
+sudo apt-get update && sudo apt-get install s3cmd
+
 # Install hugo
 hugo_version="0.14"
 file="hugo_${hugo_version}_linux_amd64"
@@ -21,7 +26,6 @@ if  [ "$TRAVIS_PULL_REQUEST" = "false" ] \
 then
 
     if [ "$TRAVIS_BRANCH" = "master" ]
-        # Push to prod
     then
         # Push to the prod domain
         bucket="www.philipithomas.com"
@@ -35,12 +39,9 @@ then
 
     fi
 
-    # Sync the built hogo files
-    s3cmd --version
+    # Sync the built hugo files
 
     s3cmd \
-        --access_key="$AWS_ACCESS_KEY_ID" \
-        --secret_key="$AWS_SECRET_ACCESS_KEY" \
         --acl-public \
         --delete-removed \
         --no-progress \

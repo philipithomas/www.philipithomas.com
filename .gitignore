@@ -1,3 +1,4 @@
 .DS_Store
+.s3cfg
 *.swp
 public/

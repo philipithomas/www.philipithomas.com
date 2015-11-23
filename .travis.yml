@@ -1,9 +1,6 @@
-sudo: false # Use Containers
 os:
     - linux
 addons:
-    sources:
-        - http://s3tools.org/repo/deb-all/stable/s3tools.list
     apt_packages:
         - s3cmd
 script: bash deploy.sh
