@@ -3,7 +3,7 @@ set -e
 # Script for building the site and deploying it to S3
 
 #Add s3cmd config file
-echo"[default]\naccess_key = ${AWS_ACCESS_KEY_ID}\nsecret_key = ${AWS_SECRET_ACCESS_KEY}" > .s3cfg
+echo "[default]\naccess_key = ${AWS_ACCESS_KEY_ID}\nsecret_key = ${AWS_SECRET_ACCESS_KEY}" > .s3cfg
 
 
 # Install hugo
