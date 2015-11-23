@@ -3,6 +3,5 @@ os:
     - linux
 addons:
     apt_packages:
-        - hugo
         - s3cmd
 script: bash deploy.sh

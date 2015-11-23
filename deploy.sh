@@ -2,8 +2,15 @@
 set -e
 # Script for building the site and deploying it to S3
 
+# Install hugo
+binary="https://github.com/spf13/hugo/releases/download/v0.14/hugo_0.14_linux_amd64.tar.gz"
+file="hugo_0.14_linux_amd64" # both folder and file
+
+tar xfz $binary
+
 # Build the site
-hugo
+# Hugo is a binary in an eponymous folder
+./$file/$file
 
 # override cache
 if  [ "$TRAVIS_PULL_REQUEST" = "false" ] \
