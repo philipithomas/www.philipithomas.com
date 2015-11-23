@@ -43,8 +43,6 @@ then
     s3cmd --version
 
     s3cmd \
-        --access_key="$AWS_ACCESS_KEY_ID" \
-        --secret_key="$AWS_SECRET_ACCESS_KEY" \
         --acl-public \
         --delete-removed \
         --no-progress \
