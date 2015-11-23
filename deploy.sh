@@ -1,16 +1,34 @@
 #!/bin/bash
 set -e
-# Script for deploying a jekyll build to AWS
+# Script for building the site and deploying it to S3
+
+# Build the site
+hugo
 
 # override cache
-if [ "$environment" != "production" ]; then
-  echo "Overriding robots.txt for a $environment environment"
-  rm _site/robots.txt
-  echo "User-agent: * \nDisallow: /" > _site/robots.txt
-fi
+if  [ "$TRAVIS_PULL_REQUEST" = "false" ] \
+    && [ "$TRAVIS_REPO_SLUG" = "philipithomas/www.philipithomas.com" ] \
+    && [ "$TRAVIS_SECURE_ENV_VARS" = "true" ]
+then
 
-# Push the build using the s3_website.yml settings
-bundle exec s3_website push
+    if [ "$TRAVIS_BRANCH" = "master" ]
+        # Push to prod
+    then
+        # Push to the prod domain
+        bucket="www.philipithomas.com"
+    else
+        # Push to staging domain. 
+        bucket="stage.philipithomas.com"
+
+        # Don't let search engines see the stage
+        rm public/robots.txt
+        echo "User-agent: * \nDisallow: /" > public/robots.txt
+
+    fi
+
+    # Sync the built hogo files
+    s3cmd --acl-public --delete-removed --no-progress sync public/* s3://$bucket/
+fi
 
 # Clear the Cloudflare cache
 curl https://www.cloudflare.com/api_json.html \
