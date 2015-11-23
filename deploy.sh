@@ -2,8 +2,8 @@
 set -e
 # Script for building the site and deploying it to S3
 
-#Add s3cmd config file
-echo -e "[default]\naccess_key = ${AWS_ACCESS_KEY_ID}\nsecret_key = ${AWS_SECRET_ACCESS_KEY}" > $HOME/.s3cfg
+# Install s3cmd
+pip install s3cmd
 
 # Install hugo
 hugo_version="0.14"
@@ -42,6 +42,8 @@ then
     s3cmd --version
 
     s3cmd \
+        --access_key="$AWS_ACCESS_KEY"
+        --secret_key="$AWS_SECRET_ACCESS_KEY"
         --acl-public \
         --delete-removed \
         --no-progress \

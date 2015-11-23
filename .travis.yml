@@ -1,7 +1,5 @@
+language: python
 sudo: false
 os:
     - linux
-addons:
-    apt_packages:
-        - s3cmd
 script: bash deploy.sh
