@@ -4,8 +4,6 @@ set -e
 
 # Install s3cmd
 pip install s3cmd
-# Bug with mime type
-pip install --upgrade python-magic
 
 # Install hugo
 hugo_version="0.14"
@@ -47,7 +45,8 @@ then
         --acl-public \
         --delete-removed \
         --no-progress \
-        --no-mime-magic \
+        --guess-mime-type \
+        -no-mime-magic \
         sync public/* s3://$bucket/
 
     # Clear the Cloudflare cache
