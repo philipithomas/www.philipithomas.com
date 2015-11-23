@@ -39,12 +39,9 @@ then
 
     # Sync the built hugo files
 
-    s3cmd --version
-
     s3cmd \
         --access_key="$AWS_ACCESS_KEY"
         --secret_key="$AWS_SECRET_ACCESS_KEY"
-        --acl-public \
         --delete-removed \
         --no-progress \
         sync public/* s3://$bucket/
