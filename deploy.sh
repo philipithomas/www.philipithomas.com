@@ -3,9 +3,9 @@ set -e
 # Script for building the site and deploying it to S3
 
 #Add s3cmd config file
-#echo "[default]\naccess_key = ${AWS_ACCESS_KEY_ID}\nsecret_key = ${AWS_SECRET_ACCESS_KEY}" > $HOME/.s3cfg
+#echo -e "[default]\naccess_key = ${AWS_ACCESS_KEY_ID}\nsecret_key = ${AWS_SECRET_ACCESS_KEY}" > $HOME/.s3cfg
 
-echo "[default]\naccess_key = HEY\nsecret_key = BRO" > $HOME/.s3cfg
+echo -e "[default]\naccess_key = HEY\nsecret_key = BRO" > $HOME/.s3cfg
 cat $HOME/.s3cfg
 
 
