@@ -1,0 +1,7 @@
+<ul>
+{{ range .Page.Site.Data.press.press }}
+	<li class="{{ if .highlight }}highlight{{end}}">
+       	<a href="{{ .url }}">{{ .title }}</a> ({{ .site }})
+    </li>
+{{ end }}
+</ul>

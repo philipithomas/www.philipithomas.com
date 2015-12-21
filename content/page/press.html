@@ -1,16 +1,9 @@
 ---
 title: Press
-permalink: /press/
 ---
 
-<ul>
-{% for article in site.data.press %}
-    <li>
-        {% if article.highlight%}<span class="highlight">{% endif %}
-        {{ article.site }}: <a href="{{ article.url }}">{{ article.title }}</a> 
-        {% if article.highlight%}</span>{% endif %}
-    </li>
-{% endfor %}
-</ul>
+{{% press %}}
+
+
 
 

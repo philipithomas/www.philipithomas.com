@@ -254,7 +254,7 @@ body .main-container {
   text-decoration: none;
   font-weight: inherit;
 }
-.main-container .mdl-card h3 {
+.main-container .mdl-card .mdl-card__media h3 {
   margin: 0;
   text-shadow: 3px 3px 8px rgba(0,0,0,.6);
 }
@@ -424,3 +424,8 @@ div.share.sharer-0 label span {
 a {
     text-decoration: none;
 }
+
+.highlight {
+  background: #FFF59D;
+}
+

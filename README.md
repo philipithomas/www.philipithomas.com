@@ -6,7 +6,11 @@ This is the  backend for my website [www.philipithomas.com](https://www.philipit
 
 ## Running a Development server
 
-`hugo server --watch`
+
+```
+# Install Hugo first using Brew or Apt
+hugo server --watch
+```
 
 ## Writing a new post
 
