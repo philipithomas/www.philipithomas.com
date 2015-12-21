@@ -284,7 +284,7 @@ body .main-container {
       -ms-flex-align: center;
           align-items: center;
 }
-.blog--blogpost .meta + .mdl-card__supporting-text {
+.mdl-card__supporting-text {
   border: 0;
   display: -webkit-box;
   display: -webkit-flex;
@@ -419,4 +419,8 @@ div.share.sharer-0 label span {
   font-weight: inherit;
   padding-left: inherit;
   text-transform: inherit;
+}
+
+a {
+    text-decoration: none;
 }
