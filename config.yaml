@@ -1,0 +1,30 @@
+theme:                      "www.philipithomas.com"
+title:                      "Philip I. Thomas"
+baseURL:                    "https://www.philipithomas.com/"
+description:                "The blog and portfolio of Philip I. Thomas, co-founder of Staffjoy."
+buildDrafts:                true
+buildFuture:                true
+relativeURLs:               true
+canonifyURLs:               false
+config:                     "config.yaml"
+defaultExtension:           "md"
+defaultLayout:              "post"
+MetaDataFormat:             "yaml"
+
+# Theme
+Params:
+    bgcolor: "indigo"
+    TwitterUser: "philipithomas"
+    FacebookUser: "philipithomas"
+    copyright: "&copy; 2015 Philip I. Thomas. All Rights Reserved."
+    author: "Philip I. Thomas"
+    bgcolor: "#171717"
+    primary: "grey"
+    accent: "blue"
+    defaultImage: "/images/cover/default.jpg"
+    # TODO  - logo (for social graph)
+
+permalinks:
+    post: "/:filename/"
+    page: "/:filename/"
+

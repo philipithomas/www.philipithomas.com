@@ -1,0 +1,155 @@
+# date is for manual indexing :-)
+# NEWEST AT TOP
+#
+press:
+    - site: St. Louis Business Journal
+      url: http://www.bizjournals.com/stlouis/blog/2015/11/st-louis-lacks-urgency-in-tech-talent-recruitment.html?utm_content=bufferdfb55&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer
+      title: St. Louis lacks urgency in tech talent recruitment
+      date: 9 November 2015
+    - site: St. Louis Business Journal
+      url: http://www.bizjournals.com/stlouis/blog/2015/11/st-louis-lacks-urgency-in-tech-talent-recruitment.html
+      title: St. Louis entrepreneurs launch scheduling startup
+      date: 26 October 2015
+    - site: TechCrunch
+      url: http://techcrunch.com/2015/10/22/staffjoy-launches-from-yc-fellowship-helping-businesses-automate-their-workforce-scheduling/
+      title: Staffjoy Launches From YC Fellowship, Helping Businesses Automate Their Workforce Scheduling
+      date: 22 October 2015
+    - site: OpenDNS Engineering Blog
+      url: https://engineering.opendns.com/2015/09/29/how-to-run-a-tech-community/
+      title: How to Run a Tech Community
+      date: 29 September 2015
+    - site: OpenDNS Blog
+      url: http://blog.opendns.com/2015/01/29/1000-hackers-counting-celebrating-one-year-openlate/
+      title: 1000 Hackers and Counting—Celebrating One Year of OpenLate
+      date: 29 Jan 2015
+    - site: SF Gate
+      url: http://www.sfgate.com/business/article/There-s-now-a-clubhouse-for-Uber-Lyft-Sidecar-6002951.php
+      title: There’s now a clubhouse for Uber, Lyft, Sidecar drivers
+      date: 8 Jan 2015
+    - site: Venture Beat
+      url: http://venturebeat.com/2014/12/31/groove-wants-to-be-headquarters-for-ride-sharing-delivery-drivers-with-sf-lounge/
+      title: Groove wants its SF lounge to be headquarters for ride-sharing & delivery drivers
+      date: 31 Dec 2014
+    - site: Bayes Impact
+      url: https://www.youtube.com/watch?v=hLso8WneHG4
+      title: Hacking for Social Good
+      date: 19 Dec 2014
+    - site: Quantified Self
+      url: http://quantifiedself.com/2014/08/philip-thomas-building-personal-dashboard/
+      title: Philip Thomas on Building a Personal Dashboard
+      date: 15 Aug 2014
+    - site: Airpair
+      url: http://www.airpair.com/php/php-code-mentor-philip-thomas
+      title: PHP Code Mentor Philip Thomas
+      date: 15 Jan 2014
+    - site: Lifehacker
+      url: http://lifehacker.com/make-your-own-cold-brewed-tea-in-a-jar-1477800155
+      title: Make Your Own Cold-Brewed Tea in a Jar
+    - site: St. Louis Business Journal
+      url: http://www.bizjournals.com/stlouis/blog/BizNext/2013/05/washington-university-students-win.html?page=all
+      title: Washington University students win $25,000 for medical device
+      date: May 2013
+      highlight: true
+    - site: Washington University News
+      url: https://news.wustl.edu/news/Pages/25373.aspx
+      title: Students’ low-cost medical device wins inaugural Discovery Competition
+      date: May 2013
+
+    - site: St. Louis Business Journal
+      url: http://www.bizjournals.com/stlouis/blog/BizNext/2013/01/brad-feld-to-address-washington.html
+      title: Brad Feld to address Washington University tech entrepreneur group
+      date: Jan 2013
+    - site: St. Louis Business Journal 
+      url: http://www.bizjournals.com/stlouis/blog/BizNext/2012/12/biznext-most-read-st-louis-tech-and.html?ana=twt&page=all&utm_source=buffer&buffer_share=74b35
+      title: Text Reject Number 2 Tech and Entrepreneurial Story of 2012
+      date: Dec 2012
+    - site: Fox 2 News
+      url: /wusauce-tv/
+      title: WUSauce Dance Team Live on TV
+      date: Jan 2013
+      highlight: true
+    - site: St. Louis Business Journal
+      url: http://www.bizjournals.com/stlouis/blog/BizNext/2012/12/3-st-louis-student-startups-advance.html?ana=twt
+      title: St. Louis-based Text Reject Chosen For SXSW Student Startup Madness Competition 
+      date: Dec 2012
+    - site: St. Louis Business Journal
+      url: 'http://www.bizjournals.com/stlouis/blog/BizNext/2012/11/wash-u-students-launch-text-reject.html?ana=twt'
+      title: Wash U students launch text reject website
+      date: Nov 2012
+    - site: Fox 2 News
+      url: 'http://textreject.com/2012/10/live-interview-on-fox-2-news/' 
+      title: Text Reject Founders Demonstrate Website Live on TV
+      date: Oct 2012
+      highlight: true
+    - site: Student Life
+      url: http://www.studlife.com/news/2012/11/15/you-are-unwanted-student-business-offers-humorous-text-rejections/
+      date: November 2012
+      title: You are unwanted - Student business offers humorous text rejections
+    - site: Student Life Print Edition
+      date: Nov 2012
+      title: Front-page article
+      url: http://www.studlife.com/media/pdf/2012-2013/12-11-15.pdf
+    - site: Riverfront Times
+      url: http://blogs.riverfronttimes.com/dailyrft/2012/11/text_reject_hotline_washu_entreprenuership.php
+      title: Want to Let Someone Down Gently? Wash. U Undergrads Have an App for That
+      date: Nov 2012
+    - site: University City Patch
+      url: http://universitycity.patch.com/articles/text-reject-and-bazaarboy-compete-for-sxsw-honors
+      title: Text Reject and Bazaarboy Compete for SXSW Honors
+      date: Nov 2012
+    - site: Feed My App
+      url: http://feedmyapp.com/p/a/text-reject/25698
+      title: Reject suitors and see the results with Text Reject
+      date: Nov 2012
+    - site: Student Startup Madness
+      url: http://studentstartupmadness.com/thirty-two-college-student-startups-named-semi-finalists-in-national-tournament/
+      title: Thirty-two college student startups named semi-finalists in national tournament; all hope to be going to finals at South By Southwest festival in March
+    - site: Riverfront Times
+      url: http://blogs.riverfronttimes.com/dailyrft/2013/01/student_startup_madness_entrepreneurship_slu.php
+      title: Local Collegians Compete to Be Next Mark Zuckerberg
+      date: Nov 2012
+    - site: Technorati
+      url: http://technorati.com/technology/article/sxsw-is-brevity-the-new-big1/
+      title: SXSW - Is Brevity the New Big?
+      date: Nov 2012
+    - site: St. Louis Business Journal
+      url: http://www.bizjournals.com/stlouis/blog/BizNext/2012/09/wutevc-starts-venture-capital-lecture.html
+      title: wute.vc starts venture capital lecture series
+      date: Sept 2012
+      highlight: true
+    - site: Fox 2 News
+      url: http://philipithomas.com/2012/07/food-truck-stl-on-fox-2-news-in-the-morning/
+      title: Philip Thomas Interviewed about Food Truck STL
+      date: Jul 2012
+      highlight: true
+    - site: Techli
+      url: http://techli.com/2012/08/food-trucks-near-me-st-louis/
+      title: Food Trucks Near Me Stalks Your Favorite Eats So You Don’t Have To
+      date: Aug 2012
+    - site: St. Louis Business Journal
+      url: http://philipithomas.com/2012/08/st-louis-business-journal-print-edition-features-food-trucks-near-me/
+      title: TechStars, Food Trucks, and VC Common Sense
+    - site: Local12 Cincinnati
+      url: http://www.local12.com/mediacenter/local.aspx?videoid=3702796
+      title: Food Trucks Near Me Launches in Cincinnati
+    - site: Start-Ups.co
+      url: http://www.start-ups.co/foodtrucksnearme-com-a-website-that-allows-users-to-find-food-trucks-locations-and-menus-via-computer-or-smartphone/
+      title: FoodTrucksNearMe.com - A Website that Allows Users to Find Food Trucks Locations and Menus via Computer or Smartphone
+      date: Jul 2012
+    - site: Forbes
+      url: http://www.forbes.com/sites/kaipetainen/2011/11/11/washu-students-provide-teva-some-healthy-love/
+      title: WashU Students Provide TEVA Some Healthy Love
+      date: Nov 2011
+      highlight: true
+    - site: Student Life
+      url: http://www.studlife.com/news/2011/03/30/olin-student-team-advances-in-investment-competition/
+      title: Olin student team advances in investment competition
+      date: March 2011
+    - site: St. Louis Post-Dispatch
+      url: http://www.stltoday.com/news/local/metro/article_ce74697f-8e28-57b3-9af0-cc0cb4c76733.html
+      title: Furor at Washington U. nixes Bristol Palin appearance
+      date: Jan 2011
+    - site: Perrysburg Messenger Journal
+      url: /images/eagleLarge.jpg
+      title: Philip Thomas Attains Eagle Rank; Completes Project at Junior High
+      date: Dec 2008

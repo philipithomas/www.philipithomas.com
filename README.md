@@ -1,5 +1,19 @@
-# About
+# philipithomas.com
 
-This is the [Jekyll](http://jekyllrb.com)-based backend for my website [www.philipithomas.com](https://www.philipithomas.com). 
+[![Build Status](https://travis-ci.org/philipithomas/www.philipithomas.com.svg)](https://travis-ci.org/philipithomas/www.philipithomas.com)
 
-Learn more at the [colophon](http://www.philipithomas.com/colophon).
+This is the  backend for my website [www.philipithomas.com](https://www.philipithomas.com). It is built using [Hugo](http://gethugo.io).
+
+## Running a Development server
+
+
+```
+# Install Hugo first using Brew or Apt
+hugo server --watch
+```
+
+## Writing a new post
+
+```
+hugo new post/desired-slug.md
+```

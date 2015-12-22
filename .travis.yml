@@ -1,0 +1,5 @@
+language: python
+sudo: false
+os:
+    - linux
+script: bash deploy.sh

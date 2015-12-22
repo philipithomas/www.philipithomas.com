@@ -1,5 +1,4 @@
-_drafts/
-_site/
 .DS_Store
+.s3cfg
 *.swp
-Gemfile.lock
+public/
