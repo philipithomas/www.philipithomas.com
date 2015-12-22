@@ -16,8 +16,8 @@
     <section id="education">
         <div class="page-header"><h2>Education</h2></div>
         {{ range .Page.Site.Data.resume.education }}
+            <h4>{{.org}}</h4>
     		<h4>{{.role}}</h4>
-    		<h5}{{.org}}</h4>
     		<em>{{.when}} in {{ .location }}</em>
     		<ul>
     			{{ range .bullets}}
@@ -28,10 +28,12 @@
     </section>
     <section id="honors">
 		<h2>Honors and Awards</h2>
+        <ul>
 		{{ range .Page.Site.Data.resume.honors }}
-			{{ . | markdownify }}
+            <li>
+    			{{ . | markdownify }}
+            </li>
 		{{ end }}
-
-
+        </ul>
 	</section>
 </article>

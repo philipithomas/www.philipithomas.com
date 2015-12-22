@@ -429,3 +429,13 @@ a {
   background: #FFF59D;
 }
 
+figure {
+  margin: 20px 0;
+}
+figcaption h4 {
+  /* Auto-created in markdown by hugo */
+  font-size: 12px;
+  line-height: 15px;
+  margin: 15px 0 0 0;
+  color: #828282;
+}

@@ -14,4 +14,6 @@ hugo server --watch
 
 ## Writing a new post
 
-TODO
+```
+hugo new post/desired-slug.md
+```
