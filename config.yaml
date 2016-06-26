@@ -1,7 +1,7 @@
 theme:                      "www.philipithomas.com"
 title:                      "Philip I. Thomas"
 baseURL:                    "https://www.philipithomas.com/"
-description:                "The blog and portfolio of Philip I. Thomas, co-founder of Staffjoy."
+description:                "Co-Founder and CEO of Staffjoy. Previously a Y Combinator Fellow, OpenDNS Senior Engineer, and WUSTL engineering and physics alumnus."
 buildDrafts:                true
 buildFuture:                true
 relativeURLs:               true
@@ -27,4 +27,3 @@ Params:
 permalinks:
     post: "/:filename/"
     page: "/:filename/"
-
