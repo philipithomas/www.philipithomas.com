@@ -1,13 +1,3 @@
 ---
-category: "project"
-description: "School project using control theory"
-title: "Ball and Beam Cascading Control Model"
-date: "2012-12-11"
+redirect: https://essays.philipithomas.com/ball-and-beam-cascading-control-model-ff46a8d096cd
 ---
-<p><iframe src="//player.vimeo.com/video/55397836?badge=0" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> 
-</p>
-<p>My lab partners and I spent the second half of the semester in the <abbr title="Washington University in St. Louis">WUSTL</abbr> Systems Engineering Laboratory building a control system to balance a ball on a beam at a specific point. Built  in Simulink, the model implements cascaded feedback loops that take an input of the desired ball position and manipulates the motor to move the ball.</p>
-
-<p>The above video demonstrates the system in action. For the input, we read the position of a second ball on the lower beam, which we can manually manipulate. As the lower ball is moved, the system matches its position with the upper ball.</p>
-
-<p>The <a href="http://github.com/philipithomas/BallAndBeam">Simulink Model for the Ball and Beam Control System is available on Github</a>. The system was designed to have zero steady-state error and a .15 second time-to-peak with 5.0% overshoot. The inner loop models the position of the motor, and the outer loop models the position of the ball. A high-pass filter is implemented to minimize noise. </p>
