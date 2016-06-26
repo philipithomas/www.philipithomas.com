@@ -1,12 +1,13 @@
 #!/bin/bash
 set -e
+
 # Script for building the site and deploying it to S3
 
 # Install s3cmd
 pip install s3cmd
 
 # Install hugo
-hugo_version="0.14"
+hugo_version="0.16"
 file="hugo_${hugo_version}_linux_amd64"
 tarball="${file}.tar.gz"
 binary="https://github.com/spf13/hugo/releases/download/v${hugo_version}/${tarball}"
