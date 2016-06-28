@@ -7,7 +7,7 @@ set -e
 pip install s3cmd
 
 # Install hugo
-hugo_version="0.16"
+hugo_version="0.15"
 file="hugo_${hugo_version}_linux_amd64"
 tarball="${file}.tar.gz"
 binary="https://github.com/spf13/hugo/releases/download/v${hugo_version}/${tarball}"
