@@ -1,7 +1,0 @@
-<ul>
-{{ range .Page.Site.Data.writing.writing}}
-	<li class="{{ if .highlight }}highlight{{end}}">
-        {{ .site }}: <a href="{{ .url }}">{{ .title }}</a> 
-    </li>
-{{ end }}
-</ul>
