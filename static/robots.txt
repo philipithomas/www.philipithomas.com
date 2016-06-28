@@ -1,3 +1,2 @@
 User-agent: *
-Disallow: /privacy-policy/
 Disallow: /cdn-cgi/
