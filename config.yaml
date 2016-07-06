@@ -10,19 +10,14 @@ config:                     "config.yaml"
 defaultExtension:           "md"
 defaultLayout:              "post"
 MetaDataFormat:             "yaml"
+LanguageCode:               "en"
 
 # Theme
 Params:
-    bgcolor: "indigo"
-    TwitterUser: "philipithomas"
-    FacebookUser: "philipithomas"
     copyright: "&copy; 2015 Philip I. Thomas. All Rights Reserved."
     author: "Philip I. Thomas"
-    bgcolor: "#171717"
-    primary: "grey"
-    accent: "blue"
-    defaultImage: "/images/cover/default.jpg"
-    # TODO  - logo (for social graph)
+    TwitterUser: "philipithomas"
+    CoverPhoto: "/cover.jpg"
 
 permalinks:
     post: "/:filename/"
