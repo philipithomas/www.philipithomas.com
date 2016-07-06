@@ -1,0 +1,50 @@
+html, body {
+  font-family: 'Roboto',  sans-serif;
+  height: 100%;
+  min-height: 100%;
+  background-color: #000000;
+}
+
+.container, .row, .column {
+  max-width: none;
+  width: 100%;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.one-half.column {
+  /* On small screens - make it full width */
+  width: 100%;
+}
+
+@media(min-width: 750px) {
+  .container, .row, .column {
+    min-height: 100%;
+    height: 100%;
+  }
+  .one-half.column {
+    width: 50%;
+  }
+  .photo-column {
+    background-image: url("/background.jpg");
+  }
+}
+
+.photo-column {
+  background-image: url("/cover.jpg");
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.description-column {
+  background: #000000;
+  overflow: auto;
+  color: #ffffff;
+}
+.credit {
+  position: absolute;
+  bottom: 0px;
+  left: 10%;
+}
