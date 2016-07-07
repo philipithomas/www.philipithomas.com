@@ -65,10 +65,14 @@ svg {
   color: white;
 }
 
+.social-icons {
+  margin-top: 80px;
+}
+
 .social-icons a {
   display: inline-block;
+  padding-top: 27px;
   padding-right: 27px;
-  padding-top: 80px;
 }
 
 @media(min-width: 750px) {
