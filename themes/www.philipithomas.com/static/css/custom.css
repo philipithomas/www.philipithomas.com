@@ -19,8 +19,6 @@ html, body {
 
 
 .photo-column {
-  background-image: url("/cover.jpg");
-  height: 500px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -34,13 +32,15 @@ html, body {
 
 
 .text-container {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    padding: 10%;
     font-size: 18px;
     font-weight: 300;
+    padding: 10%;
 }
+
+p {
+  line-height: 38px !important;
+}
+
 
 .credit {
   position: absolute;
@@ -65,9 +65,6 @@ svg {
   color: white;
 }
 
-.social-icons {
-  margin-top: 80px;
-}
 
 .social-icons a {
   display: inline-block;
@@ -90,7 +87,31 @@ svg {
   h1 {
     font-size: 60px;
   }
+  .text-container {
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+  }
+  .social-icons {
+    margin-top: 80px;
+  }
+}
+
+@media(max-width: 749px) {
+  .photo-column {
+    background-image: url("/cover.jpg");
+    height: 250px;
+    width: 100%;
+  }
+  .description-column {
+    width: 100% !important;
+  }
+
   p {
-    line-height: 38px !important;
+    font-size: 17px;
+    line-height: 33px !important;
+  }
+  .text-container {
+    padding-bottom: 20%;
   }
 }
