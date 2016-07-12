@@ -1,20 +1,9 @@
-{{ partial "header.html" . }}
-      <div class="blog--blogpost">
-        <div class="back">
-          <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" href="{{ .Site.BaseURL }}">
-            <i class="material-icons">arrow_back</i>
-          </a>
-        </div>
-        <div class="blog__posts mdl-grid">
-          <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
-            <div class="mdl-card__media mdl-color-text--grey-50" {{if .Params.image}}style="background-image: url('{{.Params.image}}');"{{else if .Site.Params.defaultImage}}style="background-image: url('{{.Site.Params.defaultImage}}');"{{end}}>
-              <h3>404 - Not Found</h3>
-            </div>
-            <div class="mdl-color-text--grey-700 mdl-card__supporting-text content">
-                <p>This page could not be found. <a href="/">Click here to go home.</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="canonical" href="{{ .Permalink }}"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="refresh" content="0;url={{ .Site.BaseURL }}"/>
+  </head>
+</html>
 
-{{ partial "footer.html" . }}

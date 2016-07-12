@@ -1,7 +1,7 @@
 theme:                      "www.philipithomas.com"
 title:                      "Philip I. Thomas"
 baseURL:                    "https://www.philipithomas.com/"
-description:                "The blog and portfolio of Philip I. Thomas, co-founder of Staffjoy."
+description:                "Co-Founder and CEO of Staffjoy. Previously a Y Combinator Fellow, OpenDNS Senior Engineer, and WUSTL engineering and physics alumnus."
 buildDrafts:                true
 buildFuture:                true
 relativeURLs:               true
@@ -10,21 +10,14 @@ config:                     "config.yaml"
 defaultExtension:           "md"
 defaultLayout:              "post"
 MetaDataFormat:             "yaml"
+LanguageCode:               "en"
 
 # Theme
 Params:
-    bgcolor: "indigo"
-    TwitterUser: "philipithomas"
-    FacebookUser: "philipithomas"
-    copyright: "&copy; 2015 Philip I. Thomas. All Rights Reserved."
     author: "Philip I. Thomas"
-    bgcolor: "#171717"
-    primary: "grey"
-    accent: "blue"
-    defaultImage: "/images/cover/default.jpg"
-    # TODO  - logo (for social graph)
+    TwitterUser: "philipithomas"
+    CoverPhoto: "/cover.jpg"
 
 permalinks:
     post: "/:filename/"
     page: "/:filename/"
-

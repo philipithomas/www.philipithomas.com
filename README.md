@@ -12,12 +12,7 @@ This is the  backend for my website [www.philipithomas.com](https://www.philipit
 hugo server --watch
 ```
 
-## Writing a new post
-
-```
-hugo new post/desired-slug.md
-```
 
 ## Deployment
 
-The website is built and deployed using [Travis-CI](https://travis-ci.org/philipithomas/www.philipithomas.com). Changes to the master branch are deploy to [www.philipithomas.com](https:/www.philipithomas.com). All non-master branches (pushed by me) have their `robots.txt` overridden and are deployed to [stage.philipithomas.com](https://stage.philipithomas.com). 
+The master branch is continuously deployed using [Travis-CI](https://travis-ci.org/philipithomas/www.philipithomas.com). Changes to the master branch are deploy to [www.philipithomas.com](https:/www.philipithomas.com). All non-master branches in main repo have their `robots.txt` overridden and are deployed to [stage.philipithomas.com](https://stage.philipithomas.com).

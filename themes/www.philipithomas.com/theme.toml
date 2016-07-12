@@ -1,13 +1,7 @@
 name = "www.philipithomas.com"
-description = "A hugo theme based on Google's Material Design Lite"
-min_version = 0.14
+description = "A hugo theme for Philip"
+min_version = 0.15
 
 [author]
   name = "Philip Thomas"
   homepage = "https://www.philipithomas.com"
-
-# If porting an existing theme
-[original]
-  name = "Material Design Lite"
-  homepage = "http://materialexample.sa.muel.be/"
-  repo = "https://github.com/SamuelDebruyn/hugo-material-lite"
