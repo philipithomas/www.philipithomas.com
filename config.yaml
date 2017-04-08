@@ -1,7 +1,6 @@
 theme:                      "www.philipithomas.com"
 title:                      "Philip I. Thomas"
 baseURL:                    "https://www.philipithomas.com/"
-description:                "Co-Founder and CEO of Staffjoy. Previously a Y Combinator Fellow, OpenDNS Senior Engineer, and WUSTL engineering and physics alumnus."
 buildDrafts:                true
 buildFuture:                true
 relativeURLs:               true
@@ -17,6 +16,7 @@ Params:
     author: "Philip I. Thomas"
     TwitterUser: "philipithomas"
     CoverPhoto: "/cover.jpg"
+    description: "Co-Founder Moonlight. Previously Staffjoy Founder, Y Combinator Fellow, OpenDNS Senior Engineer, and WashU student."
 
 permalinks:
     post: "/:filename/"
