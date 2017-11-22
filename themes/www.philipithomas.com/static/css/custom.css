@@ -65,6 +65,11 @@ svg {
   color: white;
 }
 
+.social-icon {
+  width: 35px;
+  height: 35px;   
+}
+
 
 .social-icons a {
   display: inline-block;
