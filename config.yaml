@@ -1,23 +1,24 @@
-theme:                      "www.philipithomas.com"
-title:                      "Philip I. Thomas"
-baseURL:                    "https://www.philipithomas.com/"
-buildDrafts:                true
-buildFuture:                true
-relativeURLs:               true
-canonifyURLs:               false
-config:                     "config.yaml"
-defaultExtension:           "md"
-defaultLayout:              "post"
-MetaDataFormat:             "yaml"
-LanguageCode:               "en"
+theme: "www.philipithomas.com"
+title: "Philip I. Thomas"
+baseURL: "https://www.philipithomas.com/"
+buildDrafts: true
+buildFuture: true
+relativeURLs: true
+canonifyURLs: false
+config: "config.yaml"
+defaultExtension: "md"
+defaultLayout: "post"
+MetaDataFormat: "yaml"
+LanguageCode: "en"
+disableKinds: ["sitemap"]
 
 # Theme
 Params:
-    author: "Philip I. Thomas"
-    TwitterUser: "philipithomas"
-    CoverPhoto: "/cover.jpg"
-    description: "Co-Founder Moonlight. Previously Staffjoy Founder, Y Combinator Fellow, OpenDNS Senior Engineer, and WashU student."
+  author: "Philip I. Thomas"
+  TwitterUser: "philipithomas"
+  CoverPhoto: "/cover.jpg"
+  description: "Co-Founder Moonlight. Previously Staffjoy Founder, Y Combinator Fellow, OpenDNS Senior Engineer, and WashU student."
 
 permalinks:
-    post: "/:filename/"
-    page: "/:filename/"
+  post: "/:filename/"
+  page: "/:filename/"
