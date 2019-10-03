@@ -48,7 +48,9 @@
         </p>
         {{ partial "social.html" . }}
       </div>
-      <p class="credit">&copy; 2019. All Rights Reserved.</p>
+      <p class="credit">
+        &copy; {{ .Now.Format "2006" }}. All Rights Reserved.
+      </p>
     </div>
   </div>
 </div>
