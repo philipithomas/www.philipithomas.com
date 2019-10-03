@@ -17,7 +17,7 @@ Params:
   author: "Philip I. Thomas"
   TwitterUser: "philipithomas"
   CoverPhoto: "/cover.jpg"
-  description: "Co-Founder Moonlight. Previously Staffjoy Founder, Y Combinator Fellow, OpenDNS Senior Engineer, and WashU student."
+  description: "Co-Founder and CEO of Moonlight. Previously Staffjoy Founder, Y Combinator Fellow, OpenDNS Senior Engineer, and WashU student."
 
 permalinks:
   post: "/:filename/"
