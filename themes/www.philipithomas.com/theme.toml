@@ -1,7 +1,0 @@
-name = "www.philipithomas.com"
-description = "A hugo theme for Philip"
-min_version = 0.15
-
-[author]
-  name = "Philip Thomas"
-  homepage = "https://www.philipithomas.com"
