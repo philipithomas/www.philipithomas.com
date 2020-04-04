@@ -2,3 +2,4 @@
 .s3cfg
 *.swp
 public/
+node_modules
